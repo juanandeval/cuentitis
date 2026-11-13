@@ -71,6 +71,11 @@ h1{font-size:clamp(1.9rem,5vw,2.8rem)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
 .logo{font-weight:800;font-size:1.15rem}
 .hr{display:flex;align-items:center;gap:8px}
+.top{flex-wrap:wrap}
+.fsz{display:flex;gap:6px}
+.top .chip{min-height:44px;padding:6px 14px}
+.fsz .chip{width:46px;padding:0;font-size:1rem}
+@media (max-width:420px){.top .lbl{display:none}}
 .hbar{position:absolute;left:0;right:0;bottom:-2px;height:6px;background:var(--chip)}
 .hbar i{display:block;height:100%;width:0;background:var(--ok);transition:width .3s}
 .chip.newtag{background:var(--acc);border-color:var(--acc);color:#2b1600;min-height:44px;padding:6px 12px;font-size:.9rem}
@@ -83,7 +88,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 </style>
 </head>
 <body>
-<header class="top"><span class="logo">📚 Cuentitis</span><div class="hr"><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><button class="chip" id="prizesBtn">🏅 Mis premios</button></div><div class="hbar" id="hbar" hidden aria-hidden="true"><i id="prog"></i></div></header>
+<header class="top"><span class="logo">📚 Cuentitis</span><div class="hr"><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><span class="fsz" id="fsz" hidden><button class="chip" id="smaller" aria-label="Letra más pequeña">A−</button><button class="chip" id="bigger" aria-label="Letra más grande">A+</button></span><button class="chip" id="prizesBtn" aria-label="Mis premios">🏅<span class="lbl"> Mis premios</span></button></div><div class="hbar" id="hbar" hidden aria-hidden="true"><i id="prog"></i></div></header>
 <main>
 
 <section id="home">
@@ -115,7 +120,6 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 
 <section id="read" hidden>
   <div class="card story">
-    <div class="tools"><button class="chip" id="smaller" aria-label="Letra más pequeña">A−</button><button class="chip" id="bigger" aria-label="Letra más grande">A+</button></div>
     <h2 id="title"></h2>
     <div id="text"></div>
     <div id="endMark"></div>
@@ -174,7 +178,7 @@ function loadStats(){try{const v=JSON.parse(localStorage.getItem("lector_stats")
 function saveStats(s){try{localStorage.setItem("lector_stats",JSON.stringify(s))}catch(e){}}
 let stats=loadStats();
 
-function show(id){["home","loading","error","read","quiz","result"].forEach(x=>$(x).hidden=x!==id);$("hbar").hidden=id!=="read";window.scrollTo({top:0,behavior:"smooth"})}
+function show(id){["home","loading","error","read","quiz","result"].forEach(x=>$(x).hidden=x!==id);$("hbar").hidden=id!=="read";$("fsz").hidden=id!=="read";window.scrollTo({top:0,behavior:"smooth"})}
 
 /* ---------- Inicio ---------- */
 function drawHome(){
