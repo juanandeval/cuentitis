@@ -570,5 +570,461 @@
     "why": "Se hizo famoso también por esa amistad inesperada."
    }
   ]
+ },
+ {
+  "id": "alex-001",
+  "band": "9-10",
+  "topics": [
+   "Fútbol",
+   "Superhéroes"
+  ],
+  "hero": "niño",
+  "title": "Álex y el Capitán Relámpago",
+  "paragraphs": [
+   "Álex tenía diez años y dos pasiones: el fútbol y los cómics de superhéroes. Había inventado su propio personaje, el Capitán Relámpago, que lo resolvía todo él solo: derrotaba a los villanos, salvaba la ciudad y volvía a casa antes de cenar. En el colegio, Álex jugaba igual, siempre con el balón pegado a los pies y sin pasárselo a nadie.",
+   "Aquel viernes se jugaba la final de la liga escolar contra el colegio San Mateo. Álex llevaba toda la semana dibujando jugadas imposibles en su cuaderno. «Hoy meto cuatro goles yo solo», le dijo a su amigo Lucas. Lucas no contestó. Era un chico tranquilo, un poco lento, pero tenía un disparo muy fuerte con la pierna izquierda.",
+   "El partido empezó mal. Álex agarró el balón, regateó a dos contrarios y perdió la pelota al intentar el tercer regate. Lo intentó de nuevo y volvió a perderla. Mientras tanto, sus compañeros, desmarcados, levantaban los brazos para pedirle el pase. Él no los miraba. Al descanso, el San Mateo ganaba por uno a cero.",
+   "En el vestuario, la entrenadora Marta se sentó a su lado. «Álex, tengo una pregunta: ¿cuántos héroes de tus cómics salvan el mundo sin ayuda de nadie?». Él pensó un momento y sonrió, un poco avergonzado. «En los buenos cómics, ninguno. Siempre hay un equipo». Marta asintió. «Pues hoy el equipo eres tú también».",
+   "En la segunda parte, Álex cambió. Cuando recibía la pelota, levantaba la cabeza antes de decidir. Vio a Lucas solo, cerca del área, con la pierna izquierda preparada. Álex dudó un segundo, porque le apetecía tirar él. Pero le pasó el balón con un toque suave, y Lucas disparó con todas sus fuerzas. ¡Gol! Era el uno a uno.",
+   "Los dos equipos se emplearon a fondo. A cinco minutos del final, Álex robó un balón en el centro del campo y corrió por la banda. Dos defensas se le echaron encima, pero él vio a Irene entrando por el otro lado y le centró la pelota. Irene remató de cabeza y marcó el dos a uno. El pitido final sonó poco después.",
+   "Esa noche, Álex abrió su cuaderno y tachó el nombre de su personaje. Debajo escribió: «Los Relámpagos». Dibujó a un grupo de héroes, cada uno con un poder distinto, y en el centro puso a uno con un disparo de pierna izquierda que se parecía mucho a Lucas. Comprendió que el mejor superpoder era saber cuándo pasar el balón."
+  ],
+  "questions": [
+   {
+    "q": "¿Cómo jugaba Álex al principio del partido?",
+    "options": [
+     "Siempre pasaba el balón",
+     "Intentaba regatear él solo sin pasar a nadie",
+     "Se quedaba en la portería",
+     "Jugaba muy despacio"
+    ],
+    "answer": 1,
+    "why": "Perdía el balón por querer regatear solo."
+   },
+   {
+    "q": "¿Qué cualidad tenía Lucas, según el texto?",
+    "options": [
+     "Era el más rápido",
+     "Era el más alto",
+     "Tenía un disparo muy fuerte con la pierna izquierda",
+     "Era el capitán"
+    ],
+    "answer": 2,
+    "why": "El texto dice que tenía un disparo muy fuerte con la pierna izquierda."
+   },
+   {
+    "q": "¿Qué quiso decir la entrenadora con «hoy el equipo eres tú también»?",
+    "options": [
+     "Que debía jugar de portero",
+     "Que debía pensar en sus compañeros y no solo en sí mismo",
+     "Que debía dejar el equipo",
+     "Que no podía tirar a puerta"
+    ],
+    "answer": 1,
+    "why": "Le pidió que jugara como parte del equipo."
+   },
+   {
+    "q": "¿Cómo se consiguió el segundo gol?",
+    "options": [
+     "Con un penalti",
+     "Con un tiro de Álex desde lejos",
+     "Con un centro de Álex que Irene remató de cabeza",
+     "Con un córner"
+    ],
+    "answer": 2,
+    "why": "Álex centró la pelota e Irene remató de cabeza."
+   },
+   {
+    "q": "¿Qué cambió Álex en su cuaderno al final?",
+    "options": [
+     "Dejó de dibujar",
+     "Cambió a su personaje solitario por un equipo de héroes",
+     "Dibujó un campo de fútbol",
+     "Escribió el resultado"
+    ],
+    "answer": 1,
+    "why": "Tachó su personaje y creó «Los Relámpagos», un grupo de héroes."
+   }
+  ]
+ },
+ {
+  "id": "mara-001",
+  "band": "9-10",
+  "topics": [
+   "Cocina",
+   "Coches"
+  ],
+  "hero": "niña",
+  "title": "Mara y la furgoneta que echaba humo",
+  "paragraphs": [
+   "La familia de Mara tenía una furgoneta de comida llamada La Cuchara Veloz. Era vieja y estaba pintada de amarillo, con una cuchara gigante dibujada en el costado. Su padre cocinaba tortillas, croquetas y bocadillos, y Mara, que tenía diez años, ayudaba a repartirlos. Aquel sábado iban a un gran festival de comida callejera, a doscientos kilómetros de casa.",
+   "Salieron de madrugada, con la furgoneta cargada de huevos, patatas y pan. Mara viajaba en el asiento de atrás, con un cuaderno de recetas en las rodillas. Le encantaba inventar combinaciones: tortilla con queso de cabra, bocadillos de croqueta, croquetas de espinacas. Su padre cantaba al volante, sin darse cuenta de que algo no iba bien.",
+   "A media hora del festival, Mara notó un olor raro y miró por la ventanilla. De debajo del capó salía un hilo de vapor blanco. Después miró el salpicadero: la aguja de la temperatura estaba casi arriba del todo. «Papá, para —dijo—. El motor se está calentando». Su padre se rio: «Será el calor del verano, Mara».",
+   "Pero ella recordó algo que le había contado su tío Raúl, que era mecánico: «Si la aguja sube y sale humo, hay que parar enseguida, o el motor se estropea para siempre». Mara insistió con tanta seguridad que su padre aparcó en el arcén. Cuando abrieron el capó con un trapo, salió una nube de vapor.",
+   "Llamaron a tío Raúl, que les explicó por teléfono qué hacer: esperar a que el motor se enfriara, comprobar el nivel de agua y no abrir el depósito en caliente. Pasaron casi una hora sentados en la hierba, comiendo bocadillos. Cuando por fin rellenaron el agua y arrancaron, la furgoneta volvió a funcionar, aunque con un ruidito extraño.",
+   "Llegaron al festival con dos horas de retraso. Los demás puestos ya estaban funcionando y casi no quedaba sitio. Un organizador les señaló un rincón junto a los baños. Mara se agobió, pero su padre le guiñó un ojo: «Con una buena tortilla, la gente nos encuentra igual». Y se pusieron manos a la obra.",
+   "A las seis de la tarde, ya no les quedaba ni una patata. Un jurado probó la tortilla de Mara y les dio un premio inesperado: la «mención a la constancia». Su padre abrazó a Mara y le dio las gracias por haber parado a tiempo. «Me has salvado la furgoneta —dijo—. A partir de hoy, tú mandas en el salpicadero»."
+  ],
+  "questions": [
+   {
+    "q": "¿Cómo se llamaba la furgoneta de la familia?",
+    "options": [
+     "La Cuchara Veloz",
+     "El Tenedor Amarillo",
+     "La Tortilla Andante",
+     "El Sabor Viajero"
+    ],
+    "answer": 0,
+    "why": "La furgoneta se llamaba La Cuchara Veloz."
+   },
+   {
+    "q": "¿Qué señales le hicieron pensar a Mara que había un problema?",
+    "options": [
+     "El ruido de la radio",
+     "El vapor blanco y la aguja de la temperatura casi arriba",
+     "Un pinchazo",
+     "Una luz roja de la gasolina"
+    ],
+    "answer": 1,
+    "why": "Vio el vapor y la aguja de la temperatura casi al máximo."
+   },
+   {
+    "q": "¿Por qué su padre no le hizo caso al principio?",
+    "options": [
+     "Pensó que era el calor del verano",
+     "Tenía mucha prisa por vender",
+     "Estaba enfadado",
+     "Creía que la furgoneta era nueva"
+    ],
+    "answer": 0,
+    "why": "Dijo que sería el calor del verano."
+   },
+   {
+    "q": "¿Qué consejo del tío Raúl siguieron para arreglar el problema?",
+    "options": [
+     "Seguir conduciendo despacio",
+     "Esperar a que el motor se enfriara y rellenar el agua",
+     "Cambiar una rueda",
+     "Llamar a una grúa"
+    ],
+    "answer": 1,
+    "why": "Esperaron a que se enfriara y comprobaron el nivel de agua."
+   },
+   {
+    "q": "¿Por qué le dieron la «mención a la constancia» a la familia?",
+    "options": [
+     "Porque llegaron los primeros",
+     "Porque, a pesar del retraso, siguieron adelante y vendieron todo",
+     "Porque cocinaron más rápido",
+     "Porque tenían la furgoneta más bonita"
+    ],
+    "answer": 1,
+    "why": "Llegaron tarde, pero no se rindieron y vendieron todo."
+   }
+  ]
+ },
+ {
+  "id": "drako-001",
+  "band": "9-10",
+  "topics": [
+   "Dragones",
+   "Robots"
+  ],
+  "hero": "neutro",
+  "title": "Drako, el robot que no echaba fuego",
+  "paragraphs": [
+   "Sol formaba parte del club de robótica del colegio y llevaba tres meses construyendo a Drako, un robot con forma de dragón. Tenía alas de plástico, una cola articulada y unos ojos de luz verde que parpadeaban. En lugar de fuego, Drako lanzaba burbujas de jabón por el hocico. Sol quería presentarlo en la feria de inventos, que se celebraba el viernes.",
+   "El miércoles, durante el ensayo, algo falló. Drako abrió el hocico, pero no salió ninguna burbuja. Después movió una ala, pero la otra se quedó rígida. Sol sintió un nudo en el estómago: faltaban dos días y el robot parecía un dragón de juguete roto. Su compañera Vera propuso volver a empezar desde cero.",
+   "Sol negó con la cabeza. Se sentó, abrió el cuaderno donde apuntaba cada paso y respiró hondo. «Si empezamos de cero, no sabremos qué falló —pensó—. Mejor busquemos el error con orden». Decidió comprobar cada parte por separado: primero las alas, luego la bomba de las burbujas y, por último, la batería.",
+   "Las alas eran lo más fácil de probar. Sol desconectó un cable y las movió a mano. Funcionaban, así que el problema estaba en el pequeño motor. Al abrirlo, encontró un hilo de cobre suelto, que no llegaba a tocar el contacto. Lo soldó con cuidado y el ala volvió a moverse. Vera aplaudió bajito, para no desconcentrar.",
+   "La bomba de burbujas tenía otro problema, mucho más tonto: el depósito estaba seco. Habían olvidado rellenarlo con jabón. Sol se rio de sí mismo y de su nerviosismo. Mezcló agua, jabón y un poco de glicerina para que las burbujas fueran más grandes y resistentes. Drako soltó una enorme burbuja brillante que flotó por todo el taller.",
+   "El viernes, en la feria, Drako atrajo a muchos curiosos. Movió las alas, abrió el hocico y llenó el aire de burbujas de colores. Un niño pequeño las perseguía riéndose. Un jurado preguntó a Sol cuál había sido el mayor reto. «Que algo no funcione y mantener la calma para buscar el motivo», contestó.",
+   "Drako no ganó el primer premio, pero recibió una mención especial por su diseño. Lo que más le gustó a Sol fue lo que había aprendido: un error no es el final de un proyecto, sino una pista para mejorarlo. Esa noche, Drako quedó en la estantería con los ojos verdes encendidos, vigilando el taller como un auténtico guardián."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué lanzaba Drako por el hocico?",
+    "options": [
+     "Fuego de verdad",
+     "Humo",
+     "Burbujas de jabón",
+     "Agua"
+    ],
+    "answer": 2,
+    "why": "Drako lanzaba burbujas de jabón en lugar de fuego."
+   },
+   {
+    "q": "¿Qué propuso Vera cuando el robot falló?",
+    "options": [
+     "Pedir ayuda al profesor",
+     "Empezar de cero",
+     "Cancelar la presentación",
+     "Cambiar de proyecto"
+    ],
+    "answer": 1,
+    "why": "Vera propuso volver a empezar desde cero."
+   },
+   {
+    "q": "¿Por qué decidió Sol buscar el error parte por parte?",
+    "options": [
+     "Porque quería ganar tiempo",
+     "Porque no quería repetir todo y quería saber qué había fallado",
+     "Porque tenía miedo de Vera",
+     "Porque no sabía soldar"
+    ],
+    "answer": 1,
+    "why": "Si empezaban de cero no sabrían qué falló."
+   },
+   {
+    "q": "¿Cuál era el fallo de la bomba de burbujas?",
+    "options": [
+     "La batería estaba gastada",
+     "El depósito estaba vacío",
+     "El hocico estaba roto",
+     "Faltaba un cable"
+    ],
+    "answer": 1,
+    "why": "Habían olvidado rellenar el depósito con jabón."
+   },
+   {
+    "q": "¿Qué aprendió Sol al final?",
+    "options": [
+     "Que siempre hay que ganar",
+     "Que un error es una pista para mejorar y no el final",
+     "Que los robots no fallan",
+     "Que es mejor trabajar solo"
+    ],
+    "answer": 1,
+    "why": "Entendió que un error ayuda a mejorar el proyecto."
+   }
+  ]
+ },
+ {
+  "id": "ines-001",
+  "band": "11-12",
+  "topics": [
+   "Ciencia",
+   "Espacio"
+  ],
+  "hero": "niña",
+  "title": "Inés y la señal de las dos de la tarde",
+  "paragraphs": [
+   "Inés tenía doce años y llevaba toda su vida soñando con las estrellas. Aquel verano, sus padres la apuntaron a un campamento de astronomía en un pequeño pueblo de montaña. Lo mejor del lugar era un radiotelescopio, una antena enorme en forma de plato que captaba las ondas de radio que llegan desde el espacio. La doctora Vargas, la directora, dejaba a los alumnos usarlo bajo su supervisión.",
+   "El tercer día, mientras revisaba los datos de la mañana, Inés detectó algo extraño. Una señal muy regular, como un latido, se repetía cada pocos segundos. Era fuerte, nítida y perfectamente rítmica. Se le aceleró el corazón. Recordó la historia de Jocelyn Bell, la astrónoma que, en 1967, descubrió los púlsares tras encontrar una señal parecida. «¿Y si he encontrado algo importante?», pensó.",
+   "Corrió a enseñárselo a sus compañeros. Todos se emocionaron, y Mateo, el más bromista, susurró: «¡Son extraterrestres!». Inés sonrió, pero la doctora Vargas, al verlo, levantó una ceja. «Es una señal interesante —dijo—, pero una afirmación extraordinaria necesita pruebas extraordinarias. Antes de pensar en algo grande, debemos descartar todas las explicaciones aburridas».",
+   "Aquella frase se quedó grabada en Inés. Cogió su cuaderno y apuntó una lista de posibles causas: una avería del aparato, una interferencia de un satélite o la luz de un avión. Durante tres días, el equipo fue descartando una a una. Comprobaron los cables, cambiaron la antena de posición y apuntaron el plato a otras zonas del cielo. La señal seguía apareciendo.",
+   "Fue Inés quien se dio cuenta del detalle clave, al revisar sus anotaciones con calma. La señal aparecía siempre a la misma hora: poco después de las dos de la tarde, y duraba unos minutos. «Las estrellas no tienen horario de comidas», comentó, y de pronto se quedó callada. Las dos de la tarde era la hora en que el cocinero del campamento calentaba la comida.",
+   "Fueron hasta la cocina con un detector de ondas. Al encender el viejo microondas, el aparato de la doctora empezó a pitar justo con el mismo ritmo. Mateo estalló en carcajadas, y todos acabaron riéndose. No eran extraterrestres, sino un microondas viejo con la puerta mal cerrada, que dejaba escapar un poco de radiación hacia la antena.",
+   "Inés no se sintió fracasada. La doctora Vargas le explicó que los astrónomos también se encuentran a veces señales parecidas, y que descartarlas con método es parte del trabajo. «Eres buena científica —le dijo—, porque dudaste de tu propio descubrimiento». Aquella noche, Inés miró las estrellas con una sonrisa. Sabía que algún día encontraría algo auténtico."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué captaba el radiotelescopio del campamento?",
+    "options": [
+     "Luz de las estrellas",
+     "Ondas de radio del espacio",
+     "Sonidos de animales",
+     "Imágenes de la Luna"
+    ],
+    "answer": 1,
+    "why": "Captaba las ondas de radio que llegan desde el espacio."
+   },
+   {
+    "q": "¿Qué quería decir la doctora con «una afirmación extraordinaria necesita pruebas extraordinarias»?",
+    "options": [
+     "Que Inés estaba equivocada",
+     "Que para creer algo muy sorprendente hacen falta pruebas muy sólidas",
+     "Que había que avisar a la prensa",
+     "Que debían apagar el radiotelescopio"
+    ],
+    "answer": 1,
+    "why": "Hay que descartar primero las explicaciones normales."
+   },
+   {
+    "q": "¿Qué detalle descubrió Inés al revisar sus anotaciones?",
+    "options": [
+     "La señal venía siempre de la misma estrella",
+     "La señal aparecía siempre poco después de las dos de la tarde",
+     "La señal cambiaba cada día",
+     "La señal solo aparecía de noche"
+    ],
+    "answer": 1,
+    "why": "La señal aparecía siempre a la misma hora."
+   },
+   {
+    "q": "¿Cuál era el verdadero origen de la señal?",
+    "options": [
+     "Un satélite perdido",
+     "Un avión",
+     "Un microondas viejo de la cocina",
+     "Un púlsar"
+    ],
+    "answer": 2,
+    "why": "Era un microondas con la puerta mal cerrada."
+   },
+   {
+    "q": "¿Por qué la doctora dijo que Inés era buena científica?",
+    "options": [
+     "Porque acertó desde el principio",
+     "Porque dudó de su propio descubrimiento y lo comprobó con método",
+     "Porque no se rio de Mateo",
+     "Porque encontró un púlsar"
+    ],
+    "answer": 1,
+    "why": "Dudó de su descubrimiento y lo comprobó con método."
+   }
+  ]
+ },
+ {
+  "id": "dani-001",
+  "band": "11-12",
+  "topics": [
+   "Piratas",
+   "Fútbol"
+  ],
+  "hero": "niño",
+  "title": "El capitán de Los Piratas",
+  "paragraphs": [
+   "El equipo de fútbol del colegio se llamaba Los Piratas, y tenía un lema pintado en la camiseta: «Todos a una». Dani, de doce años, era uno de los jugadores más veteranos. Llevaba tres temporadas en el equipo y soñaba con ser el capitán. Cuando su entrenador, el señor Ortega, anunció que habría una votación, Dani sintió que por fin había llegado su momento.",
+   "Esa semana, Dani se dedicó a hacer campaña. Invitó a sus compañeros a merendar, les prometió llevar el balón nuevo y repitió a todos que él era el que más sabía de fútbol. Irene, otra jugadora del equipo, no hizo nada especial. Solo ayudaba a recoger los conos al terminar los entrenamientos y animaba a quien fallaba un gol.",
+   "El día antes de la votación, la profesora de Historia, la señorita Elena, explicó algo curioso en clase. Contó que, en muchos barcos piratas de hace trescientos años, la tripulación elegía a su capitán votando. Y también podían destituirlo si no cumplía. «Un capitán solo mandaba en el combate —aclaró—. El resto del tiempo, las decisiones se tomaban entre todos».",
+   "A Dani le llamó la atención. Se quedó pensando en el lema de su camiseta y en cómo se había comportado esa semana. Recordó que había prometido cosas para conseguir votos, pero no se había preguntado qué necesitaba el equipo. Por primera vez dudó de si ser capitán era un premio o una responsabilidad.",
+   "Al día siguiente, el señor Ortega repartió papeletas. Dani votó a Irene. Lo hizo con un poco de pena, pero con seguridad. Cuando se contaron los votos, Irene ganó por una diferencia clara, y Dani quedó segundo. Todos aplaudieron, y Dani aplaudió también, aunque sintió un poco de escozor en el pecho.",
+   "Después de la votación, Irene se acercó a él. «Sé que querías ser capitán —le dijo—. Yo no sé tanto de fútbol como tú. Si quieres, ayúdame a organizar al equipo». Dani se sorprendió. Pensó un instante y aceptó. El señor Ortega sonrió y propuso un cargo nuevo: contramaestre, como en los barcos antiguos, para ayudar a la capitana.",
+   "Aquella temporada, Los Piratas no ganaron la liga, pero fueron el equipo que mejor jugaba junto. Dani descubrió que no hacía falta llevar el brazalete para liderar. Bastaba con ayudar a los demás, escuchar y aceptar el resultado de una votación justa. Al terminar el curso, volvió a leer el lema de su camiseta y lo entendió del todo."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué hizo Dani durante la semana de campaña?",
+    "options": [
+     "Nada, esperó a la votación",
+     "Invitó a merendar y prometió cosas para conseguir votos",
+     "Se enfadó con Irene",
+     "Dejó el equipo"
+    ],
+    "answer": 1,
+    "why": "Hizo campaña con meriendas y promesas."
+   },
+   {
+    "q": "¿Qué contó la profesora de Historia sobre los barcos piratas?",
+    "options": [
+     "Que los capitanes mandaban siempre",
+     "Que la tripulación elegía al capitán con una votación y podía destituirlo",
+     "Que no había capitán",
+     "Que el capitán era el más fuerte"
+    ],
+    "answer": 1,
+    "why": "Explicó que la tripulación votaba y podía destituir al capitán."
+   },
+   {
+    "q": "¿Por qué dudó Dani de si quería ser capitán?",
+    "options": [
+     "Porque tenía miedo del entrenador",
+     "Porque se dio cuenta de que había pensado más en ganar que en lo que necesitaba el equipo",
+     "Porque no sabía jugar",
+     "Porque Irene le gustaba"
+    ],
+    "answer": 1,
+    "why": "Recordó que solo había pensado en conseguir votos."
+   },
+   {
+    "q": "¿Qué cargo le propuso el entrenador a Dani?",
+    "options": [
+     "Capitán",
+     "Entrenador ayudante",
+     "Contramaestre",
+     "Portero"
+    ],
+    "answer": 2,
+    "why": "El señor Ortega propuso el cargo de contramaestre."
+   },
+   {
+    "q": "¿Qué quiere decir que Dani descubrió que «no hacía falta llevar el brazalete para liderar»?",
+    "options": [
+     "Que el brazalete no existía",
+     "Que se puede liderar ayudando y escuchando aunque no seas el capitán",
+     "Que no quería jugar más",
+     "Que el capitán no servía para nada"
+    ],
+    "answer": 1,
+    "why": "Entendió que liderar es ayudar y escuchar."
+   }
+  ]
+ },
+ {
+  "id": "noa-001",
+  "band": "11-12",
+  "topics": [
+   "Princesas y reyes",
+   "Cocina"
+  ],
+  "hero": "neutro",
+  "title": "El banquete del rey Aurelio",
+  "paragraphs": [
+   "En la cocina del castillo del rey Aurelio, el humo y el ruido de las ollas no paraban desde el amanecer. Esa noche se celebraba un banquete para recibir a la reina Isadora, que gobernaba el reino vecino. El rey quería impresionarla con un festín nunca visto. La cocinera real, doña Berta, llevaba semanas preparándolo todo. Su aprendiz, Noa, aprendía a su lado.",
+   "A mediodía ocurrió una desgracia. Doña Berta resbaló en el suelo mojado y se torció el tobillo. El médico real le ordenó reposo absoluto. Al mismo tiempo llegó otro problema: la carreta con los faisanes y las especias del sur se había atascado en un río crecido y no llegaría a tiempo. En la cocina, todos miraron a Noa, que era el único aprendiz presente.",
+   "Noa sintió un escalofrío. Nunca había dirigido una cocina, y menos para cien invitados. Pero doña Berta, desde una silla, le dijo con calma: «Cocinar no es tener de todo, sino saber qué hacer con lo que hay». Noa respiró hondo y revisó la despensa. Encontró harina, cebollas, miel, nueces, un queso curado y unas cestas de manzanas del huerto.",
+   "Con pocas cosas, decidió cocinar lo que mejor conocía: la comida de su aldea. Preparó una sopa de cebolla con pan tostado, tartas de manzana con nueces y miel, y unas tablas de queso con membrillo. Repartió el trabajo entre los pinches y cuidó cada detalle. Cuando sonaron las trompetas del banquete, la cocina olía a horno y a canela.",
+   "El rey Aurelio miró la mesa con el ceño fruncido. Esperaba faisanes asados y salsas lujosas, y en cambio veía platos sencillos. Se inclinó hacia un consejero y murmuró, preocupado: «Esto es muy humilde». Pero la reina Isadora ya había probado la sopa. Cerró los ojos un momento y sonrió. «Es el mejor plato que he tomado en años», dijo en voz alta.",
+   "La reina pidió conocer al cocinero. Noa salió con las manos temblando y se inclinó. Isadora le preguntó de dónde venía aquella receta. «De mi abuela, majestad», contestó Noa. La reina explicó que, en los palacios, la gente se acostumbraba a lo caro y olvidaba lo bueno. «Esta noche me he sentido como en casa», añadió. El rey, sorprendido, quedó en silencio.",
+   "Al terminar la cena, Aurelio llamó a Noa y le ofreció el puesto de cocinero real adjunto. También reconoció algo importante: los grandes banquetes no se miden por lo caro, sino por el cariño con que se preparan. Doña Berta, desde su silla, sonrió. Noa había aprendido que la sencillez, bien hecha, puede ser el mejor regalo para un rey."
+  ],
+  "questions": [
+   {
+    "q": "¿Por qué se celebraba el banquete?",
+    "options": [
+     "Por el cumpleaños del rey",
+     "Para recibir a la reina Isadora del reino vecino",
+     "Para despedir a doña Berta",
+     "Para celebrar una victoria"
+    ],
+    "answer": 1,
+    "why": "Querían recibir a la reina Isadora."
+   },
+   {
+    "q": "¿Qué problemas surgieron en la cocina?",
+    "options": [
+     "Se acabó la leña y se rompió el horno",
+     "Doña Berta se lesionó y la carreta con los ingredientes se atascó",
+     "Se perdió el menú y llegó tarde la reina",
+     "Huyó el aprendiz"
+    ],
+    "answer": 1,
+    "why": "Doña Berta se torció el tobillo y la carreta se atascó en el río."
+   },
+   {
+    "q": "¿Qué quiso decir doña Berta con «cocinar es saber qué hacer con lo que hay»?",
+    "options": [
+     "Que hay que comprar más ingredientes",
+     "Que lo importante es aprovechar bien lo que se tiene",
+     "Que nunca se debe cocinar para reyes",
+     "Que se debe cocinar sin recetas"
+    ],
+    "answer": 1,
+    "why": "Le animó a aprovechar los ingredientes disponibles."
+   },
+   {
+    "q": "¿Por qué el rey estaba preocupado al ver la mesa?",
+    "options": [
+     "Porque faltaban invitados",
+     "Porque los platos eran sencillos y esperaba un banquete lujoso",
+     "Porque la comida estaba fría",
+     "Porque no había postre"
+    ],
+    "answer": 1,
+    "why": "Esperaba faisanes y salsas lujosas, y vio platos humildes."
+   },
+   {
+    "q": "¿Qué enseñanza deja la historia?",
+    "options": [
+     "Que la comida cara es siempre mejor",
+     "Que lo sencillo hecho con cariño puede valer más que el lujo",
+     "Que los reyes no saben cocinar",
+     "Que hay que cocinar solo"
+    ],
+    "answer": 1,
+    "why": "El rey reconoce que los banquetes no se miden por lo caro."
+   }
+  ]
  }
 ]
