@@ -70,6 +70,9 @@ h1{font-size:clamp(1.9rem,5vw,2.8rem)}
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 16px;background:var(--bg);border-bottom:2px solid var(--line)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
 .logo{font-weight:800;font-size:1.15rem}
+.hr{display:flex;align-items:center;gap:8px}
+.chip.newtag{background:var(--acc);border-color:var(--acc);color:#2b1600;min-height:44px;padding:6px 12px;font-size:.9rem}
+#ibody{white-space:pre-line}
 dialog{width:min(640px,94vw);max-height:86vh;border:2px solid var(--line);border-radius:24px;background:var(--card);color:var(--ink);padding:20px}
 dialog::backdrop{background:rgba(20,18,43,.6)}
 .mhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px}
@@ -78,7 +81,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 </style>
 </head>
 <body>
-<header class="top"><span class="logo">📚 Cuentitis</span><button class="chip" id="prizesBtn">🏅 Mis premios</button></header>
+<header class="top"><span class="logo">📚 Cuentitis</span><div class="hr"><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><button class="chip" id="prizesBtn">🏅 Mis premios</button></div></header>
 <main>
 
 <section id="home">
@@ -197,6 +200,20 @@ function levelGuide(a){
 let BANK=null;
 async function loadBank(){if(BANK)return BANK;const r=await fetch("lecturas.json",{cache:"no-cache"});if(!r.ok)throw new Error("No se pudo cargar el banco de lecturas.");BANK=await r.json();if(!Array.isArray(BANK)||!BANK.length)throw new Error("El banco de lecturas está vacío.");return BANK}
 function band(a){return a<=6?"5-6":a<=8?"7-8":a<=10?"9-10":"11-12"}
+function checkNew(bank){
+  const ids=bank.map(r=>r.id);let known=null;
+  try{known=JSON.parse(localStorage.getItem("lector_known")||"null")}catch(e){}
+  if(!Array.isArray(known)){try{localStorage.setItem("lector_known",JSON.stringify(ids))}catch(e){}return}
+  const fresh=bank.filter(r=>!known.includes(r.id));
+  if(!fresh.length)return;
+  $("newN").textContent=fresh.length+(fresh.length===1?" nueva":" nuevas");$("newTag").hidden=false;
+  $("newTag").onclick=()=>{
+    $("ititle").textContent="🆕 Lecturas nuevas";
+    $("ibody").textContent="Hemos añadido "+(fresh.length===1?"una lectura nueva:":fresh.length+" lecturas nuevas:")+"\n"+fresh.map(r=>"• "+r.title+" ("+r.band+" años)").join("\n");
+    $("infoModal").showModal();
+    try{localStorage.setItem("lector_known",JSON.stringify(ids))}catch(e){}
+    $("newTag").hidden=true};
+}
 function pickReading(bank,likes,age,gender){
   let seen=[];try{seen=JSON.parse(localStorage.getItem("lector_seen")||"[]")}catch(e){}
   let pool=bank.filter(r=>r.band===band(age));if(!pool.length)pool=bank;
@@ -303,6 +320,7 @@ const INFO={gender:{t:"Niño o niña (opcional)",b:"Solo sirve para que el prota
 document.querySelectorAll(".info").forEach(b=>b.onclick=()=>{const i=INFO[b.dataset.info];$("ititle").textContent=i.t;$("ibody").textContent=i.b;$("infoModal").showModal()});
 $("iclose").onclick=()=>$("infoModal").close();
 $("infoModal").addEventListener("click",e=>{if(e.target===$("infoModal"))$("infoModal").close()});
+loadBank().then(checkNew).catch(()=>{});
 $("modal").addEventListener("click",e=>{if(e.target===$("modal"))$("modal").close()});
 drawHome();
 </script>

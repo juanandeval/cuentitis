@@ -18,3 +18,8 @@ Después ejecuta `python3 validate.py` para comprobar el formato.
 
 ## Cómo elige la lectura
 Filtra por tramo de edad y puntúa: tema principal (el primer gusto) > otros gustos > lecturas no vistas > protagonista según niño/niña (o neutro). Se guardan las ya vistas en el navegador para no repetir.
+
+## Aviso de «lecturas nuevas»
+Al abrir la web, esta compara los `id` de `lecturas.json` con los que ese navegador ya conocía. Si hay `id` nuevos, aparece una etiqueta 🆕 en la cabecera; al pulsarla se listan los títulos nuevos. La primera vez que alguien entra no se avisa de nada (todo es nuevo para él).
+- Cada lectura nueva debe tener un `id` **único y nunca reutilizado**.
+- Si cambias el texto de una lectura ya existente sin cambiar su `id`, no se avisa.

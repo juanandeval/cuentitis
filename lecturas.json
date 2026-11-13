@@ -1,32 +1,574 @@
 [
-{"id":"bip-001","band":"7-8","topics":["Espacio","Robots"],"hero":"neutro","title":"Bip y la estrella dormilona",
-"paragraphs":[
-"Bip era un robot pequeño que vivía en una nave espacial llamada Luna Azul. Tenía dos ojos redondos que brillaban como bombillas y unos brazos largos que se doblaban como muelles. Su trabajo era muy importante: cada noche limpiaba las ventanas de la nave para que los astronautas pudieran mirar las estrellas.",
-"Una noche, mientras frotaba el cristal, Bip vio algo raro. Una estrella pequeñita parpadeaba muy despacio, como si tuviera sueño. «¡Qué extraño! Las estrellas nunca se apagan», dijo Bip. Corrió a buscar a Marta, la capitana, que estaba tomando un vaso de leche en la cocina.",
-"«Capitana, hay una estrella que se está quedando dormida», explicó el robot. Marta sonrió y fue con él a la ventana. Miró con unos prismáticos muy grandes y se puso seria. «No es una estrella, Bip. Es un satélite viejo que se ha quedado sin energía. Está perdido y lleva años dando vueltas solo».",
-"Bip sintió pena. Le parecía triste que algo tan pequeño estuviera solo en la oscuridad. «¿Podemos ayudarlo?», preguntó. «Es difícil —respondió la capitana—. Hay que salir de la nave con un traje especial y llevarle energía. Nunca lo ha hecho un robot tan pequeño». Bip respiró hondo. Aunque tenía un poco de miedo, levantó el brazo y dijo: «Yo quiero intentarlo».",
-"Marta le puso un cable largo, como la cola de un cometa, para que no se alejara de la nave. Bip salió flotando despacio. No había ruido ni aire, solo un silencio enorme y miles de luces a su alrededor. Poco a poco llegó hasta el satélite y conectó la batería nueva que llevaba en la mochila.",
-"De pronto, el satélite se encendió con una luz amarilla y empezó a enviar una melodía: pi, pi, pipiripi. Era un mensaje de buenas noches. En la nave, los astronautas aplaudieron. Bip volvió a casa con una sonrisa dibujada en su pantalla. Esa noche, antes de apagarse, miró por la ventana y vio que la estrellita ya no estaba sola.",
-"Bip aprendió que ser pequeño no impide hacer cosas grandes cuando uno es valiente y quiere ayudar."],
-"questions":[
-{"q":"¿Cuál era el trabajo de Bip?","options":["Cocinar para los astronautas","Limpiar las ventanas de la nave","Pilotar la nave"],"answer":1,"why":"El texto dice que cada noche limpiaba las ventanas."},
-{"q":"¿Qué era en realidad la «estrella» que parpadeaba?","options":["Un satélite viejo sin energía","Un cometa","Otra nave"],"answer":0,"why":"La capitana explicó que era un satélite viejo sin energía."},
-{"q":"¿Para qué llevaba Bip un cable largo?","options":["Para pedir ayuda por radio","Para no alejarse de la nave","Para abrir la puerta"],"answer":1,"why":"El cable servía para que no se alejara de la nave."},
-{"q":"¿Cómo se sentía Bip antes de salir de la nave?","options":["Tenía un poco de miedo, pero quiso intentarlo","No sentía nada","Estaba enfadado"],"answer":0,"why":"Tenía un poco de miedo, pero levantó el brazo para ayudar."},
-{"q":"¿Qué enseñanza tiene la historia?","options":["Hay que dormir mucho","Ser pequeño no impide hacer cosas grandes si eres valiente","Los robots no sienten pena"],"answer":1,"why":"Es la idea con la que termina el texto."}]},
-{"id":"lucia-001","band":"9-10","topics":["Animales","Ciencia"],"hero":"niña","title":"Lucía y las golondrinas",
-"paragraphs":[
-"Lucía llevaba todo el verano en casa de su abuelo, en un pueblo rodeado de campos. Cada tarde se sentaba en el porche con un cuaderno verde donde anotaba todo lo que observaba: nubes, hormigas, pájaros y hasta el color del cielo. Su abuelo, que había sido veterinario, la llamaba «mi pequeña científica».",
-"Aquella tarde notó algo curioso. Las golondrinas, que solían volar muy altas, rozaban el suelo una y otra vez. Lucía lo apuntó y dibujó una flecha con una pregunta: «¿Por qué vuelan tan bajo?». Después fue corriendo a preguntárselo al abuelo.",
-"«Buena pregunta —respondió él—, pero no te voy a dar la respuesta. Primero piensa tú una hipótesis. Una hipótesis es una explicación que se puede comprobar». Lucía se quedó pensando. Recordó que las golondrinas comen insectos y que los insectos vuelan donde pueden.",
-"«Quizá los insectos también vuelan bajo hoy —dijo—. Pero ¿por qué?». El abuelo señaló el horizonte, donde unas nubes grises empezaban a crecer. «Cuando va a llover, el aire se vuelve más húmedo. Los insectos tienen las alas húmedas y no pueden subir, así que las golondrinas bajan a cazarlos».",
-"Lucía quiso comprobarlo. Esa noche escribió en el cuaderno: «Si las golondrinas vuelan bajo, mañana lloverá». A la mañana siguiente el cielo amaneció cubierto y a media mañana empezó a caer una lluvia fina. Lucía dio un salto de alegría y lo anotó con letras enormes.",
-"Sin embargo, su abuelo le recordó algo importante. «Un solo día no demuestra nada. Los científicos repiten sus observaciones muchas veces para estar seguros». Así que durante dos semanas Lucía siguió apuntando el vuelo de las golondrinas y el tiempo que hacía. Casi siempre acertaba, aunque un día falló, y eso también lo apuntó.",
-"Al terminar el verano, Lucía comprendió que equivocarse no era un fracaso, sino parte de investigar. Volvió a la ciudad con el cuaderno lleno de datos y una idea clara: la curiosidad y la paciencia son las mejores herramientas de cualquier científica."],
-"questions":[
-{"q":"¿A qué se dedicaba antes el abuelo de Lucía?","options":["Era maestro","Era agricultor","Era veterinario","Era pescador"],"answer":2,"why":"El primer párrafo dice que había sido veterinario."},
-{"q":"Según el abuelo, ¿qué es una hipótesis?","options":["Una explicación que se puede comprobar","Una respuesta que da un adulto","Un dibujo del cuaderno","Un tipo de nube"],"answer":0,"why":"Lo explica el abuelo cuando le pide pensar a Lucía."},
-{"q":"¿Por qué volaban bajo las golondrinas, según el abuelo?","options":["Porque estaban cansadas","Porque los insectos, con las alas húmedas, no podían subir","Porque buscaban agua","Porque hacía mucho calor"],"answer":1,"why":"Antes de llover los insectos vuelan bajo y las golondrinas los cazan."},
-{"q":"¿Por qué siguió Lucía observando durante dos semanas?","options":["Porque estaba aburrida","Porque se lo mandaron en el colegio","Porque un solo día no demuestra nada","Porque quería ver más lluvia"],"answer":2,"why":"El abuelo le explicó que hay que repetir las observaciones."},
-{"q":"¿Qué quiere decir que Lucía anotara también el día que falló?","options":["Que quería esconder el error","Que equivocarse forma parte de investigar","Que dejó de apuntar","Que la hipótesis era perfecta"],"answer":1,"why":"Al final comprende que equivocarse no es un fracaso."}]}
+ {
+  "id": "bip-001",
+  "band": "7-8",
+  "topics": [
+   "Espacio",
+   "Robots"
+  ],
+  "hero": "neutro",
+  "title": "Bip y la estrella dormilona",
+  "paragraphs": [
+   "Bip era un robot pequeño que vivía en una nave espacial llamada Luna Azul. Tenía dos ojos redondos que brillaban como bombillas y unos brazos largos que se doblaban como muelles. Su trabajo era muy importante: cada noche limpiaba las ventanas de la nave para que los astronautas pudieran mirar las estrellas.",
+   "Una noche, mientras frotaba el cristal, Bip vio algo raro. Una estrella pequeñita parpadeaba muy despacio, como si tuviera sueño. «¡Qué extraño! Las estrellas nunca se apagan», dijo Bip. Corrió a buscar a Marta, la capitana, que estaba tomando un vaso de leche en la cocina.",
+   "«Capitana, hay una estrella que se está quedando dormida», explicó el robot. Marta sonrió y fue con él a la ventana. Miró con unos prismáticos muy grandes y se puso seria. «No es una estrella, Bip. Es un satélite viejo que se ha quedado sin energía. Está perdido y lleva años dando vueltas solo».",
+   "Bip sintió pena. Le parecía triste que algo tan pequeño estuviera solo en la oscuridad. «¿Podemos ayudarlo?», preguntó. «Es difícil —respondió la capitana—. Hay que salir de la nave con un traje especial y llevarle energía. Nunca lo ha hecho un robot tan pequeño». Bip respiró hondo. Aunque tenía un poco de miedo, levantó el brazo y dijo: «Yo quiero intentarlo».",
+   "Marta le puso un cable largo, como la cola de un cometa, para que no se alejara de la nave. Bip salió flotando despacio. No había ruido ni aire, solo un silencio enorme y miles de luces a su alrededor. Poco a poco llegó hasta el satélite y conectó la batería nueva que llevaba en la mochila.",
+   "De pronto, el satélite se encendió con una luz amarilla y empezó a enviar una melodía: pi, pi, pipiripi. Era un mensaje de buenas noches. En la nave, los astronautas aplaudieron. Bip volvió a casa con una sonrisa dibujada en su pantalla. Esa noche, antes de apagarse, miró por la ventana y vio que la estrellita ya no estaba sola.",
+   "Bip aprendió que ser pequeño no impide hacer cosas grandes cuando uno es valiente y quiere ayudar."
+  ],
+  "questions": [
+   {
+    "q": "¿Cuál era el trabajo de Bip?",
+    "options": [
+     "Cocinar para los astronautas",
+     "Limpiar las ventanas de la nave",
+     "Pilotar la nave"
+    ],
+    "answer": 1,
+    "why": "El texto dice que cada noche limpiaba las ventanas."
+   },
+   {
+    "q": "¿Qué era en realidad la «estrella» que parpadeaba?",
+    "options": [
+     "Un satélite viejo sin energía",
+     "Un cometa",
+     "Otra nave"
+    ],
+    "answer": 0,
+    "why": "La capitana explicó que era un satélite viejo sin energía."
+   },
+   {
+    "q": "¿Para qué llevaba Bip un cable largo?",
+    "options": [
+     "Para pedir ayuda por radio",
+     "Para no alejarse de la nave",
+     "Para abrir la puerta"
+    ],
+    "answer": 1,
+    "why": "El cable servía para que no se alejara de la nave."
+   },
+   {
+    "q": "¿Cómo se sentía Bip antes de salir de la nave?",
+    "options": [
+     "Tenía un poco de miedo, pero quiso intentarlo",
+     "No sentía nada",
+     "Estaba enfadado"
+    ],
+    "answer": 0,
+    "why": "Tenía un poco de miedo, pero levantó el brazo para ayudar."
+   },
+   {
+    "q": "¿Qué enseñanza tiene la historia?",
+    "options": [
+     "Hay que dormir mucho",
+     "Ser pequeño no impide hacer cosas grandes si eres valiente",
+     "Los robots no sienten pena"
+    ],
+    "answer": 1,
+    "why": "Es la idea con la que termina el texto."
+   }
+  ]
+ },
+ {
+  "id": "lucia-001",
+  "band": "9-10",
+  "topics": [
+   "Animales",
+   "Ciencia"
+  ],
+  "hero": "niña",
+  "title": "Lucía y las golondrinas",
+  "paragraphs": [
+   "Lucía llevaba todo el verano en casa de su abuelo, en un pueblo rodeado de campos. Cada tarde se sentaba en el porche con un cuaderno verde donde anotaba todo lo que observaba: nubes, hormigas, pájaros y hasta el color del cielo. Su abuelo, que había sido veterinario, la llamaba «mi pequeña científica».",
+   "Aquella tarde notó algo curioso. Las golondrinas, que solían volar muy altas, rozaban el suelo una y otra vez. Lucía lo apuntó y dibujó una flecha con una pregunta: «¿Por qué vuelan tan bajo?». Después fue corriendo a preguntárselo al abuelo.",
+   "«Buena pregunta —respondió él—, pero no te voy a dar la respuesta. Primero piensa tú una hipótesis. Una hipótesis es una explicación que se puede comprobar». Lucía se quedó pensando. Recordó que las golondrinas comen insectos y que los insectos vuelan donde pueden.",
+   "«Quizá los insectos también vuelan bajo hoy —dijo—. Pero ¿por qué?». El abuelo señaló el horizonte, donde unas nubes grises empezaban a crecer. «Cuando va a llover, el aire se vuelve más húmedo. Los insectos tienen las alas húmedas y no pueden subir, así que las golondrinas bajan a cazarlos».",
+   "Lucía quiso comprobarlo. Esa noche escribió en el cuaderno: «Si las golondrinas vuelan bajo, mañana lloverá». A la mañana siguiente el cielo amaneció cubierto y a media mañana empezó a caer una lluvia fina. Lucía dio un salto de alegría y lo anotó con letras enormes.",
+   "Sin embargo, su abuelo le recordó algo importante. «Un solo día no demuestra nada. Los científicos repiten sus observaciones muchas veces para estar seguros». Así que durante dos semanas Lucía siguió apuntando el vuelo de las golondrinas y el tiempo que hacía. Casi siempre acertaba, aunque un día falló, y eso también lo apuntó.",
+   "Al terminar el verano, Lucía comprendió que equivocarse no era un fracaso, sino parte de investigar. Volvió a la ciudad con el cuaderno lleno de datos y una idea clara: la curiosidad y la paciencia son las mejores herramientas de cualquier científica."
+  ],
+  "questions": [
+   {
+    "q": "¿A qué se dedicaba antes el abuelo de Lucía?",
+    "options": [
+     "Era maestro",
+     "Era agricultor",
+     "Era veterinario",
+     "Era pescador"
+    ],
+    "answer": 2,
+    "why": "El primer párrafo dice que había sido veterinario."
+   },
+   {
+    "q": "Según el abuelo, ¿qué es una hipótesis?",
+    "options": [
+     "Una explicación que se puede comprobar",
+     "Una respuesta que da un adulto",
+     "Un dibujo del cuaderno",
+     "Un tipo de nube"
+    ],
+    "answer": 0,
+    "why": "Lo explica el abuelo cuando le pide pensar a Lucía."
+   },
+   {
+    "q": "¿Por qué volaban bajo las golondrinas, según el abuelo?",
+    "options": [
+     "Porque estaban cansadas",
+     "Porque los insectos, con las alas húmedas, no podían subir",
+     "Porque buscaban agua",
+     "Porque hacía mucho calor"
+    ],
+    "answer": 1,
+    "why": "Antes de llover los insectos vuelan bajo y las golondrinas los cazan."
+   },
+   {
+    "q": "¿Por qué siguió Lucía observando durante dos semanas?",
+    "options": [
+     "Porque estaba aburrida",
+     "Porque se lo mandaron en el colegio",
+     "Porque un solo día no demuestra nada",
+     "Porque quería ver más lluvia"
+    ],
+    "answer": 2,
+    "why": "El abuelo le explicó que hay que repetir las observaciones."
+   },
+   {
+    "q": "¿Qué quiere decir que Lucía anotara también el día que falló?",
+    "options": [
+     "Que quería esconder el error",
+     "Que equivocarse forma parte de investigar",
+     "Que dejó de apuntar",
+     "Que la hipótesis era perfecta"
+    ],
+    "answer": 1,
+    "why": "Al final comprende que equivocarse no es un fracaso."
+   }
+  ]
+ },
+ {
+  "id": "toto-001",
+  "band": "5-6",
+  "topics": [
+   "Animales",
+   "Dinosaurios"
+  ],
+  "hero": "niño",
+  "title": "Toto y el huevo gigante",
+  "paragraphs": [
+   "Leo tenía seis años y vivía cerca de un bosque. Le gustaban mucho los animales. Tenía un perro que se llamaba Toto. Toto era pequeño, marrón y muy juguetón. Cada mañana salían juntos a pasear. Leo llevaba una mochila con agua y un bocadillo. A Toto le encantaba correr delante y olerlo todo.",
+   "Un día, Toto empezó a ladrar con fuerza. Corrió hacia unos arbustos y escarbó con las patas. Leo fue detrás de él. «¿Qué has encontrado, Toto?», preguntó. Entre las hojas había algo redondo, grande y verde. Era un huevo enorme, casi tan grande como una sandía.",
+   "Leo se quedó con la boca abierta. Tocó el huevo con un dedo. Estaba tibio y tenía manchas moradas. «No es de gallina —dijo—. Es muy grande. Quizá sea de un dinosaurio». Toto movió la cola, muy contento. Leo pensó que el huevo no podía quedarse solo en el bosque.",
+   "Con mucho cuidado, lo metió en la mochila, entre unas toallas. Después fue corriendo a casa de su abuela Rosa. Ella era la persona que más sabía de animales de todo el pueblo. La abuela se puso las gafas y miró el huevo durante un buen rato. Luego sonrió.",
+   "«Leo, esto no es un huevo de dinosaurio —dijo—. Los dinosaurios vivieron hace muchísimos años. Es un huevo de avestruz. Seguro que se ha escapado de la granja del señor Pedro». Leo se puso un poco triste, porque quería tener un dinosaurio de verdad. Pero la abuela le dio un abrazo.",
+   "«¿Sabes un secreto? —le dijo—. Las aves, como los avestruces, son parientes lejanos de los dinosaurios. Tienen plumas, pero sus patas se parecen a las de aquellos animales tan antiguos». Leo abrió mucho los ojos. ¡Era casi lo mismo! Fueron los tres a la granja para devolver el huevo.",
+   "El señor Pedro se puso muy contento. Había buscado ese huevo por todas partes. Para dar las gracias, dejó que Leo viera nacer al pollito unos días después. Era grande, tenía el cuello largo y hacía un ruido muy gracioso. Leo y Toto se rieron mucho. Esa noche, Leo dibujó un dinosaurio con plumas."
+  ],
+  "questions": [
+   {
+    "q": "¿Cómo se llamaba el perro de Leo?",
+    "options": [
+     "Bruno",
+     "Toto",
+     "Max"
+    ],
+    "answer": 1,
+    "why": "El perro se llamaba Toto."
+   },
+   {
+    "q": "¿Qué encontró Toto entre los arbustos?",
+    "options": [
+     "Una pelota",
+     "Un hueso",
+     "Un huevo enorme"
+    ],
+    "answer": 2,
+    "why": "Encontró un huevo casi tan grande como una sandía."
+   },
+   {
+    "q": "¿De qué animal era en realidad el huevo?",
+    "options": [
+     "De un avestruz",
+     "De un dinosaurio",
+     "De una gallina"
+    ],
+    "answer": 0,
+    "why": "La abuela Rosa explicó que era de avestruz."
+   },
+   {
+    "q": "¿Por qué se puso triste Leo?",
+    "options": [
+     "Porque perdió a su perro",
+     "Porque quería tener un dinosaurio de verdad",
+     "Porque tenía hambre"
+    ],
+    "answer": 1,
+    "why": "Quería un dinosaurio, pero era un huevo de avestruz."
+   },
+   {
+    "q": "¿Qué hizo Leo esa noche?",
+    "options": [
+     "Se fue a la granja",
+     "Llamó a su abuela",
+     "Dibujó un dinosaurio con plumas"
+    ],
+    "answer": 2,
+    "why": "El texto termina con el dibujo de Leo."
+   }
+  ]
+ },
+ {
+  "id": "alba-001",
+  "band": "5-6",
+  "topics": [
+   "Princesas y reyes",
+   "Dragones"
+  ],
+  "hero": "niña",
+  "title": "La princesa Alba y el dragón con hipo",
+  "paragraphs": [
+   "En un castillo muy alto vivía la princesa Alba. Tenía el pelo rizado y una corona un poco torcida. A Alba no le gustaban los vestidos largos. Prefería los pantalones, porque así podía correr y subir a los árboles. Su padre, el rey Mateo, a veces se enfadaba. Pero la quería mucho.",
+   "Una noche, Alba oyó un ruido raro: ¡hip! Después otro: ¡hip, hip! Se asomó a la ventana. En el patio del castillo había un dragón verde, pequeño y con cara de susto. Cada vez que le daba un hipo, le salía una llamita por la nariz. ¡Y casi quemaba las cortinas!",
+   "«No tengas miedo», dijo Alba. Bajó las escaleras de puntillas y se acercó al dragón. «¿Cómo te llamas?». «Me llamo Chispín —contestó el dragón—. Tengo hipo desde ayer y no se me pasa. Si sigo así, voy a incendiar el reino». Alba pensó que tenía que ayudarlo.",
+   "Primero, le dio un vaso de agua. Chispín bebió, pero siguió con el hipo: ¡hip! Luego, Alba le pidió que aguantara la respiración y contara hasta diez. Tampoco funcionó. Entonces, a la princesa se le ocurrió una idea muy divertida. Se puso detrás de una columna y gritó: «¡Buuu!».",
+   "Chispín dio un salto enorme y se tapó la cara con las alas. Se quedó quieto, muy quieto. Esperó un poco. ¡Nada! No se oía ni un hip. El susto había funcionado. El dragón empezó a reírse, y Alba también. Se rieron tanto que despertaron a todo el castillo.",
+   "El rey Mateo bajó en pijama, con una vela en la mano. Al ver al dragón, se quedó helado. Pero Alba le explicó todo con calma. El rey miró a Chispín y vio que era un dragón muy educado. Sonrió y dijo: «Hija mía, eres muy valiente y muy lista».",
+   "Desde esa noche, Chispín se quedó a vivir en el castillo. Se encargaba de encender las velas y de calentar la sopa del rey. Y cuando le daba hipo, Alba corría a darle un susto de broma. Los dos se hicieron los mejores amigos del reino."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué le pasaba al dragón Chispín?",
+    "options": [
+     "Tenía hipo",
+     "Tenía frío",
+     "Tenía sueño"
+    ],
+    "answer": 0,
+    "why": "Le salía una llamita con cada hipo."
+   },
+   {
+    "q": "¿Qué le gustaba llevar a Alba?",
+    "options": [
+     "Vestidos largos",
+     "Pantalones",
+     "Capas"
+    ],
+    "answer": 1,
+    "why": "Prefería los pantalones para correr y subir a los árboles."
+   },
+   {
+    "q": "¿Cómo logró Alba quitarle el hipo al dragón?",
+    "options": [
+     "Dándole agua",
+     "Cantándole una canción",
+     "Dándole un susto"
+    ],
+    "answer": 2,
+    "why": "Gritó «¡Buuu!» y el susto le quitó el hipo."
+   },
+   {
+    "q": "¿Cómo reaccionó el rey al ver al dragón?",
+    "options": [
+     "Al principio se quedó helado, pero luego sonrió",
+     "Llamó a los soldados",
+     "Se escondió"
+    ],
+    "answer": 0,
+    "why": "Se asustó, pero Alba le explicó todo con calma."
+   },
+   {
+    "q": "¿Qué hizo Chispín desde esa noche?",
+    "options": [
+     "Se fue del reino",
+     "Se quedó a vivir en el castillo",
+     "Se escondió en el bosque"
+    ],
+    "answer": 1,
+    "why": "Se quedó en el castillo y ayudó a encender velas."
+   }
+  ]
+ },
+ {
+  "id": "chispa-001",
+  "band": "5-6",
+  "topics": [
+   "Fútbol",
+   "Coches"
+  ],
+  "hero": "neutro",
+  "title": "Chispa y el partido de los coches",
+  "paragraphs": [
+   "Chispa era un cochecito rojo muy rápido. Vivía en un garaje grande con muchos amigos: una furgoneta azul, un camión naranja y un coche de bomberos. Todos los sábados se reunían en el campo de hierba. Allí jugaban al fútbol con una pelota gigante. ¡Era el mejor día de la semana!",
+   "Aquel sábado, el partido era muy importante. Los coches del garaje jugaban contra los del taller de enfrente. El árbitro era un autobús amarillo con un silbato enorme. Cuando sonó el pitido, la pelota empezó a rodar. Chispa salió disparado, pi-pi, pi-pi.",
+   "Chispa era veloz, pero no era fuerte. Cuando chocaba con un coche grande, rebotaba como una pelota de goma. Los del taller se reían. «¡Qué pequeño eres!», decían. Chispa se puso un poco triste, y por dentro sintió que el motor le hacía ruido de pena.",
+   "Entonces, la furgoneta azul le dijo algo al oído: «Tú corre, que nosotros empujamos». Chispa entendió. No tenía que hacerlo todo solo. El camión naranja bloqueó el paso. El coche de bomberos tocó la sirena para asustar a los contrarios. Y Chispa corrió con la pelota hacia la portería.",
+   "Pasó entre unas ruedas, saltó un charco y dio un golpe suave con el morro. La pelota rodó despacio, despacio, y entró en la portería. «¡Gooool!», gritaron todos los coches. Los bocinazos se oyeron en todo el barrio. Chispa se sintió muy feliz.",
+   "Al final, el partido terminó en empate. Pero nadie estaba enfadado. Los coches del taller invitaron a todos a tomar aceite nuevo y a una limpieza con espuma. Chispa se dio cuenta de algo importante: ganar es bonito, pero jugar en equipo es todavía mejor."
+  ],
+  "questions": [
+   {
+    "q": "¿De qué color era Chispa?",
+    "options": [
+     "Azul",
+     "Amarillo",
+     "Rojo"
+    ],
+    "answer": 2,
+    "why": "Chispa era un cochecito rojo."
+   },
+   {
+    "q": "¿Quién era el árbitro del partido?",
+    "options": [
+     "Un autobús amarillo",
+     "Un camión naranja",
+     "Una furgoneta azul"
+    ],
+    "answer": 0,
+    "why": "El árbitro era un autobús amarillo con un silbato enorme."
+   },
+   {
+    "q": "¿Por qué se puso triste Chispa?",
+    "options": [
+     "Porque perdió la pelota",
+     "Porque se rieron de que era pequeño",
+     "Porque se estropeó"
+    ],
+    "answer": 1,
+    "why": "Los coches del taller se reían de su tamaño."
+   },
+   {
+    "q": "¿Cómo ayudaron los amigos a Chispa?",
+    "options": [
+     "Lo llevaron a casa",
+     "Le dieron un premio",
+     "Bloquearon el paso y asustaron a los contrarios"
+    ],
+    "answer": 2,
+    "why": "El camión bloqueó y el coche de bomberos tocó la sirena."
+   },
+   {
+    "q": "¿Qué aprendió Chispa al final?",
+    "options": [
+     "Que jugar en equipo es todavía mejor que ganar",
+     "Que hay que correr más",
+     "Que los coches grandes siempre ganan"
+    ],
+    "answer": 0,
+    "why": "Es la idea con la que termina la historia."
+   }
+  ]
+ },
+ {
+  "id": "migas-001",
+  "band": "7-8",
+  "topics": [
+   "Piratas",
+   "Cocina"
+  ],
+  "hero": "niño",
+  "title": "El capitán Migas y el tesoro de sabores",
+  "paragraphs": [
+   "El barco pirata Estrella Loca llevaba semanas en alta mar y la tripulación tenía un gran problema: se les había acabado la comida buena. Solo quedaban galletas duras y un barril de pescado salado. Los piratas protestaban a todas horas. Entonces subió a cubierta Migas, el grumete de nueve años, con un gorro de cocinero.",
+   "«Capitán, déjeme intentarlo —dijo—. En la cocina del barco todavía hay harina, huevos y unas naranjas». El capitán Barba Roja se rascó la barba. Nunca había visto a un niño cocinar para treinta piratas. Aun así, asintió: «Tienes hasta la hora de la cena. Si no nos gusta, fregarás cubierta una semana».",
+   "Migas se puso a trabajar. Mezcló la harina con huevos y un poco de agua de lluvia. Cortó las naranjas en rodajas finas y las puso a asar en la sartén. Con el pescado salado hizo unas albóndigas pequeñas y las bañó en zumo. Un olor dulce y fresco recorrió todo el barco.",
+   "Cuando sonó la campana de la cena, los piratas se sentaron con cara de duda. El capitán probó una albóndiga y cerró los ojos. «¡Por todos los mares! —exclamó—. ¡Esto sabe a tierra firme!». En un momento, los platos quedaron vacíos y los piratas pidieron más. Algunos aplaudían con sus garfios.",
+   "Esa noche, el capitán sacó un mapa viejo. «Mañana llegaremos a la isla de las Especias —dijo—. Dicen que allí crece la canela, la vainilla y el pimentón. Será un tesoro mejor que el oro, si tenemos un cocinero que sepa usarlo». Migas sonrió, aunque le temblaban un poco las piernas de la emoción.",
+   "En la isla, la tripulación llenó los sacos de especias. Migas olió cada hierba y cada semilla antes de elegir. Aprendió que el sabor se consigue con paciencia y con un poco de atrevimiento. De vuelta en el barco, preparó un pastel de canela tan grande que hizo falta una cuerda para repartirlo.",
+   "Desde entonces, a Migas ya nadie lo llamó grumete. Lo llamaron el capitán de la cocina. El Estrella Loca siguió navegando, y la fama de aquel barco se extendió por todos los puertos. Decían que allí se comía mejor que en cualquier palacio, y todo gracias a un niño con un gorro blanco."
+  ],
+  "questions": [
+   {
+    "q": "¿Cuál era el problema del barco al principio?",
+    "options": [
+     "Se había perdido el mapa",
+     "Se había acabado la comida buena",
+     "Había una tormenta"
+    ],
+    "answer": 1,
+    "why": "Solo quedaban galletas duras y pescado salado."
+   },
+   {
+    "q": "¿Qué le pasaría a Migas si la cena no gustaba?",
+    "options": [
+     "Lo echarían del barco",
+     "Fregaría la cubierta una semana",
+     "Tendría que cocinar otra vez"
+    ],
+    "answer": 1,
+    "why": "El capitán le advirtió que fregaría cubierta una semana."
+   },
+   {
+    "q": "¿Con qué bañó Migas las albóndigas?",
+    "options": [
+     "Con zumo de naranja",
+     "Con leche",
+     "Con agua salada"
+    ],
+    "answer": 0,
+    "why": "Las bañó en zumo de naranja."
+   },
+   {
+    "q": "¿Qué quiso decir el capitán con «sabe a tierra firme»?",
+    "options": [
+     "Que la comida estaba quemada",
+     "Que la comida le recordó a la comida de tierra, rica y fresca",
+     "Que quería bajar del barco"
+    ],
+    "answer": 1,
+    "why": "Quiso decir que sabía fresca y rica, como la comida de tierra."
+   },
+   {
+    "q": "¿Qué tesoro buscaron en la isla?",
+    "options": [
+     "Oro y joyas",
+     "Especias como canela y vainilla",
+     "Mapas antiguos"
+    ],
+    "answer": 1,
+    "why": "Buscaban especias, que para el capitán valían más que el oro."
+   }
+  ]
+ },
+ {
+  "id": "nora-001",
+  "band": "7-8",
+  "topics": [
+   "Superhéroes",
+   "Ciencia"
+  ],
+  "hero": "niña",
+  "title": "Nora, la superheroína de los experimentos",
+  "paragraphs": [
+   "Nora tenía ocho años y un superpoder muy especial: hacía preguntas. No tenía capa ni podía volar. Pero en su mochila llevaba una lupa, unas gafas de laboratorio y un cuaderno de experimentos. Sus compañeros la llamaban Superlupa. A ella le encantaba el apodo, porque sabía que la ciencia puede ser un poder de verdad.",
+   "Una mañana, el volcán de la feria de ciencias del colegio dejó de funcionar. El profesor Gil estaba muy preocupado, porque los visitantes llegaban en diez minutos. «Nunca había pasado —decía—. Siempre soltaba espuma, pero hoy no sale nada». Todos los niños miraban el volcán de cartón sin saber qué hacer.",
+   "Nora se acercó, sacó la lupa y miró dentro. Olió el líquido, tocó el polvo blanco y pensó en voz alta: «El volcán funciona con bicarbonato y vinagre. Cuando se mezclan, sale gas y se forma la espuma. Si no hay espuma, a lo mejor falta una de las dos cosas». Comprobó la botella y se rio: estaba llena de agua.",
+   "Alguien había cambiado el vinagre por agua sin querer. Nora corrió a la cocina del colegio y volvió con una botella nueva. Echó el vinagre despacio sobre el bicarbonato y, de pronto, salió una espuma enorme que subió por el cráter. ¡Fssss! Los niños dieron un grito de alegría y aplaudieron.",
+   "El profesor Gil le dio un abrazo. «Eres una heroína, Nora», dijo. Ella se puso colorada y respondió: «Solo he usado el método científico. Primero observas, después piensas una explicación y por último compruebas si es cierta». Nora siempre repetía esos tres pasos, porque eran su fórmula secreta.",
+   "Cuando llegaron los visitantes, vieron un volcán perfecto y muchos experimentos más. Nora explicó el suyo con mucha seguridad. Una señora mayor le preguntó si quería ser científica de mayor. «Ya lo soy —contestó Nora—. Y también quiero ser astronauta, por si acaso». Todos se rieron, y ella se quedó pensando en su próximo experimento.",
+   "Esa noche, en su cuaderno, escribió con letras grandes: «Los superpoderes no siempre vuelan. A veces miran con atención y no se rinden». Después apagó la luz con una sonrisa. Estaba segura de que al día siguiente se le ocurriría otra pregunta."
+  ],
+  "questions": [
+   {
+    "q": "¿Cuál era el superpoder de Nora?",
+    "options": [
+     "Volar",
+     "Hacer preguntas y usar la ciencia",
+     "Ser invisible"
+    ],
+    "answer": 1,
+    "why": "El texto dice que su superpoder era hacer preguntas."
+   },
+   {
+    "q": "¿Qué le pasaba al volcán de la feria?",
+    "options": [
+     "Se había roto",
+     "No soltaba espuma",
+     "Se había perdido"
+    ],
+    "answer": 1,
+    "why": "Siempre soltaba espuma, pero ese día no salía nada."
+   },
+   {
+    "q": "¿Cuál era la causa del problema?",
+    "options": [
+     "Faltaba bicarbonato",
+     "La botella tenía agua en vez de vinagre",
+     "El volcán estaba mojado"
+    ],
+    "answer": 1,
+    "why": "Alguien cambió el vinagre por agua sin querer."
+   },
+   {
+    "q": "¿Cuáles son los tres pasos del método científico de Nora?",
+    "options": [
+     "Leer, copiar y entregar",
+     "Observar, pensar una explicación y comprobarla",
+     "Preguntar, esperar y olvidar"
+    ],
+    "answer": 1,
+    "why": "Ella lo explica: observar, pensar una explicación y comprobarla."
+   },
+   {
+    "q": "¿Qué quiso decir Nora con «los superpoderes no siempre vuelan»?",
+    "options": [
+     "Que las capas no sirven",
+     "Que un superpoder puede ser mirar con atención y no rendirse",
+     "Que no le gusta volar"
+    ],
+    "answer": 1,
+    "why": "Para Nora, los superpoderes también son atención y constancia."
+   }
+  ]
+ },
+ {
+  "id": "bigotes-001",
+  "band": "7-8",
+  "topics": [
+   "Dinosaurios",
+   "Animales"
+  ],
+  "hero": "neutro",
+  "title": "Bigotes, el gato del museo de dinosaurios",
+  "paragraphs": [
+   "En el museo de ciencias de la ciudad vivía un gato gris llamado Bigotes. Nadie sabía cómo había llegado allí. Un día simplemente apareció, se acomodó en la sala de los dinosaurios y no se fue más. El vigilante, don Pepe, le puso un cuenco de leche. Desde entonces, Bigotes era el guardián no oficial del museo.",
+   "Durante el día, Bigotes dormía a los pies del esqueleto de un Tiranosaurio gigante. Los niños se paraban a acariciarlo, y él ronroneaba como un motor. Pero por la noche, cuando todo quedaba a oscuras, Bigotes se despertaba y paseaba entre los huesos. Le gustaba oír el eco de sus pasos.",
+   "Una noche notó algo raro. Había un ruido débil, como un rasguño, que venía de la sala de los fósiles. Bigotes se acercó con cuidado, moviendo la cola. Detrás de una vitrina vio una sombra pequeña. Era un ratoncito atrapado entre dos cajas, que temblaba de miedo.",
+   "El gato se agachó y lo miró con atención. Podía haberlo cazado, porque era su instinto. Pero el ratón estaba herido en una patita y no podía moverse. Bigotes pensó un momento. Después, con mucho cuidado, empujó una caja con la pata para dejar un hueco. El ratón salió despacio.",
+   "Al día siguiente, don Pepe encontró al ratón dormido en un rincón, junto al cuenco de Bigotes. El vigilante entendió lo que había pasado. Con mucho cariño, vendó la patita del ratón y le preparó una cajita con algodón. «Este gato tiene un gran corazón», dijo don Pepe en voz alta.",
+   "Cuando el ratoncito se curó, una niña llamada Sofía lo vio en una visita escolar. Le preguntó a don Pepe cómo podía haber un gato y un ratón amigos. El vigilante le explicó que los animales también pueden elegir ser amables, aunque su naturaleza les diga lo contrario.",
+   "Desde entonces, entre los huesos del Tiranosaurio, se podía ver a un gato dormido con un ratoncito acurrucado a su lado. Los visitantes sacaban fotos y se reían. Y el museo se hizo famoso, no solo por sus dinosaurios, sino también por la amistad más inesperada de toda la ciudad."
+  ],
+  "questions": [
+   {
+    "q": "¿Dónde dormía Bigotes durante el día?",
+    "options": [
+     "En la cocina del museo",
+     "A los pies del esqueleto del Tiranosaurio",
+     "En la oficina de don Pepe"
+    ],
+    "answer": 1,
+    "why": "Dormía a los pies del esqueleto del Tiranosaurio."
+   },
+   {
+    "q": "¿Qué encontró Bigotes en la sala de los fósiles?",
+    "options": [
+     "Un ladrón",
+     "Un ratoncito atrapado y herido",
+     "Un pájaro"
+    ],
+    "answer": 1,
+    "why": "Encontró un ratoncito atrapado y herido en una patita."
+   },
+   {
+    "q": "¿Qué hizo Bigotes en vez de cazarlo?",
+    "options": [
+     "Lo ayudó empujando una caja",
+     "Se fue a dormir",
+     "Llamó a don Pepe"
+    ],
+    "answer": 0,
+    "why": "Empujó una caja para dejar un hueco por donde salir."
+   },
+   {
+    "q": "¿Por qué dijo don Pepe que el gato tenía «un gran corazón»?",
+    "options": [
+     "Porque estaba enfermo",
+     "Porque cuidó al ratón en lugar de hacerle daño",
+     "Porque comía mucho"
+    ],
+    "answer": 1,
+    "why": "Ayudó al ratón, aunque era su presa natural."
+   },
+   {
+    "q": "¿Por qué se hizo famoso el museo?",
+    "options": [
+     "Por los dinosaurios y por la amistad de un gato y un ratón",
+     "Por tener el museo más grande",
+     "Por vender leche"
+    ],
+    "answer": 0,
+    "why": "Se hizo famoso también por esa amistad inesperada."
+   }
+  ]
+ }
 ]
