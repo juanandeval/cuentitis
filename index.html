@@ -203,7 +203,7 @@ const BADGES=[
  {id:"stars",e:"🌟",n:"Cazaestrellas",d:"Consigue 25 estrellas",f:s=>s.stars>=25},
  {id:"ten",e:"👑",n:"Rey o reina de la lectura",d:"Supera 10 lecturas",f:s=>s.passes>=10}
 ];
-let st={age:8,gender:null,likes:[]},story=null,qi=0,right=0,failedBefore=false,fs=0;
+let st={age:null,gender:null,likes:[]},story=null,qi=0,right=0,failedBefore=false,fs=0;
 
 function loadStats(){try{const v=JSON.parse(localStorage.getItem("lector_stats")||"null");if(v&&v.topics)return v}catch(e){}return{passes:0,perfect:0,persist:0,stars:0,topics:[],badges:[]}}
 function saveStats(s){try{localStorage.setItem("lector_stats",JSON.stringify(s))}catch(e){}}
@@ -217,7 +217,7 @@ function drawHome(){
   $("genders").innerHTML="";[["niño","👦 Niño"],["niña","👧 Niña"]].forEach(([v,l])=>{const b=document.createElement("button");b.className="chip";b.textContent=l;b.setAttribute("aria-pressed",st.gender===v);b.onclick=()=>{st.gender=st.gender===v?null:v;drawHome()};$("genders").appendChild(b)});
   $("likes").innerHTML="";LIKES.forEach(([e,n])=>{const on=st.likes.includes(n);const b=document.createElement("button");b.className="chip";b.classList.add("chip");const isMain=on&&st.likes[0]===n;if(isMain)b.classList.add("main");b.textContent=e+" "+n;if(isMain){const s=document.createElement("small");s.textContent="principal";b.appendChild(s)}b.setAttribute("aria-pressed",on);b.disabled=!on&&st.likes.length>=4;b.onclick=()=>{st.likes=on?st.likes.filter(x=>x!==n):[...st.likes,n];drawHome()};$("likes").appendChild(b)});
   $("cnt").textContent="("+st.likes.length+"/4)";
-  const ok=st.likes.length>=3;$("go").disabled=!ok;$("gohint").hidden=!!ok;
+  const ok=st.age&&st.likes.length>=3;$("go").disabled=!ok;$("gohint").hidden=!!ok;
 }
 function drawBadges(boxId,starsId,newOnes){
   $(starsId).textContent="⭐ "+stats.stars+" estrellas · "+stats.passes+" lecturas superadas";
