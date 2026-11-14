@@ -30,3 +30,10 @@ Al abrir la web, esta compara los `id` de `lecturas.json` con los que ese navega
 - Longitud: 5-6 años desde 350 palabras; 7-8 desde 380; 9-10 y 11-12 desde 450.
 - Evitar series de frases muy cortas seguidas en 9-10 y 11-12 años.
 - 5 preguntas por lectura: 3 opciones hasta los 8 años y 4 desde los 9, con la respuesta correcta en posiciones distintas.
+
+## Comentarios de usuarios beta
+El pie de página tiene un botón «Enviar comentarios» que abre un formulario y lo reenvía por correo con FormSubmit (sin cuenta ni servidor propio).
+1. Publica la web y envía **un comentario de prueba** desde la dirección real (no funciona abriendo el archivo desde el disco).
+2. FormSubmit te enviará un correo de activación: pulsa el enlace (mira también en spam). Ese primer mensaje queda retenido hasta activar.
+3. Tras activar, FormSubmit te da una dirección con código aleatorio (`https://formsubmit.co/ajax/<código>`). Sustituye `FORM_ENDPOINT` en `index.html` por ella para que tu correo no quede visible en el código de la página.
+4. Si hay spam, el formulario ya lleva un campo trampa. Puedes mirar las opciones extra en la documentación de FormSubmit.

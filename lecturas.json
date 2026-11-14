@@ -1410,5 +1410,634 @@
     "why": "Le dijo que los errores ocurren, pero lo grave es esconderlos."
    }
   ]
+ },
+ {
+  "id": "pipo-001",
+  "band": "5-6",
+  "topics": [
+   "Robots",
+   "Animales"
+  ],
+  "hero": "neutro",
+  "title": "Pipo, el robot jardinero",
+  "paragraphs": [
+   "Pipo era un robot pequeño y redondo que cuidaba el jardín de la señora Carmen. Tenía unos brazos largos con tijeras en la punta y unas ruedas que hacían «ris, ras» sobre la hierba. Todas las mañanas regaba las flores, cortaba el césped y recogía las hojas secas con mucho cuidado.",
+   "A Pipo le gustaban mucho las flores, pero no le gustaban nada los animales. Decía que los caracoles se comían las lechugas, que los pájaros hacían ruido y que las hormigas llenaban todo de caminos de arena.",
+   "—¡Fuera de mi jardín! —gritaba, moviendo los brazos.",
+   "Un día, mientras Pipo regaba los rosales, oyó un ruidito muy débil: ¡pi, pi, pi! Se acercó despacio y miró entre las ramas. Allí había un nido pequeño con tres pajaritos que acababan de nacer. Tenían las plumas finas como pelusa y abrían mucho el pico.",
+   "—¿Qué hacéis aquí? —preguntó Pipo.",
+   "Los pajaritos no sabían hablar, pero no dejaban de piar. Pipo comprendió que tenían hambre. Su mamá no estaba, y el nido se movía con el viento. Pipo dudó un momento, porque no sabía qué hacer. Después se acordó de que el jardín también era de ellos.",
+   "Con mucho cuidado, Pipo sujetó el nido con uno de sus brazos para que no se cayera. Con el otro, trajo unas migas de pan y unas gotitas de agua. Los pajaritos comieron y se quedaron tranquilos.",
+   "Poco después llegó la mamá pájaro con un gusanito en el pico. Vio a Pipo junto al nido y se asustó, pero el robot le habló bajito.",
+   "—No tengas miedo. Solo he cuidado de tus hijos.",
+   "La mamá pájaro sonrió, o eso le pareció a Pipo, y se puso a dar de comer a sus pajaritos. Desde aquel día, Pipo cambió. Ya no gritaba a los caracoles ni a las hormigas. Les dejó un rincón del jardín con hojas y flores solo para ellos.",
+   "Cuando los pajaritos aprendieron a volar, hicieron un círculo sobre su cabeza y cantaron una canción. Pipo movió los brazos de alegría. Había aprendido que un jardín es más bonito cuando todos los animales pueden vivir en él."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué cuidaba Pipo?",
+    "options": [
+     "Una granja",
+     "Un jardín",
+     "Un parque"
+    ],
+    "answer": 1,
+    "why": "Pipo cuidaba el jardín de la señora Carmen."
+   },
+   {
+    "q": "¿Qué no le gustaba a Pipo al principio?",
+    "options": [
+     "Los animales",
+     "Las flores",
+     "El agua"
+    ],
+    "answer": 0,
+    "why": "A Pipo no le gustaban nada los animales."
+   },
+   {
+    "q": "¿Qué encontró entre las ramas de los rosales?",
+    "options": [
+     "Un gato",
+     "Una pelota",
+     "Un nido con tres pajaritos"
+    ],
+    "answer": 2,
+    "why": "Encontró un nido con tres pajaritos recién nacidos."
+   },
+   {
+    "q": "¿Cómo ayudó Pipo a los pajaritos?",
+    "options": [
+     "Se fue corriendo",
+     "Sujetó el nido y les dio migas y agua",
+     "Llamó a la señora Carmen"
+    ],
+    "answer": 1,
+    "why": "Sujetó el nido y les trajo migas de pan y agua."
+   },
+   {
+    "q": "¿Cómo cambió Pipo al final?",
+    "options": [
+     "Dejó un rincón del jardín para los animales",
+     "Se fue del jardín",
+     "Cortó todas las flores"
+    ],
+    "answer": 0,
+    "why": "Dejó un rincón del jardín para los caracoles y las hormigas."
+   }
+  ]
+ },
+ {
+  "id": "marina-001",
+  "band": "5-6",
+  "topics": [
+   "Piratas",
+   "Princesas y reyes"
+  ],
+  "hero": "niña",
+  "title": "La princesa pirata Marina",
+  "paragraphs": [
+   "La princesa Marina vivía en un castillo junto al mar. Tenía una corona de perlas y un vestido azul, pero lo que más le gustaba era mirar los barcos desde la torre más alta. Soñaba con navegar por los mares como los piratas de los cuentos.",
+   "Su padre, el rey Óscar, no estaba de acuerdo. Decía que las princesas debían aprender a bailar y a escribir cartas, no a mandar barcos. Pero Marina no se rendía, y todas las noches dibujaba mapas del mar en su cuaderno.",
+   "Una mañana, un barco pirata llegó al puerto. Era grande, tenía las velas rotas y una bandera con una calavera sonriente. El capitán, un hombre de barba blanca y parche en el ojo, bajó a pedir ayuda.",
+   "—Princesa —dijo, quitándose el sombrero—, nuestro barco se ha estropeado y no sabemos volver a casa. Hemos perdido la brújula.",
+   "Marina corrió a su habitación y volvió con su cuaderno de mapas. Allí había dibujado todas las islas y las corrientes del mar. Con ella a su lado, los piratas leyeron los mapas y descubrieron el camino de regreso.",
+   "—Eres la mejor navegante que hemos conocido —dijo el capitán—. ¿Quieres venir con nosotros?",
+   "Marina miró a su padre. El rey se quedó pensando un buen rato. Luego suspiró y sonrió.",
+   "—Puedes ir —dijo—, pero volverás para la cena del domingo.",
+   "Así fue. Marina se puso un sombrero con una pluma, subió al barco y aprendió a mover el timón. Navegó entre delfines y olas, y por las noches contaba las estrellas con los piratas.",
+   "Una noche, una tormenta enorme movió el barco de un lado a otro. Los piratas tenían miedo, pero Marina se sujetó fuerte al timón y miró su cuaderno. Gracias a sus mapas, llevó el barco entre las rocas hasta una bahía tranquila.",
+   "Cada domingo, Marina volvía al castillo con un regalo para su padre: una concha, un coral o una historia nueva. El rey Óscar la escuchaba con los ojos muy abiertos. Entendió que su hija no era una princesa cualquiera, sino una princesa pirata, y se sintió muy orgulloso de ella."
+  ],
+  "questions": [
+   {
+    "q": "¿Dónde vivía Marina?",
+    "options": [
+     "En un castillo junto al mar",
+     "En un barco",
+     "En una isla"
+    ],
+    "answer": 0,
+    "why": "Vivía en un castillo junto al mar."
+   },
+   {
+    "q": "¿Qué había perdido el barco pirata?",
+    "options": [
+     "El ancla",
+     "La bandera",
+     "La brújula"
+    ],
+    "answer": 2,
+    "why": "El capitán dijo que habían perdido la brújula."
+   },
+   {
+    "q": "¿Cómo ayudó Marina a los piratas?",
+    "options": [
+     "Con una cuerda",
+     "Con sus mapas del mar",
+     "Con un barco nuevo"
+    ],
+    "answer": 1,
+    "why": "Leyeron sus mapas y encontraron el camino de regreso."
+   },
+   {
+    "q": "¿Qué le pidió el rey a Marina antes de dejarla ir?",
+    "options": [
+     "Que no volviera nunca",
+     "Que le trajera un tesoro",
+     "Que volviera para la cena del domingo"
+    ],
+    "answer": 2,
+    "why": "El rey dijo que volviera para la cena del domingo."
+   },
+   {
+    "q": "¿Qué entendió el rey Óscar al final?",
+    "options": [
+     "Que el mar era peligroso",
+     "Que su hija era una princesa pirata",
+     "Que debía comprar un barco"
+    ],
+    "answer": 1,
+    "why": "Entendió que su hija era una princesa pirata y se sintió orgulloso."
+   }
+  ]
+ },
+ {
+  "id": "hugo-001",
+  "band": "7-8",
+  "topics": [
+   "Dragones",
+   "Cocina"
+  ],
+  "hero": "niño",
+  "title": "Hugo y el dragón sin fuego",
+  "paragraphs": [
+   "Hugo tenía ocho años y vivía en un pueblo de montaña con su abuela Remedios, que era la mejor cocinera de toda la comarca. Cada tarde, la cocina de la abuela olía a pan recién hecho, a guisos de cuchara y a bizcocho de naranja. Hugo la ayudaba a pelar verduras y a remover las ollas, y soñaba con ser cocinero cuando fuera mayor.",
+   "Una noche de invierno, mientras nevaba con fuerza, alguien llamó a la puerta. Hugo abrió con cuidado y se quedó boquiabierto. En el umbral había un dragón pequeño, de color verde, con las alas llenas de nieve. Tiritaba de frío y tenía cara de tristeza. Los copos caían despacio, como plumas, y el viento silbaba entre los árboles.",
+   "—Perdona que moleste —dijo con una vocecita—. Me llamo Brasas, pero tengo un problema: se me ha apagado el fuego y no consigo encenderlo.",
+   "La abuela Remedios no se asustó. Le dio una manta, lo sentó junto a la chimenea y le preparó un tazón de sopa caliente. Brasas la tomó despacio, y poco a poco dejó de temblar.",
+   "—Los dragones necesitáis fuego para estar sanos —dijo la abuela—, pero también necesitáis comer bien. Quizá el problema no sea tu fuego, sino lo que has comido últimamente.",
+   "Brasas pensó un momento y confesó que, durante todo el otoño, solo había comido piedras frías y hielo, porque no quedaban animales que cazar. Hugo tuvo entonces una idea.",
+   "—Mi abuela cocina platos que dan mucha energía —dijo—. ¿Y si probamos con unos garbanzos y un guiso de patatas?",
+   "Durante tres días, Hugo y su abuela le prepararon guisos, pan caliente y bizcochos. Brasas comía con muchas ganas, y cada día se le veía más fuerte y más contento. Al cuarto día, mientras bostezaba, le salió por la nariz una chispita naranja.",
+   "—¡Mirad! —gritó—. ¡Mi fuego ha vuelto!",
+   "Hugo y su abuela aplaudieron. Brasas, emocionado, encendió la chimenea de un soplido y calentó toda la casa. Después se despidió, porque tenía que volver a su cueva antes de que acabara el invierno. Pero antes les prometió que, cada primavera, volvería a visitarlos.",
+   "Desde entonces, cuando llegaba el invierno, Hugo dejaba un plato de comida caliente junto a la ventana. Había aprendido que cocinar no es solo preparar platos, sino también cuidar de los demás."
+  ],
+  "questions": [
+   {
+    "q": "¿Con quién vivía Hugo?",
+    "options": [
+     "Con sus padres",
+     "Con su abuela Remedios",
+     "Con un tío"
+    ],
+    "answer": 1,
+    "why": "Hugo vivía con su abuela Remedios."
+   },
+   {
+    "q": "¿Cómo se llamaba el dragón?",
+    "options": [
+     "Brasas",
+     "Chispa",
+     "Humo"
+    ],
+    "answer": 0,
+    "why": "El dragón se llamaba Brasas."
+   },
+   {
+    "q": "¿Qué problema tenía el dragón?",
+    "options": [
+     "Estaba perdido",
+     "Le dolía una ala",
+     "Se le había apagado el fuego"
+    ],
+    "answer": 2,
+    "why": "No conseguía encender su fuego."
+   },
+   {
+    "q": "¿Por qué creía la abuela que el fuego se había apagado?",
+    "options": [
+     "Por el frío de la nieve",
+     "Por lo que había comido últimamente",
+     "Porque estaba triste"
+    ],
+    "answer": 1,
+    "why": "Pensó que el problema estaba en lo que había comido."
+   },
+   {
+    "q": "¿Qué aprendió Hugo al final?",
+    "options": [
+     "Que cocinar también es cuidar de los demás",
+     "Que los dragones no existen",
+     "Que la nieve es peligrosa"
+    ],
+    "answer": 0,
+    "why": "Aprendió que cocinar es también cuidar de los demás."
+   }
+  ]
+ },
+ {
+  "id": "tictac-001",
+  "band": "7-8",
+  "topics": [
+   "Robots",
+   "Princesas y reyes"
+  ],
+  "hero": "neutro",
+  "title": "Tic-Tac, el robot del rey Leo",
+  "paragraphs": [
+   "En el castillo del rey Leo vivía un robot de hojalata llamado Tic-Tac, que había sido un regalo de unos inventores muy lejanos. Tenía los ojos cuadrados, las manos de pinza y una gran antena en la cabeza. Su único defecto era que obedecía todas las órdenes al pie de la letra.",
+   "Una mañana, el rey le pidió, todavía medio dormido:",
+   "—Tic-Tac, tráeme algo de beber.",
+   "El robot salió corriendo y volvió con un cubo enorme lleno de agua del pozo. El rey se quedó mirando el cubo sin saber qué decir.",
+   "—Quería un vaso de leche, no un cubo de agua —suspiró.",
+   "—No lo ha dicho —contestó Tic-Tac.",
+   "El rey se tapó la cara con las manos. Sabía que Tic-Tac no tenía mala intención, pero aquello se estaba convirtiendo en un problema. Cada día ocurría algo parecido, y ya nadie en el castillo sabía cómo pedirle las cosas.",
+   "A mediodía, el rey le pidió que llamara a la reina para comer. Tic-Tac cogió una campana gigante y la tocó con tanta fuerza que se oyó en todo el reino. Los caballos se asustaron, los gallos cantaron fuera de hora y la reina llegó corriendo con los rizos despeinados.",
+   "Los criados empezaron a reírse. Al rey, en cambio, ya no le hacía ninguna gracia. Aquella tarde, la princesa Lía, su hija, que tenía ocho años y muchas ideas, se acercó al robot.",
+   "—Tic-Tac, las órdenes funcionan mejor cuando se explican con detalle —le dijo—. Si pides algo, debes decir qué quieres, cuánto y para qué. Y siempre hay que decir por favor y gracias.",
+   "Tic-Tac guardó las instrucciones en su memoria de hojalata. Al día siguiente, cuando el rey le pidió un vaso de leche tibia con un poco de miel, el robot lo trajo en una bandeja de plata, sin derramar ni una gota.",
+   "—Gracias, Tic-Tac —dijo el rey, sonriendo.",
+   "Por la tarde, el rey quiso probar otra vez. Pidió una manzana madura y bien lavada, con una servilleta, y Tic-Tac se la trajo exactamente así. El rey no podía creerlo.",
+   "—De nada, majestad. Gracias a la princesa Lía, ahora sé que las palabras importan —contestó el robot.",
+   "Desde aquel día, el rey comprendió que no solo los robots necesitan instrucciones claras, porque las personas también debemos explicarnos bien. Y la princesa Lía fue nombrada maestra oficial de Tic-Tac."
+  ],
+  "questions": [
+   {
+    "q": "¿Cuál era el defecto de Tic-Tac?",
+    "options": [
+     "Era muy lento",
+     "Obedecía las órdenes al pie de la letra",
+     "No sabía hablar"
+    ],
+    "answer": 1,
+    "why": "Hacía exactamente lo que se le decía, sin entender lo que se quería."
+   },
+   {
+    "q": "¿Qué trajo cuando el rey pidió algo de beber?",
+    "options": [
+     "Un cubo enorme de agua",
+     "Un vaso de leche",
+     "Una jarra de vino"
+    ],
+    "answer": 0,
+    "why": "Trajo un cubo enorme lleno de agua del pozo."
+   },
+   {
+    "q": "¿Qué ocurrió cuando tocó la campana para llamar a la reina?",
+    "options": [
+     "La reina no vino",
+     "Se rompió la campana",
+     "Se oyó en todo el reino y asustó a los animales"
+    ],
+    "answer": 2,
+    "why": "Se oyó en todo el reino, y los caballos se asustaron."
+   },
+   {
+    "q": "¿Qué le enseñó la princesa Lía a Tic-Tac?",
+    "options": [
+     "A cantar",
+     "A dar órdenes claras, con detalles y con cortesía",
+     "A cocinar"
+    ],
+    "answer": 1,
+    "why": "Le enseñó a explicar las cosas con detalle y a decir por favor y gracias."
+   },
+   {
+    "q": "¿Qué le trajo al rey al día siguiente?",
+    "options": [
+     "Un vaso de leche tibia con miel en una bandeja",
+     "Un cubo de agua",
+     "Una campana"
+    ],
+    "answer": 0,
+    "why": "Le llevó leche tibia con miel en una bandeja de plata."
+   }
+  ]
+ },
+ {
+  "id": "salma-001",
+  "band": "9-10",
+  "topics": [
+   "Piratas",
+   "Espacio"
+  ],
+  "hero": "niña",
+  "title": "Salma y la estrella del norte",
+  "paragraphs": [
+   "A Salma le encantaban las historias de piratas, y su libro favorito contaba cómo los antiguos navegantes cruzaban los océanos sin mapas electrónicos ni aparatos modernos. Aquel verano, su tío Karim la invitó a pasar unos días en su pequeño velero, y Salma llevó el libro en la mochila, junto con un cuaderno y una linterna. Estaba deseando probar un poco de aquella vida de aventuras.",
+   "Una tarde salieron a navegar por la costa. El viento era tan suave que se alejaron un poco más de lo previsto. Cuando empezó a anochecer, el tío Karim sacó el móvil para consultar el rumbo de regreso. La pantalla estaba negra, porque se había quedado sin batería. Y el aparato de navegación del barco llevaba días estropeado.",
+   "—No pasa nada —dijo el tío, aunque se le notaba preocupado—. El puerto queda hacia el norte, pero ahora mismo no sé dónde está el norte.",
+   "Se hizo un silencio incómodo. Hacía fresco, el mar estaba en calma y solo se oía el golpeteo suave del agua contra el casco.",
+   "Salma miró el cielo, que ya estaba lleno de estrellas, y recordó algo que había leído en su libro: los piratas se guiaban por una estrella concreta, la Estrella Polar, que siempre señala el norte.",
+   "—Tío, necesito encontrar la Osa Mayor —dijo—. Parece un carro, con cuatro estrellas formando la caja y tres formando el mango.",
+   "Tras unos minutos de búsqueda, la localizó. Después buscó las dos estrellas del borde de la caja, las más alejadas del mango. Trazó con el dedo una línea imaginaria que las unía y seguía hacia arriba. A una distancia cinco veces mayor que la que las separaba, había una estrella solitaria y no muy brillante.",
+   "—Esa es la Estrella Polar —anunció—. Si navegamos de frente hacia ella, iremos hacia el norte.",
+   "El tío Karim la miró sorprendido. Giró el timón y colocó la proa apuntando hacia la estrella. Navegaron en silencio durante casi una hora, mientras Salma comprobaba cada poco que la estrella seguía en el mismo sitio. Por fin, a lo lejos, aparecieron las luces del puerto.",
+   "—Has conseguido lo que no ha podido la tecnología —dijo el tío, riéndose—. Eres una auténtica capitana.",
+   "Salma sonrió, aunque todavía le temblaban un poco las manos. Aquella noche descubrió que los piratas no solo sabían de tesoros y de batallas, sino que también conocían muy bien el cielo. Y comprendió que algunos conocimientos antiguos siguen siendo útiles cuando la tecnología falla.",
+   "Antes de dormir, anotó en su cuaderno que la Estrella Polar no se mueve de su sitio, mientras que las demás parecen girar a su alrededor durante la noche. Se sintió muy orgullosa de su descubrimiento, y de haber ayudado a su tío cuando más lo necesitaba."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué le pasó al móvil del tío Karim?",
+    "options": [
+     "Se cayó al mar",
+     "Se perdió",
+     "Se quedó sin batería",
+     "Se mojó"
+    ],
+    "answer": 2,
+    "why": "La pantalla estaba negra porque se había quedado sin batería."
+   },
+   {
+    "q": "¿Qué recordó Salma de su libro?",
+    "options": [
+     "Que los piratas se guiaban por la Estrella Polar, que señala el norte",
+     "Que los piratas usaban mapas electrónicos",
+     "Que las estrellas cambian cada noche",
+     "Que los piratas navegaban solo de día"
+    ],
+    "answer": 0,
+    "why": "Recordó que los piratas se guiaban por la Estrella Polar."
+   },
+   {
+    "q": "¿Cómo encontró Salma la Estrella Polar?",
+    "options": [
+     "Preguntando a su tío",
+     "Usando una linterna",
+     "Siguiendo la luz del puerto",
+     "Trazando una línea desde las dos estrellas del borde de la caja de la Osa Mayor"
+    ],
+    "answer": 3,
+    "why": "Siguió la línea imaginaria que une las dos estrellas del borde de la caja."
+   },
+   {
+    "q": "¿Hacia dónde estaba el puerto?",
+    "options": [
+     "Hacia el sur",
+     "Hacia el norte",
+     "Hacia el este",
+     "Hacia el oeste"
+    ],
+    "answer": 1,
+    "why": "El tío dijo que el puerto quedaba hacia el norte."
+   },
+   {
+    "q": "¿Qué comprendió Salma al final?",
+    "options": [
+     "Que el mar es peligroso",
+     "Que los móviles no sirven",
+     "Que algunos conocimientos antiguos siguen siendo útiles cuando la tecnología falla",
+     "Que los piratas no existieron"
+    ],
+    "answer": 2,
+    "why": "Comprendió que los conocimientos antiguos pueden seguir siendo útiles."
+   }
+  ]
+ },
+ {
+  "id": "biel-001",
+  "band": "9-10",
+  "topics": [
+   "Dragones",
+   "Animales"
+  ],
+  "hero": "niño",
+  "title": "Biel y el dragón de verdad",
+  "paragraphs": [
+   "Biel tenía nueve años y un cuaderno lleno de dibujos de dragones: dragones con alas de murciélago, dragones con cuernos y dragones que escupían fuego azul. Los colgaba por toda la pared de su cuarto, y su madre decía que ya no cabía ni uno más. Sabía los nombres de todos los que aparecían en sus libros favoritos, y cuando alguien le preguntaba qué quería ser de mayor, siempre contestaba lo mismo: domador de dragones.",
+   "Aquella semana, su clase fue de excursión al zoo. Biel iba con la cabeza baja, porque le parecía un plan aburrido.",
+   "—Aquí no hay ningún dragón —le dijo a su amiga Nerea, mientras pasaban junto a los monos y las cebras.",
+   "Nerea se encogió de hombros. La cuidadora que guiaba al grupo, que se llamaba Nuria, lo había oído y sonrió con picardía.",
+   "—Pues yo creo que sí —dijo—. Venid conmigo.",
+   "Los llevó hasta un recinto con rocas, arena y un pequeño estanque. Sobre una piedra, quieto como una estatua, había un enorme lagarto de piel rugosa y color marrón grisáceo. Medía casi dos metros y tenía las patas fuertes, las uñas largas y una cola gruesa. Aquel animal parecía salido de un cuento antiguo. Biel abrió la boca sin darse cuenta.",
+   "En ese momento, el lagarto sacó la lengua y la movió despacio, como si probara el aire. Los niños dieron un paso atrás, entre risas nerviosas.",
+   "—Os presento a un dragón de Komodo —dijo Nuria—. Es el lagarto más grande del mundo y vive en unas pocas islas de Indonesia. No echa fuego, pero tiene una lengua dividida en dos puntas que le sirve para oler a mucha distancia.",
+   "—¿Es un dragón de verdad? —preguntó Biel, con los ojos muy abiertos.",
+   "—Es un animal de verdad con nombre de dragón —respondió la cuidadora—. Y está en peligro de extinción, porque su hábitat es pequeño y cada vez quedan menos. Por eso cuidamos de ellos y ayudamos a que se reproduzcan.",
+   "Durante el resto de la visita, Biel no se separó del recinto. Anotó en su cuaderno cuánto medía, qué comía y cómo se calentaba al sol, porque los lagartos necesitan el calor del exterior para mover bien su cuerpo. Descubrió que no hacía falta inventar dragones, porque el mundo estaba lleno de animales increíbles.",
+   "Al volver a clase, Biel pidió permiso a su profesora para hacer un trabajo sobre animales en peligro. Dibujó el dragón de Komodo con todos sus detalles reales y escribió debajo que los dragones existen y que hay que protegerlos. Nerea, que lo miraba por encima del hombro, le prometió que irían juntos a ver más animales.",
+   "Aquella noche, antes de dormir, escribió una frase nueva en la primera página de su cuaderno: de mayor quería ser cuidador de dragones de verdad."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué quería ser Biel de mayor al principio?",
+    "options": [
+     "Dibujante",
+     "Domador de dragones",
+     "Veterinario",
+     "Explorador"
+    ],
+    "answer": 1,
+    "why": "Siempre decía que quería ser domador de dragones."
+   },
+   {
+    "q": "¿Qué animal les enseñó la cuidadora?",
+    "options": [
+     "Un cocodrilo",
+     "Una serpiente",
+     "Un dinosaurio",
+     "Un dragón de Komodo"
+    ],
+    "answer": 3,
+    "why": "Les presentó a un dragón de Komodo."
+   },
+   {
+    "q": "¿Para qué le sirve al dragón de Komodo su lengua dividida?",
+    "options": [
+     "Para oler a mucha distancia",
+     "Para beber agua",
+     "Para comunicarse",
+     "Para asustar a otros animales"
+    ],
+    "answer": 0,
+    "why": "Le sirve para oler a mucha distancia."
+   },
+   {
+    "q": "¿Por qué está en peligro de extinción?",
+    "options": [
+     "Porque no encuentra comida",
+     "Porque lo cazan para los zoos",
+     "Porque su hábitat es pequeño y cada vez quedan menos",
+     "Porque no sabe nadar"
+    ],
+    "answer": 2,
+    "why": "Su hábitat es pequeño y cada vez quedan menos ejemplares."
+   },
+   {
+    "q": "¿Qué descubrió Biel durante la visita?",
+    "options": [
+     "Que los zoos son aburridos",
+     "Que no hacía falta inventar dragones porque el mundo real está lleno de animales increíbles",
+     "Que los dragones de los cuentos eran reales",
+     "Que prefería los monos"
+    ],
+    "answer": 1,
+    "why": "Descubrió que el mundo estaba lleno de animales increíbles."
+   }
+  ]
+ },
+ {
+  "id": "clara-001",
+  "band": "11-12",
+  "topics": [
+   "Princesas y reyes",
+   "Ciencia"
+  ],
+  "hero": "niña",
+  "title": "La princesa Clara y el puente de triángulos",
+  "paragraphs": [
+   "El reino de Valdoro tenía un castillo construido sobre una colina, separada del pueblo por un barranco muy profundo. Durante siglos, un puente de madera había permitido cruzarlo, pero una tormenta especialmente violenta lo derribó una noche de otoño. Al amanecer, los habitantes del pueblo se quedaron mirando el hueco vacío, sin saber cómo llegar hasta el castillo.",
+   "La princesa Clara, que tenía doce años y pasaba más tiempo en el taller de los carpinteros que en el salón del trono, escuchó con atención cómo los ingenieros del rey discutían la solución. Proponían construir un puente con vigas enormes, tan gruesas que costarían una fortuna y tardarían meses en colocarse.",
+   "—Cuanto más gruesa sea la viga, más fuerte será el puente —aseguró el ingeniero jefe, muy seguro de sí mismo.",
+   "Clara no estaba convencida. En el taller había observado que los techos de las casas, que aguantaban el peso de la nieve durante todo el invierno, no se sostenían con vigas gigantes, sino con muchas piezas finas unidas formando triángulos. Esa noche, en su habitación, decidió comprobar si aquella idea tenía algún fundamento y preparó un experimento con palillos y pegamento.",
+   "Primero construyó un cuadrado con cuatro palillos y lo apretó con la mano. Se deformó con facilidad, convirtiéndose en un rombo. Después construyó un triángulo con tres palillos y volvió a apretarlo, pero no se movió ni un milímetro. Probó con otros triángulos más grandes y más pequeños, y siempre ocurría lo mismo.",
+   "Al día siguiente, pidió al rey que la dejara hablar ante los ingenieros.",
+   "—Majestad, creo que el tamaño de las vigas no es lo más importante —dijo, con las manos temblando—. Lo que importa es la forma.",
+   "Los ingenieros se rieron con disimulo, pero Clara sacó de una bolsa dos pequeños puentes hechos con palillos: uno con cuadrados y otro con triángulos. Colocó sobre cada uno una pila de libros. El primero se aplastó enseguida, mientras que el segundo aguantó el peso sin quejarse.",
+   "Hubo un silencio largo en la sala. Después, el ingeniero jefe se aclaró la garganta.",
+   "—Es cierto —admitió—. Un puente con armazón de triángulos sería más ligero, más barato y más resistente.",
+   "El rey Alfonso asintió, orgulloso. Dos meses más tarde, el nuevo puente quedó terminado, con una estructura de vigas finas que formaban triángulos y brillaban bajo el sol. La gente del pueblo lo cruzó por primera vez entre aplausos. Desde entonces, en todo el reino se le conoce como el Puente de Clara.",
+   "Clara aprendió aquel día que las ideas valen por sí mismas, sin importar la edad de quien las propone, y que una buena pregunta, comprobada con un experimento sencillo, puede convencer incluso a los expertos más escépticos."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué le ocurrió al puente de madera del reino?",
+    "options": [
+     "Se quemó",
+     "Lo retiró el rey",
+     "Lo derribó una tormenta",
+     "Se cayó por viejo"
+    ],
+    "answer": 2,
+    "why": "Una tormenta muy violenta lo derribó."
+   },
+   {
+    "q": "¿Qué proponían los ingenieros del rey?",
+    "options": [
+     "Un puente con vigas muy gruesas",
+     "Un puente de piedra",
+     "Un túnel bajo el barranco",
+     "No construir ningún puente"
+    ],
+    "answer": 0,
+    "why": "Proponían un puente con vigas enormes."
+   },
+   {
+    "q": "¿Qué había observado Clara en el taller de los carpinteros?",
+    "options": [
+     "Que las vigas gigantes eran más baratas",
+     "Que la madera no se rompe",
+     "Que los techos se hacían siempre con cuadrados",
+     "Que los techos se sostenían con piezas finas formando triángulos"
+    ],
+    "answer": 3,
+    "why": "Los techos aguantaban la nieve gracias a piezas finas unidas en triángulos."
+   },
+   {
+    "q": "¿Qué demostró el experimento con palillos?",
+    "options": [
+     "Que los cuadrados son más fuertes",
+     "Que el triángulo no se deforma y el cuadrado sí",
+     "Que los palillos no sirven",
+     "Que hacen falta más libros"
+    ],
+    "answer": 1,
+    "why": "El cuadrado se deformaba y el triángulo no se movía."
+   },
+   {
+    "q": "¿Qué aprendió Clara al final?",
+    "options": [
+     "Que los ingenieros siempre se equivocan",
+     "Que los puentes de madera son los mejores",
+     "Que las ideas valen por sí mismas, sin importar la edad de quien las propone",
+     "Que hay que hablar poco con el rey"
+    ],
+    "answer": 2,
+    "why": "Aprendió que las ideas valen por sí mismas, sea cual sea la edad."
+   }
+  ]
+ },
+ {
+  "id": "adrian-001",
+  "band": "11-12",
+  "topics": [
+   "Robots",
+   "Superhéroes"
+  ],
+  "hero": "niño",
+  "title": "Adrián y el traje que ayudaba de verdad",
+  "paragraphs": [
+   "Adrián tenía doce años y una colección de cómics de superhéroes que ocupaba tres estanterías de su habitación. Su favorito era un personaje con una armadura mecánica que le daba una fuerza enorme, y soñaba con construir algún día un traje parecido. Cuando su profesora de Tecnología anunció la feria de proyectos del colegio, supo enseguida qué presentaría.",
+   "Esa tarde, mientras ayudaba a su abuelo Manuel a subir la compra por las escaleras, notó algo que no había visto antes. El abuelo, que había sido albañil toda la vida, se detenía en cada rellano para descansar, apoyado en la barandilla y con gesto cansado. Adrián se sintió un poco culpable por no haberse dado cuenta antes.",
+   "—No te preocupes, hijo —dijo el abuelo, sonriendo—. Las rodillas ya no son lo que eran.",
+   "En ese momento, Adrián cambió de idea. Un traje de superhéroe no serviría de nada si no ayudaba a nadie de verdad. Buscó información y descubrió que existen aparatos llamados exoesqueletos, que se colocan sobre el cuerpo y ayudan a las personas a moverse con menos esfuerzo. Algunos llevan motores y sensores, y otros funcionan solo con resortes y gomas.",
+   "Escribió a una ingeniera de la universidad, la doctora Lucía Peña, que le contestó con mucho entusiasmo y lo invitó a visitar su laboratorio. Allí le enseñó varios prototipos y le explicó que un buen diseño empieza escuchando a la persona que va a usarlo.",
+   "—Lo primero no es construir —le dijo—, sino preguntar qué necesita realmente.",
+   "Con esa idea en la cabeza, Adrián construyó durante dos semanas un primer prototipo con tiras de plástico, gomas elásticas y un par de muelles que ayudaban a estirar la rodilla al subir un escalón. Cuando el abuelo se lo probó, dio dos pasos y lo miró con una mueca.",
+   "—Pesa demasiado y me tira de la pierna —dijo—. No me deja moverme con naturalidad.",
+   "Adrián se sintió frustrado, porque había dedicado muchas horas al proyecto. Estuvo a punto de rendirse, pero recordó las palabras de la doctora Peña y comprendió que el fallo no era un fracaso, sino información valiosa. Rehízo el diseño con materiales más ligeros y ajustó los muelles según lo que había contado su abuelo.",
+   "El segundo prototipo funcionó mucho mejor. El abuelo subió cinco escalones seguidos sin detenerse y, al llegar arriba, levantó los brazos como un campeón.",
+   "—Hijo, esto es mejor que cualquier superhéroe —dijo, riendo.",
+   "En la feria, el proyecto de Adrián no ganó el primer premio, pero el jurado le dio una mención especial por su utilidad. Adrián volvió a casa con una idea clara: los superhéroes de verdad no llevan capa, sino que ayudan a los demás con conocimiento y con paciencia."
+  ],
+  "questions": [
+   {
+    "q": "¿Qué quería construir Adrián al principio?",
+    "options": [
+     "Un traje de superhéroe",
+     "Un robot cocinero",
+     "Una escalera mecánica",
+     "Un coche eléctrico"
+    ],
+    "answer": 0,
+    "why": "Soñaba con construir un traje parecido a la armadura de su cómic favorito."
+   },
+   {
+    "q": "¿Qué notó Adrián cuando ayudaba a su abuelo con la compra?",
+    "options": [
+     "Que la compra pesaba mucho",
+     "Que el abuelo olvidaba cosas",
+     "Que las escaleras estaban rotas",
+     "Que el abuelo se detenía a descansar en cada rellano"
+    ],
+    "answer": 3,
+    "why": "Vio que el abuelo se paraba a descansar en cada rellano."
+   },
+   {
+    "q": "¿Qué es un exoesqueleto, según el texto?",
+    "options": [
+     "Un tipo de robot que camina solo",
+     "Un aparato que se coloca en el cuerpo y ayuda a moverse con menos esfuerzo",
+     "Una armadura de metal",
+     "Un esqueleto de dinosaurio"
+    ],
+    "answer": 1,
+    "why": "Se coloca sobre el cuerpo y ayuda a las personas a moverse con menos esfuerzo."
+   },
+   {
+    "q": "¿Qué falló en el primer prototipo?",
+    "options": [
+     "Se rompió enseguida",
+     "No tenía muelles",
+     "Pesaba demasiado y tiraba de la pierna",
+     "Era demasiado pequeño"
+    ],
+    "answer": 2,
+    "why": "El abuelo dijo que pesaba demasiado y no le dejaba moverse con naturalidad."
+   },
+   {
+    "q": "¿Qué concluyó Adrián al final?",
+    "options": [
+     "Que había que ganar el primer premio",
+     "Que los superhéroes de verdad ayudan a los demás con conocimiento y paciencia",
+     "Que los cómics no sirven",
+     "Que los muelles son mejores que los motores"
+    ],
+    "answer": 1,
+    "why": "Concluyó que los superhéroes de verdad ayudan a los demás."
+   }
+  ]
  }
 ]
