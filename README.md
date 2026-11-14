@@ -23,3 +23,10 @@ Filtra por tramo de edad y puntúa: tema principal (el primer gusto) > otros gus
 Al abrir la web, esta compara los `id` de `lecturas.json` con los que ese navegador ya conocía. Si hay `id` nuevos, aparece una etiqueta 🆕 en la cabecera; al pulsarla se listan los títulos nuevos. La primera vez que alguien entra no se avisa de nada (todo es nuevo para él).
 - Cada lectura nueva debe tener un `id` **único y nunca reutilizado**.
 - Si cambias el texto de una lectura ya existente sin cambiar su `id`, no se avisa.
+
+## Criterios de redacción (los comprueba `validate.py`)
+- Diálogos con raya (—), cada intervención en su propio párrafo; las comillas « » solo para títulos o frases citadas.
+- Español de España y frases adaptadas a la edad: 5-6 años, frases cortas (media 7-13 palabras); 7-8, 8-15; 9-10, 11-18; 11-12, 14-22.
+- Longitud: 5-6 años desde 350 palabras; 7-8 desde 380; 9-10 y 11-12 desde 450.
+- Evitar series de frases muy cortas seguidas en 9-10 y 11-12 años.
+- 5 preguntas por lectura: 3 opciones hasta los 8 años y 4 desde los 9, con la respuesta correcta en posiciones distintas.
