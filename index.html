@@ -73,6 +73,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .hr{display:flex;align-items:center;gap:8px}
 .top{flex-wrap:wrap}
 .fsz{display:flex;gap:6px}
+dialog{overflow:auto}
+dialog h3{font-size:1.05rem;margin:1.1em 0 .3em}
+dialog ul{margin:.2em 0 0;padding-left:1.2em}
+dialog li{margin:.35em 0}
+.ai{background:var(--chip);border-radius:16px;padding:12px 14px;margin:12px 0}
 .top .chip{min-height:44px;padding:6px 14px}
 .fsz .chip{width:46px;padding:0;font-size:1rem}
 @media (max-width:420px){.top .lbl{display:none}}
@@ -88,7 +93,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 </style>
 </head>
 <body>
-<header class="top"><span class="logo">📚 Cuentitis</span><div class="hr"><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><span class="fsz" id="fsz" hidden><button class="chip" id="smaller" aria-label="Letra más pequeña">A−</button><button class="chip" id="bigger" aria-label="Letra más grande">A+</button></span><button class="chip" id="prizesBtn" aria-label="Mis premios">🏅<span class="lbl"> Mis premios</span></button></div><div class="hbar" id="hbar" hidden aria-hidden="true"><i id="prog"></i></div></header>
+<header class="top"><span class="logo">📚 Cuentitis</span><div class="hr"><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><span class="fsz" id="fsz" hidden><button class="chip" id="smaller" aria-label="Letra más pequeña">A−</button><button class="chip" id="bigger" aria-label="Letra más grande">A+</button></span><button class="chip" id="infoBtn" aria-label="Información para familias">ℹ️<span class="lbl"> Info</span></button><button class="chip" id="prizesBtn" aria-label="Mis premios">🏅<span class="lbl"> Mis premios</span></button></div><div class="hbar" id="hbar" hidden aria-hidden="true"><i id="prog"></i></div></header>
 <main>
 
 <section id="home">
@@ -145,6 +150,32 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 </section>
 
 </main>
+
+<dialog id="parentModal" aria-labelledby="ptitle">
+  <div class="mhead"><h2 id="ptitle">ℹ️ Información para familias</h2><button class="chip" id="pclose" aria-label="Cerrar">✕</button></div>
+  <p>Cuentitis es una aplicación para practicar la lectura comprensiva en primaria, de 5 a 12 años.</p>
+  <div class="ai"><b>🤖 Contenido creado con inteligencia artificial.</b> Todas las lecturas y preguntas están generadas con IA (Claude, de Anthropic). Han pasado comprobaciones automáticas de formato, longitud y puntuación, pero pueden contener errores o frases mejorables. Recomendamos que un adulto acompañe al niño y lea los textos.</div>
+  <h3>Cómo funciona</h3>
+  <ul>
+    <li>El niño elige su edad, si es niño o niña (opcional) y entre 3 y 4 gustos. El primero que marca es el tema principal de la lectura y los demás aparecen como detalles.</li>
+    <li>Se le propone una lectura adaptada a su edad. Al llegar al final del texto se activa el botón «Ya me lo he leído».</li>
+    <li>Después responde 5 preguntas tipo test sobre lo que ha leído.</li>
+    <li>Con 4 o 5 aciertos consigue estrellas e insignias. Con menos, vuelve a leer el texto y lo intenta de nuevo.</li>
+  </ul>
+  <h3>Qué ofrece</h3>
+  <ul>
+    <li><b id="nRead">Varias</b> lecturas originales de unas 350 a 500 palabras, en cuatro tramos de edad: 5-6, 7-8, 9-10 y 11-12 años.</li>
+    <li>12 temas para elegir: animales, dinosaurios, espacio, fútbol, princesas y reyes, superhéroes, piratas, coches, cocina, ciencia, dragones y robots.</li>
+    <li>Frases y vocabulario adaptados a cada edad: más sencillos en los pequeños y más ricos en los mayores.</li>
+    <li>Preguntas sobre datos del texto, deducciones, vocabulario e idea principal, con 3 opciones hasta los 8 años y 4 desde los 9.</li>
+    <li>Letra ajustable (A− y A+), barra de progreso de lectura, estrellas y 8 insignias por conseguir.</li>
+  </ul>
+  <h3>Privacidad</h3>
+  <ul>
+    <li>No hay cuentas ni formularios, y la aplicación no pide ni envía datos personales.</li>
+    <li>Los premios, las estrellas y las lecturas ya vistas se guardan solo en el navegador de este dispositivo. Si se borran los datos del navegador, se pierden.</li>
+  </ul>
+</dialog>
 
 <dialog id="infoModal" aria-labelledby="ititle">
   <div class="mhead"><h2 id="ititle"></h2><button class="chip" id="iclose" aria-label="Cerrar">✕</button></div>
@@ -321,11 +352,14 @@ $("retryGen").onclick=generate;
 $("go").onclick=generate;
 $("prizesBtn").onclick=()=>{drawBadges("badgesHome","starsHome",[]);$("modal").showModal()};
 $("mclose").onclick=()=>$("modal").close();
+$("infoBtn").onclick=()=>$("parentModal").showModal();
+$("pclose").onclick=()=>$("parentModal").close();
+$("parentModal").addEventListener("click",e=>{if(e.target===$("parentModal"))$("parentModal").close()});
 const INFO={gender:{t:"Niño o niña (opcional)",b:"Solo sirve para que el protagonista de la historia sea una niña o un niño. Si prefieres no indicarlo, el personaje será neutro. Puedes volver a pulsar el botón para quitarlo."},likes:{t:"Gustos y tema principal",b:"Elige entre 3 y 4 gustos. El primero que marques será el tema principal de la lectura (se pone en verde) y los demás aparecerán como detalles secundarios de la historia. Si quitas el primero, el siguiente pasa a ser el principal. Así los textos se centran en lo que más le gusta al niño y son más fáciles de seguir."}};
 document.querySelectorAll(".info").forEach(b=>b.onclick=()=>{const i=INFO[b.dataset.info];$("ititle").textContent=i.t;$("ibody").textContent=i.b;$("infoModal").showModal()});
 $("iclose").onclick=()=>$("infoModal").close();
 $("infoModal").addEventListener("click",e=>{if(e.target===$("infoModal"))$("infoModal").close()});
-loadBank().then(checkNew).catch(()=>{});
+loadBank().then(b=>{$("nRead").textContent=b.length;checkNew(b)}).catch(()=>{});
 $("modal").addEventListener("click",e=>{if(e.target===$("modal"))$("modal").close()});
 drawHome();
 </script>
