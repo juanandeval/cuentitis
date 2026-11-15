@@ -9,6 +9,8 @@ def bad(i,m):
     global err; err+=1; print(f"✗ {i}: {m}")
 def note(i,m):
     global warn; warn+=1; print(f"! {i}: {m}")
+MARK=re.compile(r"\s?\[en:([^\]]+)\]")
+def clean(t): return MARK.sub("",t)
 def sentences(t): return [x for x in re.split(r"(?<=[.!?…])\s+",t.strip()) if x]
 data=json.load(open("lecturas.json",encoding="utf-8"))
 for r in data:
@@ -19,7 +21,12 @@ for r in data:
     if b not in LIM: bad(i,"band inválido"); continue
     if r.get("hero") not in {"niño","niña","neutro"}: bad(i,"hero inválido")
     if not r.get("topics") or not set(r["topics"])<=TOPICS: bad(i,"topics inválidos")
-    ps=r.get("paragraphs",[]); n=sum(len(p.split()) for p in ps)
+    ps_raw=r.get("paragraphs",[]); ps=[clean(p) for p in ps_raw]; n=sum(len(p.split()) for p in ps)
+    marks=[m for p in ps_raw for m in MARK.findall(p)]
+    eng=r.get("english",[])
+    if sorted(marks)!=sorted(e.get("en","") for e in eng): bad(i,"las marcas [en:…] no coinciden con la lista english")
+    if len(eng)>5: note(i,"más de 5 palabras en inglés")
+    if any(not e.get("es") for e in eng): bad(i,"palabra en inglés sin significado")
     lo,hi,smin,smax=LIM[b]
     if not lo<=n<=hi: note(i,f"{n} palabras (tramo {b}: {lo}-{hi})")
     narr=[s for p in ps if not p.startswith("—") for s in sentences(p)]

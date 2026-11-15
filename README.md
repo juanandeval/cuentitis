@@ -35,5 +35,10 @@ Al abrir la web, esta compara los `id` de `lecturas.json` con los que ese navega
 El pie de página tiene un botón «Enviar comentarios» que abre un formulario y lo reenvía por correo con FormSubmit (sin cuenta ni servidor propio).
 1. Publica la web y envía **un comentario de prueba** desde la dirección real (no funciona abriendo el archivo desde el disco).
 2. FormSubmit te enviará un correo de activación: pulsa el enlace (mira también en spam). Ese primer mensaje queda retenido hasta activar.
-3. Tras activar, FormSubmit te da una dirección con código aleatorio (`https://formsubmit.co/ajax/<código>`). Sustituye `FORM_ENDPOINT` en `index.html` por ella para que tu correo no quede visible en el código de la página.
+3. Tras activar, FormSubmit te da un código aleatorio. `FORM_ENDPOINT` en `index.html` ya usa `https://formsubmit.co/ajax/<código>` en lugar del correo, para que este no quede visible en la página.
 4. Si hay spam, el formulario ya lleva un campo trampa. Puedes mirar las opciones extra en la documentación de FormSubmit.
+
+## Palabras en inglés
+Cada lectura puede llevar unas pocas palabras básicas en inglés (3-4). En el texto se marcan justo después de la palabra en español con `[en:word]` (por ejemplo, `la mesa [en:table]`) y se listan en el campo `english` de la lectura: `"english":[{"en":"table","es":"mesa"}]`. La web las muestra como etiquetas pulsables que se pronuncian (voz del dispositivo, inglés británico) y las repite en una cajita «Palabras en inglés» al final del texto.
+- Nivel: 5-6 años, colores, animales y objetos; 7-8, casa, comida y naturaleza; 9-10 y 11-12, palabras cotidianas algo más largas.
+- `validate.py` comprueba que las marcas del texto coincidan con la lista `english` y que no se cuenten como palabras de la lectura.
