@@ -406,7 +406,7 @@ $("go").onclick=generate;
 $("prizesBtn").onclick=()=>{drawBadges("badgesHome","starsHome",[]);$("modal").showModal()};
 $("mclose").onclick=()=>$("modal").close();
 $("infoBtn").onclick=()=>$("parentModal").showModal();
-// Comentarios beta: reenvío a correo con FormSubmit. Tras la primera activación, sustituye la dirección por el alias aleatorio que te dé FormSubmit.
+// Comentarios beta: reenvío a correo con FormSubmit (se usa su código aleatorio en lugar del correo, para no mostrarlo en la página).
 const FORM_ENDPOINT="https://formsubmit.co/ajax/d152563529f72fd2bae28d9fe32df466";
 $("fbOpen").onclick=()=>{$("fbStatus").textContent="";$("fbModal").showModal()};
 $("fbclose").onclick=()=>$("fbModal").close();
