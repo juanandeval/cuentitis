@@ -13,7 +13,7 @@ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:en
 html{scroll-padding-top:env(safe-area-inset-top,0px)}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito","Trebuchet MS","Segoe UI",system-ui,sans-serif;font-size:18px;line-height:1.5;min-height:100vh}
-main{max-width:860px;margin:0 auto;padding:18px 16px 60px}
+main{max-width:860px;margin:0 auto;padding:18px 16px 4px}
 h1,h2,h3{line-height:1.2;margin:0 0 .5em}
 h1{font-size:clamp(1.9rem,5vw,2.8rem)}
 .hero{display:flex;align-items:center;justify-content:center;gap:14px;padding:2px 0 0;text-align:left}
@@ -81,8 +81,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .top{flex-wrap:wrap}
 .fsz{display:flex;gap:6px}
 dialog{overflow:auto}
-.foot{max-width:860px;margin:0 auto;padding:8px 16px 48px;text-align:center;color:var(--soft);font-size:.85rem}
+.foot{max-width:860px;margin:0 auto;padding:4px 16px 36px;text-align:center;color:var(--soft);font-size:.85rem}
 @media (max-width:640px){.foot .sep{display:none}.foot .g{display:block}}
+#fbStatus a{color:var(--pri);font-weight:600}
 .flink{background:none;border:0;padding:8px 4px;font:inherit;font-weight:600;color:var(--pri);text-decoration:underline;cursor:pointer}
 .fld{margin:12px 0}
 .fld label{display:block;font-weight:700;margin-bottom:4px}
@@ -103,7 +104,7 @@ dialog{width:min(640px,94vw);max-height:86vh;border:2px solid var(--line);border
 dialog::backdrop{background:rgba(20,18,43,.6)}
 .mhead{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:6px}
 .mhead h2{margin:0}
-@media (min-width:700px){body{font-size:20px}main{padding:28px 24px 80px}.card{padding:28px}}
+@media (min-width:700px){body{font-size:20px}main{padding:28px 24px 4px}.card{padding:28px}}
 </style>
 </head>
 <body>
@@ -419,10 +420,14 @@ $("fbForm").addEventListener("submit",async e=>{
         Tipo:f.tipo.value,Mensaje:f.mensaje.value.trim(),Correo:f.email.value.trim()||"(no indicado)",
         Navegador:navigator.userAgent,Pantalla:innerWidth+"x"+innerHeight})});
     const j=await r.json().catch(()=>({}));
-    if(!r.ok||j.success===false||j.success==="false")throw new Error("fallo");
+    if(!r.ok||j.success===false||j.success==="false")throw new Error(j.message||("código "+r.status));
     f.reset();$("fbStatus").textContent="¡Gracias! Tu comentario se ha enviado.";
   }catch(err){
-    $("fbStatus").textContent="No se ha podido enviar. Puedes escribir directamente a juanandeval@gmail.com.";
+    const det=(err instanceof TypeError)?"error de conexión o bloqueo del navegador":err.message;
+    const st=$("fbStatus");st.textContent="No se ha podido enviar ("+det+"). ";
+    const a=document.createElement("a");
+    a.href="mailto:juanandeval@gmail.com?subject="+encodeURIComponent("Cuentitis beta: "+f.tipo.value)+"&body="+encodeURIComponent(f.mensaje.value);
+    a.textContent="Enviar con mi aplicación de correo";st.appendChild(a);
   }finally{btn.disabled=false}
 });
 $("pclose").onclick=()=>$("parentModal").close();
