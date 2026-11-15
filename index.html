@@ -81,8 +81,9 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .top{flex-wrap:wrap}
 .fsz{display:flex;gap:6px}
 dialog{overflow:auto}
-.foot{max-width:860px;margin:0 auto;padding:8px 16px 48px;text-align:center;color:var(--soft);font-size:.9rem}
-.foot p{margin:0 0 10px}
+.foot{max-width:860px;margin:0 auto;padding:8px 16px 48px;text-align:center;color:var(--soft);font-size:.85rem}
+@media (max-width:640px){.foot .sep{display:none}.foot .g{display:block}}
+.flink{background:none;border:0;padding:8px 4px;font:inherit;font-weight:600;color:var(--pri);text-decoration:underline;cursor:pointer}
 .fld{margin:12px 0}
 .fld label{display:block;font-weight:700;margin-bottom:4px}
 .fld select,.fld textarea,.fld input{width:100%;font:inherit;color:var(--ink);background:var(--card);border:2px solid var(--line);border-radius:14px;padding:10px 12px}
@@ -176,10 +177,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 </section>
 
 </main>
-<footer class="foot">
-  <p>Cuentitis · versión beta · Contenido creado con IA</p>
-  <button class="chip" id="fbOpen">💬 Enviar comentarios</button>
-</footer>
+<footer class="foot"><span class="g">Cuentitis · versión beta · Contenido creado con IA</span><span class="sep"> · </span><span class="g">Ayúdame a mejorarlo: <button class="flink" id="fbOpen">💬 Enviar comentarios</button></span></footer>
 
 <dialog id="fbModal" aria-labelledby="fbtitle">
   <div class="mhead"><h2 id="fbtitle">💬 Envíanos tus comentarios</h2><button class="chip" id="fbclose" aria-label="Cerrar">✕</button></div>
