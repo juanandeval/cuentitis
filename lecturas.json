@@ -9,10 +9,10 @@
   "hero": "neutro",
   "title": "Bip y la estrella dormilona",
   "paragraphs": [
-   "Bip era un robot pequeño y muy amable que vivía en una nave espacial llamada Luna Azul. Tenía dos ojos redondos que brillaban como bombillas y unos brazos largos que se doblaban como muelles. Su trabajo era muy importante. Cada noche [en:night] limpiaba las ventanas de la nave para que los astronautas pudieran mirar las estrellas. Le gustaba dejarlas tan limpias que parecían no tener cristal.",
+   "Bip era un robot pequeño y muy amable que vivía en una nave espacial llamada Luna Azul. Tenía dos ojos redondos que brillaban como bombillas y unos brazos largos que se doblaban como muelles. Su trabajo era muy importante. Cada [en:night|noche] limpiaba las ventanas de la nave para que los astronautas pudieran mirar las estrellas. Le gustaba dejarlas tan limpias que parecían no tener cristal.",
    "Una noche, mientras frotaba el cristal con su paño, Bip vio algo extraño. Una estrellita muy pequeña parpadeaba despacio, como si tuviera sueño.",
    "—¡Qué raro! —dijo—. Las estrellas nunca se apagan.",
-   "Corrió a buscar a la capitana Marta, que estaba en la cocina tomándose un vaso de leche. Le contó lo que había visto moviendo los brazos de emoción. Marta lo acompañó hasta la ventana [en:window] y miró con unos prismáticos muy grandes. De pronto se puso seria.",
+   "Corrió a buscar a la capitana Marta, que estaba en la cocina tomándose un vaso de leche. Le contó lo que había visto moviendo los brazos de emoción. Marta lo acompañó hasta la [en:window|ventana] y miró con unos prismáticos muy grandes. De pronto se puso seria.",
    "—No es una estrella, Bip —explicó—. Es un satélite viejo que se ha quedado sin energía. Está perdido y lleva años dando vueltas solo por el espacio.",
    "Bip sintió mucha pena. Le parecía triste que algo tan pequeño estuviera solo en la oscuridad.",
    "—¿Podemos ayudarlo? —preguntó.",
@@ -21,7 +21,7 @@
    "—Yo quiero intentarlo.",
    "Marta le puso un cable muy largo, parecido a la cola de un cometa, para que no se alejara de la nave. Después Bip salió flotando, despacio y con cuidado. Fuera no había ruido ni aire, solo un silencio enorme y miles de luces a su alrededor. A Bip le hacían cosquillas los circuitos. Poco a poco llegó hasta el satélite y conectó la batería nueva que llevaba en la mochila.",
    "De pronto, el satélite se encendió con una luz amarilla y empezó a enviar una melodía alegre: pi, pi, pipiripi. Era un mensaje de buenas noches. En la nave, todos los astronautas aplaudieron.",
-   "Bip volvió a casa con una sonrisa dibujada en su pantalla. Esa noche, antes de apagarse, miró por la ventana. La estrellita ya no estaba sola, porque ahora tenía una amiga [en:friend] que brillaba muy cerca. Había aprendido que ser pequeño no impide hacer cosas grandes cuando uno es valiente y quiere ayudar."
+   "Bip volvió a casa con una sonrisa dibujada en su pantalla. Esa noche, antes de apagarse, miró por la ventana. La estrellita ya no estaba sola, porque ahora tenía una [en:friend|amiga] que brillaba muy cerca. Había aprendido que ser pequeño no impide hacer cosas grandes cuando uno es valiente y quiere ayudar."
   ],
   "questions": [
    {
@@ -100,15 +100,15 @@
   "hero": "niña",
   "title": "Lucía y las golondrinas",
   "paragraphs": [
-   "Lucía llevaba todo el verano en casa de su abuelo, en un pueblo rodeado de campos de trigo. Cada tarde se sentaba en el porche con un cuaderno verde, donde anotaba todo lo que observaba: nubes, hormigas, pájaros y hasta el color del cielo [en:sky]. Su abuelo, que había sido veterinario, la llamaba «mi pequeña científica».",
-   "Le encantaba el pueblo. Por las mañanas ayudaba a su abuelo [en:grandfather] a dar de comer a las gallinas, y por las tardes exploraba el huerto con su lupa. Allí había aprendido a distinguir las plantas, a reconocer el canto de los pájaros y a esperar con paciencia. A veces se pasaba horas enteras mirando un hormiguero.",
-   "Aquella tarde notó algo curioso. Las golondrinas, que solían volar muy altas, rozaban el suelo una y otra vez. Lucía lo apuntó en el cuaderno [en:notebook] y dibujó una flecha con una pregunta: «¿Por qué vuelan tan bajo?». Después fue corriendo a preguntárselo a su abuelo.",
+   "Lucía llevaba todo el verano en casa de su abuelo, en un pueblo rodeado de campos de trigo. Cada tarde se sentaba en el porche con un cuaderno verde, donde anotaba todo lo que observaba: nubes, hormigas, pájaros y hasta el color del [en:sky|cielo]. Su abuelo, que había sido veterinario, la llamaba «mi pequeña científica».",
+   "Le encantaba el pueblo. Por las mañanas ayudaba a su [en:grandfather|abuelo] a dar de comer a las gallinas, y por las tardes exploraba el huerto con su lupa. Allí había aprendido a distinguir las plantas, a reconocer el canto de los pájaros y a esperar con paciencia. A veces se pasaba horas enteras mirando un hormiguero.",
+   "Aquella tarde notó algo curioso. Las golondrinas, que solían volar muy altas, rozaban el suelo una y otra vez. Lucía lo apuntó en el [en:notebook|cuaderno] y dibujó una flecha con una pregunta: «¿Por qué vuelan tan bajo?». Después fue corriendo a preguntárselo a su abuelo.",
    "—Buena pregunta —respondió él—, pero no te voy a dar la respuesta. Primero piensa una hipótesis. Una hipótesis es una explicación que se puede comprobar.",
    "Lucía se quedó pensando. Recordó que las golondrinas se alimentan de insectos y que los insectos vuelan allí donde pueden.",
    "—Quizá hoy los insectos también vuelan bajo —dijo—. Pero ¿por qué?",
    "El abuelo señaló el horizonte, donde unas nubes grises empezaban a crecer.",
    "—Cuando va a llover, el aire se vuelve más húmedo —explicó—. Los insectos tienen las alas mojadas y no pueden subir, así que las golondrinas bajan a cazarlos.",
-   "Lucía quiso comprobarlo. Esa noche escribió en el cuaderno: «Si las golondrinas vuelan bajo, mañana lloverá». Casi no pudo dormir de la emoción, porque no sabía si su hipótesis sería cierta. A la mañana siguiente, el cielo amaneció cubierto y, a media mañana, empezó a caer una lluvia [en:rain] fina. Lucía dio un salto de alegría y lo anotó con letras enormes.",
+   "Lucía quiso comprobarlo. Esa noche escribió en el cuaderno: «Si las golondrinas vuelan bajo, mañana lloverá». Casi no pudo [en:sleep|dormir] de la emoción, porque no sabía si su hipótesis sería cierta. A la mañana siguiente, el cielo amaneció cubierto y, a media mañana, empezó a caer una lluvia fina. Lucía dio un salto de alegría y lo anotó con letras enormes.",
    "Sin embargo, su abuelo le recordó algo importante.",
    "—Un solo día no demuestra nada —le dijo—. Los científicos repiten sus observaciones muchas veces para estar seguros.",
    "Así que durante dos semanas Lucía siguió apuntando el vuelo de las golondrinas y el tiempo que hacía. Cada tarde, su abuelo le preguntaba qué había visto y la escuchaba con atención. Casi siempre acertaba, aunque un día falló, y también lo anotó, porque no quería olvidar ningún dato. Al principio le dio rabia equivocarse, pero poco a poco entendió que aquel error le enseñaba algo nuevo.",
@@ -185,8 +185,8 @@
     "es": "cuaderno"
    },
    {
-    "en": "rain",
-    "es": "lluvia"
+    "en": "sleep",
+    "es": "dormir"
    }
   ]
  },
@@ -200,16 +200,16 @@
   "hero": "niño",
   "title": "Toto y el huevo gigante",
   "paragraphs": [
-   "Leo tenía seis años y vivía en una casa cerca del bosque. Le gustaban mucho los animales, sobre todo su perro [en:dog] Toto, que era pequeño, marrón y muy juguetón. Todas las mañanas salían juntos a pasear, y Leo llevaba en la mochila una botella de agua y un bocadillo.",
+   "Leo tenía seis años y vivía en una casa cerca del bosque. Le gustaban mucho los animales, sobre todo su [en:dog|perro] Toto, que era pequeño, marrón y muy juguetón. Todas las mañanas salían juntos a pasear, y Leo llevaba en la mochila una botella de agua y un bocadillo.",
    "Aquel día, Toto empezó a ladrar con fuerza y corrió hacia unos arbustos. Allí se puso a escarbar con las patas, y Leo fue detrás de él.",
    "—¿Qué has encontrado, Toto? —preguntó Leo, asomándose entre las hojas.",
-   "Entre las ramas había algo redondo, grande y verde. ¡Era un huevo [en:egg] enorme, casi tan grande como una sandía!",
+   "Entre las ramas había algo redondo, grande y verde. ¡Era un [en:egg|huevo] enorme, casi tan grande como una sandía!",
    "Leo se quedó con la boca abierta. Tocó el huevo con un dedo y notó que estaba tibio y que tenía manchas moradas.",
    "—No es de gallina —dijo—. Es demasiado grande. ¡Quizá sea de un dinosaurio!",
    "Toto movió la cola, muy contento, pero Leo pensó que el huevo no podía quedarse solo en el bosque. Con mucho cuidado, lo metió en la mochila, entre unas toallas. Después corrió a casa de su abuela Rosa, que sabía más de animales que nadie en el pueblo.",
    "La abuela se puso las gafas y miró el huevo durante un buen rato. Después sonrió.",
    "—Leo, esto no es un huevo de dinosaurio —dijo—. Los dinosaurios vivieron hace muchísimos años. Es un huevo de avestruz, y seguro que se ha escapado de la granja del señor Pedro.",
-   "Leo se puso un poco triste [en:sad], porque quería tener un dinosaurio de verdad. Pero la abuela le dio un abrazo y le contó un secreto.",
+   "Leo se puso un poco [en:sad|triste], porque quería tener un dinosaurio de verdad. Pero la abuela le dio un abrazo y le contó un secreto.",
    "—Los avestruces son parientes lejanos de los dinosaurios. Tienen plumas, pero sus patas se parecen mucho a las de aquellos animales tan antiguos.",
    "Leo abrió mucho los ojos. ¡Entonces era casi lo mismo! Los tres fueron juntos a la granja para devolver el huevo.",
    "El señor Pedro se puso muy contento, porque había buscado el huevo por todas partes. Para darles las gracias, dejó que Leo viera nacer al pollito unos días después. Era grande, tenía el cuello largo y hacía un ruido muy gracioso, y Leo y Toto se rieron mucho. Esa noche, Leo dibujó un dinosaurio con plumas."
@@ -292,10 +292,10 @@
   "title": "La princesa Alba y el dragón con hipo",
   "paragraphs": [
    "En lo alto de una colina había un castillo, y en él vivía la princesa Alba. Tenía el pelo rizado y una corona un poco torcida. A Alba no le gustaban los vestidos largos, porque prefería los pantalones para correr y subir a los árboles. Su padre, el rey Mateo, a veces se enfadaba, pero la quería muchísimo.",
-   "Una noche, Alba oyó un ruido muy raro: ¡hip! Después oyó otro: ¡hip, hip! Se asomó a la ventana y vio en el patio a un dragón verde [en:green], pequeño y con cara de susto. Cada vez que le daba el hipo, le salía una llamita por la nariz, y casi quemaba las cortinas.",
+   "Una noche, Alba oyó un ruido muy raro: ¡hip! Después oyó otro: ¡hip, hip! Se asomó a la ventana y vio en el patio a un dragón [en:green|verde], pequeño y con cara de susto. Cada vez que le daba el hipo, le salía una llamita por la nariz, y casi quemaba las cortinas.",
    "—No tengas miedo —dijo Alba, bajando las escaleras de puntillas—. ¿Cómo te llamas?",
-   "—Me llamo Chispín —contestó el dragón [en:dragon]—. Tengo hipo desde ayer y no se me pasa. Si sigo así, voy a incendiar el reino.",
-   "Alba pensó que tenía que ayudarlo. Primero le dio un vaso de agua [en:water], pero Chispín siguió con el hipo. Luego le pidió que aguantara la respiración y contara hasta diez, y tampoco funcionó. Entonces a la princesa se le ocurrió una idea muy divertida. Se escondió detrás de una columna y gritó con todas sus fuerzas:",
+   "—Me llamo Chispín —contestó el [en:dragon|dragón]—. Tengo hipo desde ayer y no se me pasa. Si sigo así, voy a incendiar el reino.",
+   "Alba pensó que tenía que ayudarlo. Primero le dio un vaso de [en:water|agua], pero Chispín siguió con el hipo. Luego le pidió que aguantara la respiración y contara hasta diez, y tampoco funcionó. Entonces a la princesa se le ocurrió una idea muy divertida. Se escondió detrás de una columna y gritó con todas sus fuerzas:",
    "—¡Buuu!",
    "Chispín dio un salto enorme y se tapó la cara con las alas. Se quedó muy quieto, esperando, pero no se oyó ni un solo hip. ¡El susto había funcionado! El dragón empezó a reírse, y Alba también, y se rieron tanto que despertaron a todo el castillo.",
    "El rey Mateo bajó en pijama, con una vela en la mano, y al ver al dragón se quedó helado. Pero Alba le explicó todo con calma, y el rey se dio cuenta de que Chispín era un dragón muy educado.",
@@ -379,11 +379,11 @@
   "hero": "neutro",
   "title": "Chispa y el partido de los coches",
   "paragraphs": [
-   "Chispa era un cochecito rojo [en:red], pequeño y muy rápido. Vivía en un garaje grande con muchos amigos: una furgoneta azul, un camión naranja y un coche de bomberos. Todos los sábados se reunían en el campo de hierba para jugar al fútbol con una pelota gigante. Chispa hacía «pi-pi» con su bocina de pura alegría. Era el mejor día de la semana.",
-   "Aquel sábado, el partido era muy importante, porque los coches del garaje jugaban contra los del taller de enfrente. El árbitro era un autobús amarillo [en:yellow] con un silbato enorme. Cuando sonó el pitido, la pelota empezó a rodar y Chispa salió disparado.",
+   "Chispa era un cochecito [en:red|rojo], pequeño y muy rápido. Vivía en un garaje grande con muchos amigos: una furgoneta azul, un camión naranja y un coche de bomberos. Todos los sábados se reunían en el campo de hierba para jugar al fútbol con una pelota gigante. Chispa hacía «pi-pi» con su bocina de pura alegría. Era el mejor día de la semana.",
+   "Aquel sábado, el partido era muy importante, porque los coches del garaje jugaban contra los del taller de enfrente. El árbitro era un autobús [en:yellow|amarillo] con un silbato enorme. Cuando sonó el pitido, la pelota empezó a rodar y Chispa salió disparado.",
    "Al principio, Chispa intentaba ganar solo. Corría de un lado a otro y chocaba con todos, pero la pelota siempre se le escapaba. Era muy veloz, pero no era fuerte. Cada vez que chocaba con un coche grande, rebotaba como una pelota de goma. Los del taller se reían de él.",
    "—¡Qué pequeño eres! —decían—. ¡Así no vas a ganar nunca!",
-   "Chispa se puso triste. Los demás coches no se dieron cuenta, porque estaban muy ocupados jugando. Por dentro, el motor le hizo un ruidito de pena. Entonces la furgoneta azul [en:blue] se acercó y le habló bajito al oído.",
+   "Chispa se puso triste. Los demás coches no se dieron cuenta, porque estaban muy ocupados jugando. Por dentro, el motor le hizo un ruidito de pena. Entonces la furgoneta [en:blue|azul] se acercó y le habló bajito al oído.",
    "—Tú corre, que nosotros te ayudamos.",
    "Chispa lo entendió enseguida: no tenía que hacerlo todo solo. El camión naranja bloqueó el paso a los contrarios y el coche de bomberos tocó la sirena para asustarlos. Mientras tanto, Chispa corrió con la pelota hacia la portería. Pasó entre unas ruedas, saltó un charco y dio un golpecito suave con el morro. La pelota rodó despacio, muy despacio, hasta que entró.",
    "—¡Gooool! —gritaron todos los coches, y los bocinazos se oyeron en todo el barrio.",
@@ -466,12 +466,12 @@
   "hero": "niño",
   "title": "El capitán Migas y el tesoro de sabores",
   "paragraphs": [
-   "El barco pirata Estrella Loca llevaba semanas en alta mar [en:sea], y la tripulación tenía un problema muy serio. Se había acabado la comida buena. Solo quedaban galletas duras y un barril de pescado salado, y los piratas protestaban a todas horas. Hacía mucho tiempo que nadie probaba nada rico. Entonces subió a cubierta Migas, el grumete de nueve años, con un gorro de cocinero en la cabeza.",
-   "—Capitán, déjeme intentarlo —dijo—. En la cocina [en:kitchen] todavía quedan harina, huevos y unas naranjas.",
+   "El barco pirata Estrella Loca llevaba semanas en alta [en:sea|mar], y la tripulación tenía un problema muy serio. Se había acabado la comida buena. Solo quedaban galletas duras y un barril de pescado salado, y los piratas protestaban a todas horas. Hacía mucho tiempo que nadie probaba nada rico. Entonces subió a cubierta Migas, el grumete de nueve años, con un gorro de cocinero en la cabeza.",
+   "—Capitán, déjeme intentarlo —dijo—. En la [en:kitchen|cocina] todavía quedan harina, huevos y unas naranjas.",
    "El capitán Barba Roja se rascó la barba. Nunca había visto a un niño cocinar para treinta piratas, pero al final asintió con la cabeza.",
    "—Tienes hasta la hora de la cena —dijo—. Si no nos gusta, fregarás la cubierta durante una semana.",
-   "Migas se puso manos a la obra. Mezcló la harina con huevos y un poco de agua de lluvia [en:rain]. Cortó las naranjas en rodajas finas y las asó en la sartén, y el aroma se fue extendiendo por la cocina. Con el pescado salado hizo unas albóndigas pequeñas y las bañó en zumo de naranja. Un olor dulce y fresco recorrió todo el barco.",
-   "Cuando sonó la campana, los piratas se sentaron a la mesa [en:table] con cara de duda. El capitán probó una albóndiga y cerró los ojos.",
+   "Migas se puso manos a la obra. Mezcló la harina con huevos y un poco de agua de [en:rain|lluvia]. Cortó las naranjas en rodajas finas y las asó en la sartén, y el aroma se fue extendiendo por la cocina. Con el pescado salado hizo unas albóndigas pequeñas y las bañó en zumo de naranja. Un olor dulce y fresco recorrió todo el barco.",
+   "Cuando sonó la campana, los piratas se sentaron a la [en:table|mesa] con cara de duda. El capitán probó una albóndiga y cerró los ojos.",
    "—¡Por todos los mares! —exclamó—. ¡Esto sabe a tierra firme!",
    "En un momento, los platos quedaron vacíos y los piratas pidieron más. Algunos incluso aplaudían con sus garfios.",
    "Esa noche, el capitán sacó un mapa viejo y señaló una isla con el dedo.",
@@ -560,19 +560,19 @@
   "hero": "niña",
   "title": "Nora, la superheroína de los experimentos",
   "paragraphs": [
-   "Nora tenía ocho años y un superpoder muy especial: hacía preguntas. No tenía capa ni podía volar, pero en su mochila llevaba una lupa, unas gafas de laboratorio y un cuaderno [en:notebook] de experimentos. Sus compañeros la llamaban Superlupa, y a ella le encantaba el apodo, porque sabía que la ciencia puede ser un poder de verdad.",
+   "Nora tenía ocho años y un superpoder muy especial: hacía preguntas. No tenía capa ni podía volar, pero en su mochila llevaba una lupa, unas gafas de laboratorio y un [en:notebook|cuaderno] de experimentos. Sus compañeros la llamaban Superlupa, y a ella le encantaba el apodo, porque sabía que la ciencia puede ser un poder de verdad.",
    "Una mañana, el volcán de la feria de ciencias del colegio dejó de funcionar. Los niños lo habían preparado durante semanas con papel y pintura. El profesor Gil estaba muy preocupado, porque los visitantes llegarían en diez minutos y no había tiempo para construir otro.",
    "—Nunca había pasado —decía—. Siempre suelta espuma, pero hoy no sale nada.",
    "Todos los niños miraban el volcán de cartón sin saber qué hacer. Nora se acercó, sacó la lupa y observó con atención el interior. Después olió el líquido, tocó el polvo blanco y pensó en voz alta.",
    "—El volcán funciona con bicarbonato y vinagre. Cuando se mezclan, sale gas y se forma la espuma. Si hoy no hay espuma, quizá falte una de las dos cosas.",
    "Comprobó la botella y se echó a reír: estaba llena de agua. Alguien había cambiado el vinagre sin querer.",
-   "Nora corrió a la cocina [en:kitchen] del colegio y volvió con una botella nueva. Echó el vinagre despacio sobre el bicarbonato y, de pronto, una espuma enorme subió por el cráter. ¡Fssss! Los niños gritaron de alegría y aplaudieron.",
+   "Nora corrió a la [en:kitchen|cocina] del colegio y volvió con una botella nueva. Echó el vinagre despacio sobre el bicarbonato y, de pronto, una espuma enorme subió por el cráter. ¡Fssss! Los niños gritaron de alegría y aplaudieron.",
    "El profesor Gil le dio un abrazo.",
    "—Eres una heroína, Nora —le dijo.",
    "—Solo he usado el método científico —respondió ella, colorada—. Primero observas, después piensas una explicación y por último compruebas si es cierta. Esos son mis tres pasos secretos.",
-   "Cuando llegaron los visitantes, había niños, padres y abuelos mirando con curiosidad cada mesa [en:table]. Todos vieron un volcán perfecto y muchos experimentos más, y una señora mayor le preguntó a Nora si quería ser científica de mayor.",
+   "Cuando llegaron los visitantes, había niños, padres y abuelos mirando con curiosidad cada [en:table|mesa]. Todos vieron un volcán perfecto y muchos experimentos más, y una señora mayor le preguntó a Nora si quería ser científica de mayor.",
    "—Ya lo soy —contestó Nora—. Y también quiero ser astronauta, por si acaso.",
-   "Todos se rieron, y ella se quedó pensando en su próximo experimento. Aquella tarde había aprendido que equivocarse y corregir el error también es hacer ciencia. Esa noche [en:night], en su cuaderno, escribió con letras grandes: «Los superpoderes no siempre vuelan. A veces miran con atención y no se rinden». Después apagó la luz con una sonrisa, segura de que al día siguiente se le ocurriría otra pregunta."
+   "Todos se rieron, y ella se quedó pensando en su próximo experimento. Aquella tarde había aprendido que equivocarse y corregir el error también es hacer ciencia. Esa [en:night|noche], en su cuaderno, escribió con letras grandes: «Los superpoderes no siempre vuelan. A veces miran con atención y no se rinden». Después apagó la luz con una sonrisa, segura de que al día siguiente se le ocurriría otra pregunta."
   ],
   "questions": [
    {
@@ -655,13 +655,13 @@
   "hero": "neutro",
   "title": "Bigotes, el gato del museo de dinosaurios",
   "paragraphs": [
-   "En el museo de ciencias de la ciudad vivía un gato gris llamado Bigotes. Nadie sabía cómo había llegado hasta allí: un día apareció, se acomodó en la sala de los dinosaurios y ya no se marchó. El vigilante, don Pepe, le puso un cuenco de leche [en:milk] y una mantita junto al esqueleto, aunque Bigotes casi nunca la usaba. Desde entonces, el gato fue el guardián no oficial del museo.",
-   "Durante el día, Bigotes dormía [en:sleep] a los pies del esqueleto de un enorme Tiranosaurio. Los niños se paraban a acariciarlo y él ronroneaba como un motor. Por la noche, en cambio, el museo quedaba a oscuras y Bigotes se despertaba. Paseaba entre los huesos, porque le gustaba oír el eco de sus pasos.",
-   "Una noche de tormenta, mientras la lluvia [en:rain] golpeaba los cristales, oyó un ruido débil, como un rasguño. Venía de la sala de los fósiles. Se acercó con mucho cuidado, moviendo la cola, y detrás de una vitrina vio una sombra pequeña. Era un ratoncito que se había quedado atrapado entre dos cajas y temblaba de miedo.",
+   "En el museo de ciencias de la ciudad vivía un gato gris llamado Bigotes. Nadie sabía cómo había llegado hasta allí: un día apareció, se acomodó en la sala de los dinosaurios y ya no se marchó. El vigilante, don Pepe, le puso un cuenco de leche y una mantita junto al esqueleto, aunque Bigotes casi nunca la usaba. Desde entonces, el gato fue el guardián no oficial del museo.",
+   "Durante el día, Bigotes dormía a los pies del esqueleto de un enorme Tiranosaurio. Los niños se paraban a acariciarlo y él ronroneaba como un motor. Por la [en:night|noche], en cambio, el museo quedaba a oscuras y Bigotes se despertaba. Paseaba entre los huesos, porque le gustaba oír el eco de sus pasos.",
+   "Una noche de tormenta, mientras la [en:rain|lluvia] golpeaba los cristales, oyó un ruido débil, como un rasguño. Venía de la sala de los fósiles. Se acercó con mucho cuidado, moviendo la cola, y detrás de una vitrina vio una sombra pequeña. Era un ratoncito que se había quedado atrapado entre dos cajas y temblaba de miedo.",
    "Bigotes se agachó y lo miró con atención. Podía haberlo cazado, porque ese es el instinto de los gatos, pero el ratón estaba herido en una patita y no podía moverse. El gato pensó un momento. Después, con mucha delicadeza, empujó una caja con la pata para dejar un hueco, y el ratón salió despacio.",
-   "A la mañana siguiente, don Pepe encontró al ratoncito dormido junto al cuenco de Bigotes y comprendió lo que había pasado. Con mucho cariño, vendó la patita herida y le preparó una cajita con algodón.",
+   "A la mañana siguiente, don Pepe encontró al ratoncito [en:asleep|dormido] junto al cuenco de Bigotes y comprendió lo que había pasado. Con mucho cariño, vendó la patita herida y le preparó una cajita con algodón.",
    "—Este gato tiene un gran corazón —dijo en voz alta.",
-   "Cuando el ratoncito se curó, una niña llamada Sofía lo vio durante una visita escolar. Muy sorprendida, le preguntó a don Pepe cómo podían ser amigos [en:friend] un gato y un ratón.",
+   "Cuando el ratoncito se curó, una niña llamada Sofía lo vio durante una visita escolar. Muy sorprendida, le preguntó a don Pepe cómo podían ser [en:friends|amigos] un gato y un ratón.",
    "—Los animales también pueden elegir ser amables —le explicó el vigilante—, aunque su naturaleza les diga lo contrario.",
    "Desde entonces, entre los huesos del Tiranosaurio se podía ver a un gato dormido con un ratoncito acurrucado a su lado. Los visitantes sacaban fotos y sonreían, y don Pepe los miraba orgulloso cada mañana. El museo se hizo famoso no solo por sus dinosaurios, sino también por la amistad más inesperada de toda la ciudad."
   ],
@@ -719,16 +719,16 @@
   ],
   "english": [
    {
-    "en": "milk",
-    "es": "leche"
-   },
-   {
-    "en": "sleep",
-    "es": "dormir"
+    "en": "night",
+    "es": "noche"
    },
    {
     "en": "rain",
     "es": "lluvia"
+   },
+   {
+    "en": "sleep",
+    "es": "dormir"
    },
    {
     "en": "friend",
@@ -746,19 +746,19 @@
   "hero": "niño",
   "title": "Álex y el Capitán Relámpago",
   "paragraphs": [
-   "Álex tenía diez años y dos grandes pasiones: el fútbol y los cómics de superhéroes. Había inventado su propio personaje, el Capitán Relámpago, que lo resolvía todo él solo: derrotaba a los villanos, salvaba la ciudad y volvía a casa antes de la hora de cenar. En el colegio [en:school], Álex jugaba igual que su héroe, con el balón pegado a los pies y sin pasárselo a nadie.",
-   "Aquel viernes se jugaba la final de la liga escolar contra el colegio San Mateo. Álex llevaba toda la semana dibujando jugadas imposibles en su cuaderno [en:notebook], y estaba tan seguro de sí mismo que presumió ante su amigo Lucas.",
+   "Álex tenía diez años y dos grandes pasiones: el fútbol y los cómics de superhéroes. Había inventado su propio personaje, el Capitán Relámpago, que lo resolvía todo él solo: derrotaba a los villanos, salvaba la ciudad y volvía a casa antes de la hora de cenar. En el [en:school|colegio], Álex jugaba igual que su héroe, con el balón pegado a los pies y sin pasárselo a nadie.",
+   "Aquel viernes se jugaba la final de la liga escolar contra el colegio San Mateo. Álex llevaba toda la semana dibujando jugadas imposibles en su [en:notebook|cuaderno], y estaba tan seguro de sí mismo que presumió ante su amigo Lucas.",
    "—Hoy meto cuatro goles yo solo —le dijo.",
    "Lucas no contestó. Era un chico tranquilo, un poco lento, pero tenía un disparo muy fuerte con la pierna izquierda.",
    "El partido empezó mal. Álex cogió el balón, regateó a dos contrarios y lo perdió al intentar el tercer regate. Lo intentó de nuevo y volvió a perderlo, mientras sus compañeros, desmarcados, levantaban los brazos para pedirle el pase. Él no los miraba. Al llegar el descanso, el San Mateo ganaba por uno a cero.",
    "En el vestuario, la entrenadora Marta se sentó a su lado y le hizo una pregunta que lo dejó pensando.",
    "—Álex, ¿cuántos héroes de tus cómics salvan el mundo sin ayuda de nadie?",
    "Él pensó un momento y sonrió, un poco avergonzado.",
-   "—En los buenos cómics, ninguno —admitió—. Siempre hay un equipo [en:team].",
+   "—En los buenos cómics, ninguno —admitió—. Siempre hay un [en:team|equipo].",
    "—Pues hoy el equipo eres tú también —dijo Marta, y le dio una palmada en el hombro.",
    "En la segunda parte, Álex jugó de otra manera. Cuando recibía el balón, levantaba la cabeza antes de decidir qué hacer. Así vio a Lucas solo, cerca del área, con la pierna izquierda preparada. Álex dudó un segundo, porque le apetecía tirar a puerta, pero le pasó el balón con un toque suave, y Lucas disparó con todas sus fuerzas. ¡Gol! Ya estaban uno a uno.",
    "Los dos equipos se emplearon a fondo, y el partido se puso muy emocionante. A cinco minutos del final, Álex robó un balón en el centro del campo y corrió por la banda con el corazón a mil por hora. Dos defensas se le echaron encima, pero él vio a Irene entrando por el otro lado y le mandó un centro perfecto. Irene remató de cabeza y marcó el dos a uno.",
-   "Poco después sonó el pitido final, y todo el equipo corrió a abrazarse. Esa noche [en:night], Álex abrió su cuaderno y tachó el nombre de su personaje. Debajo escribió: «Los Relámpagos». Dibujó a un grupo de héroes, cada uno con un poder distinto, y en el centro puso a uno con un disparo de pierna izquierda que se parecía mucho a Lucas. Había comprendido que el mejor superpoder era saber cuándo pasar el balón."
+   "Poco después sonó el pitido final, y todo el equipo corrió a abrazarse. Esa [en:night|noche], Álex abrió su cuaderno y tachó el nombre de su personaje. Debajo escribió: «Los Relámpagos». Dibujó a un grupo de héroes, cada uno con un poder distinto, y en el centro puso a uno con un disparo de pierna izquierda que se parecía mucho a Lucas. Había comprendido que el mejor superpoder era saber cuándo pasar el balón."
   ],
   "questions": [
    {
@@ -846,18 +846,18 @@
   "hero": "niña",
   "title": "Mara y la furgoneta que echaba humo",
   "paragraphs": [
-   "La familia de Mara tenía una furgoneta de comida llamada La Cuchara Veloz. Era vieja y estaba pintada de amarillo, con una cuchara gigante dibujada en un costado. Su padre cocinaba tortillas, croquetas y bocadillos [en:sandwich], y Mara, que tenía diez años, lo ayudaba a repartirlos. Aquel sábado iban a un gran festival de comida callejera que se celebraba a doscientos kilómetros de su casa.",
-   "Salieron de madrugada, con la furgoneta cargada de huevos, patatas y pan. Mara viajaba en el asiento de atrás con su cuaderno [en:notebook] de recetas sobre las rodillas, porque le encantaba inventar combinaciones nuevas: tortilla con queso de cabra, bocadillos de croqueta, croquetas de espinacas. Su padre cantaba al volante, sin darse cuenta de que algo no iba bien.",
+   "La familia de Mara tenía una furgoneta de comida llamada La Cuchara Veloz. Era vieja y estaba pintada de amarillo, con una cuchara gigante dibujada en un costado. Su padre cocinaba tortillas, croquetas y [en:sandwiches|bocadillos], y Mara, que tenía diez años, lo ayudaba a repartirlos. Aquel sábado iban a un gran festival de comida callejera que se celebraba a doscientos kilómetros de su casa.",
+   "Salieron de madrugada, con la furgoneta cargada de huevos, patatas y pan. Mara viajaba en el asiento de atrás con su [en:notebook|cuaderno] de recetas sobre las rodillas, porque le encantaba inventar combinaciones nuevas: tortilla con queso de cabra, bocadillos de croqueta, croquetas de espinacas. Su padre cantaba al volante, sin darse cuenta de que algo no iba bien.",
    "A media hora del festival, Mara notó un olor extraño y miró por la ventanilla. De debajo del capó salía un hilo de vapor blanco. Entonces miró el salpicadero y vio que la aguja de la temperatura estaba casi arriba del todo.",
    "—Papá, para —dijo—. El motor se está calentando.",
    "—Será el calor del verano, Mara —contestó su padre, riéndose.",
-   "Pero ella recordó algo que le había contado su tío [en:uncle] Raúl, que era mecánico: si la aguja sube y sale humo, hay que parar enseguida, o el motor puede estropearse para siempre. Mara insistió con tanta seguridad que su padre aparcó en el arcén. Cuando abrieron el capó con un trapo, salió una nube de vapor.",
+   "Pero ella recordó algo que le había contado su [en:uncle|tío] Raúl, que era mecánico: si la aguja sube y sale humo, hay que parar enseguida, o el motor puede estropearse para siempre. Mara insistió con tanta seguridad que su padre aparcó en el arcén. Cuando abrieron el capó con un trapo, salió una nube de vapor.",
    "Llamaron a tío Raúl, que les explicó por teléfono lo que debían hacer: esperar a que el motor se enfriara, comprobar el nivel de agua y no abrir nunca el depósito en caliente. Pasaron casi una hora sentados en la hierba, comiendo bocadillos. Cuando por fin rellenaron el agua y arrancaron, la furgoneta volvió a funcionar, aunque con un ruidito extraño.",
    "Llegaron al festival con dos horas de retraso. Los demás puestos ya estaban funcionando y apenas quedaba sitio, así que un organizador les señaló un rincón junto a los baños. Mara se agobió, pero su padre le guiñó un ojo.",
    "—Con una buena tortilla, la gente nos encuentra igual —dijo—. Manos a la obra.",
    "A pesar del retraso, enseguida se formó una pequeña cola, atraída por el olor de las tortillas recién hechas. A las seis de la tarde, ya no les quedaba ni una patata. Un jurado probó la tortilla de Mara y les concedió un premio inesperado: la «mención a la constancia». Su padre la abrazó y le dio las gracias por haber insistido en parar a tiempo.",
    "—Me has salvado la furgoneta —le dijo—. A partir de hoy, tú mandas en el salpicadero.",
-   "Mara se sintió muy orgullosa, y esa noche [en:night] escribió en su cuaderno una receta nueva: «Tortilla de la constancia»."
+   "Mara se sintió muy orgullosa, y esa [en:night|noche] escribió en su cuaderno una receta nueva: «Tortilla de la constancia»."
   ],
   "questions": [
    {
@@ -945,17 +945,17 @@
   "hero": "neutro",
   "title": "Drako, el robot que no echaba fuego",
   "paragraphs": [
-   "Sol formaba parte del club de robótica del colegio y llevaba tres meses construyendo a Drako, un robot con forma de dragón. Tenía alas de plástico, una cola articulada y unos ojos de luz verde que parpadeaban. Medía casi un metro y pesaba menos que una mochila llena de libros. En lugar de fuego [en:fire], Drako lanzaba burbujas de jabón por el hocico, y Sol soñaba con presentarlo en la feria de inventos que se celebraba el viernes.",
+   "Sol formaba parte del club de robótica del colegio y llevaba tres meses construyendo a Drako, un robot con forma de dragón. Tenía alas de plástico, una cola articulada y unos ojos de luz verde que parpadeaban. Medía casi un metro y pesaba menos que una mochila llena de libros. En lugar de [en:fire|fuego], Drako lanzaba burbujas de jabón por el hocico, y Sol soñaba con presentarlo en la feria de inventos que se celebraba el viernes.",
    "El miércoles, durante el ensayo, algo falló. Drako abrió el hocico, pero no salió ninguna burbuja, y después movió un ala mientras la otra se quedaba rígida. A Sol se le hizo un nudo en el estómago: solo faltaban dos días y el robot parecía un dragón de juguete roto. Su compañera Vera lo miraba con los ojos muy abiertos.",
    "—Empecemos de cero —propuso Vera, su compañera de club—. Será más rápido que buscar el fallo.",
-   "Sol negó con la cabeza. Se sentó, abrió el cuaderno [en:notebook] donde apuntaba cada paso y respiró hondo.",
+   "Sol negó con la cabeza. Se sentó, abrió el [en:notebook|cuaderno] donde apuntaba cada paso y respiró hondo.",
    "—Si empezamos de cero, no sabremos qué falló —dijo—. Mejor busquemos el error con orden.",
    "Decidió comprobar cada parte por separado: primero las alas, luego la bomba de las burbujas y, por último, la batería. Las alas eran lo más fácil de probar. Sol desconectó un cable y las movió a mano, y comprobó que funcionaban bien, así que el problema debía de estar en el pequeño motor.",
    "Al abrir el motor, encontró un hilo de cobre suelto que no llegaba a tocar el contacto. Lo soldó con mucho cuidado y el ala volvió a moverse. Vera aplaudió bajito, para no desconcentrar.",
    "La bomba de burbujas tenía un problema mucho más tonto: el depósito estaba seco, porque nadie se había acordado de rellenarlo con jabón. Sol se rio de su propio nerviosismo y mezcló agua, jabón y un poco de glicerina, para que las burbujas fueran más grandes y resistentes. Drako soltó entonces una burbuja enorme y brillante que flotó por todo el taller.",
    "El viernes, en la feria, Drako atrajo a muchos curiosos. Movió las alas, abrió el hocico y llenó el aire de burbujas de colores, mientras un niño pequeño las perseguía riéndose. Un miembro del jurado le preguntó a Sol cuál había sido el mayor reto del proyecto.",
    "—Que algo no funcione y mantener la calma para buscar el motivo —contestó.",
-   "Drako no ganó el primer premio, pero recibió una mención especial por su diseño. Lo que más valoró Sol fue lo que había aprendido: un error no es el final de un proyecto, sino una pista para mejorarlo. Esa noche [en:night], Drako se quedó en la estantería con los ojos verdes encendidos, vigilando el taller como un auténtico guardián."
+   "Drako no ganó el primer premio, pero recibió una mención especial por su diseño. Lo que más valoró Sol fue lo que había aprendido: un error no es el final de un proyecto, sino una pista para mejorarlo. Esa [en:night|noche], Drako se quedó en la estantería con los ojos verdes encendidos, vigilando el taller como un auténtico guardián."
   ],
   "questions": [
    {
@@ -1039,16 +1039,16 @@
   "hero": "niña",
   "title": "Inés y la señal de las dos de la tarde",
   "paragraphs": [
-   "Inés tenía doce años y llevaba toda la vida soñando con las estrellas [en:star], así que aquel verano sus padres la apuntaron a un campamento de astronomía en un pequeño pueblo de montaña. Lo mejor del lugar era un radiotelescopio, una gran antena en forma de plato que capta las ondas de radio que llegan desde el espacio. La doctora Vargas, la directora del campamento, dejaba que los alumnos lo utilizaran bajo su supervisión.",
+   "Inés tenía doce años y llevaba toda la vida soñando con las [en:stars|estrellas], así que aquel verano sus padres la apuntaron a un campamento de astronomía en un pequeño pueblo de montaña. Lo mejor del lugar era un radiotelescopio, una gran antena en forma de plato que capta las ondas de radio que llegan desde el espacio. La doctora Vargas, la directora del campamento, dejaba que los alumnos lo utilizaran bajo su supervisión.",
    "El tercer día, mientras revisaba los datos de la mañana, Inés detectó algo extraño: una señal muy regular, parecida a un latido, que se repetía cada pocos segundos. Era fuerte, nítida y perfectamente rítmica. A Inés se le aceleró el corazón, porque recordó la historia de Jocelyn Bell, la astrónoma que en 1967 descubrió los púlsares al encontrar una señal muy parecida. «¿Y si yo he encontrado algo importante?», pensó.",
    "Corrió a enseñárselo a sus compañeros, que se emocionaron enseguida. Mateo, el más bromista del grupo, susurró con una sonrisa:",
    "—¡Son extraterrestres!",
    "Inés sonrió, pero la doctora Vargas, que se había acercado sin hacer ruido, levantó una ceja.",
    "—Es una señal interesante —dijo—, pero una afirmación extraordinaria necesita pruebas extraordinarias. Antes de pensar en algo grande, debemos descartar todas las explicaciones aburridas.",
-   "Aquella frase se le quedó grabada a Inés. Cogió su cuaderno y apuntó una lista de posibles causas: una avería del aparato, la interferencia de un satélite o las luces de un avión. Durante tres días, el equipo fue descartándolas una a una. Comprobaron los cables, cambiaron la antena de posición y apuntaron el plato hacia otras zonas del cielo [en:sky], pero la señal seguía apareciendo.",
+   "Aquella frase se le quedó grabada a Inés. Cogió su cuaderno y apuntó una lista de posibles causas: una avería del aparato, la interferencia de un satélite o las luces de un avión. Durante tres días, el equipo fue descartándolas una a una. Comprobaron los cables, cambiaron la antena de posición y apuntaron el plato hacia otras zonas del [en:sky|cielo], pero la señal seguía apareciendo.",
    "Fue Inés quien descubrió el detalle clave al repasar con calma sus anotaciones: la señal aparecía siempre a la misma hora, poco después de las dos de la tarde, y duraba unos minutos. Entonces se quedó callada un instante.",
    "—Las estrellas no tienen horario de comidas —murmuró—. Pero el cocinero del campamento sí.",
-   "Fueron hasta la cocina [en:kitchen] con un detector de ondas y, cuando el cocinero encendió el viejo microondas para calentar la comida, el aparato empezó a pitar con el mismo ritmo que la señal del radiotelescopio. Mateo estalló en carcajadas, y todos acabaron riéndose: no eran extraterrestres, sino un microondas viejo con la puerta mal cerrada, que dejaba escapar un poco de radiación hacia la antena.",
+   "Fueron hasta la [en:kitchen|cocina] con un detector de ondas y, cuando el cocinero encendió el viejo microondas para calentar la comida, el aparato empezó a pitar con el mismo ritmo que la señal del radiotelescopio. Mateo estalló en carcajadas, y todos acabaron riéndose: no eran extraterrestres, sino un microondas viejo con la puerta mal cerrada, que dejaba escapar un poco de radiación hacia la antena.",
    "Inés no se sintió fracasada. La doctora Vargas le explicó que los astrónomos profesionales también se encuentran a veces con señales parecidas, y que descartarlas con método forma parte de su trabajo.",
    "—Eres buena científica —le dijo—, porque dudaste de tu propio descubrimiento.",
    "Aquella noche, Inés miró las estrellas con una sonrisa. Sabía que algún día encontraría algo auténtico y que, cuando eso ocurriera, estaría preparada para demostrarlo."
@@ -1135,15 +1135,15 @@
   "hero": "niño",
   "title": "El capitán de Los Piratas",
   "paragraphs": [
-   "El equipo de fútbol del colegio se llamaba Los Piratas, y tenía un lema pintado en la camiseta: «Todos a una». Dani, de doce años, era uno de los jugadores más veteranos, pues llevaba tres temporadas en el equipo, y soñaba con ser el capitán [en:captain]. Cuando el entrenador, el señor Ortega, anunció que habría una votación para elegirlo, Dani sintió que por fin había llegado su momento.",
-   "Esa semana se dedicó a hacer campaña. Invitó a sus compañeros a merendar, prometió llevar un balón nuevo a los entrenamientos y repitió a todos que él era quien más sabía de fútbol. Irene, otra jugadora del equipo [en:team], no hizo nada especial: se limitaba a ayudar a recoger los conos al terminar los entrenamientos y a animar a quien fallaba un gol.",
-   "El día antes de la votación, la profesora [en:teacher] de Historia, la señorita Elena, contó algo curioso en clase. En muchos barcos piratas de hace unos trescientos años, la tripulación elegía a su capitán votando, y también podía destituirlo si no cumplía con su deber.",
+   "El equipo de fútbol del colegio se llamaba Los Piratas, y tenía un lema pintado en la camiseta: «Todos a una». Dani, de doce años, era uno de los jugadores más veteranos, pues llevaba tres temporadas en el equipo, y soñaba con ser el [en:captain|capitán]. Cuando el entrenador, el señor Ortega, anunció que habría una votación para elegirlo, Dani sintió que por fin había llegado su momento.",
+   "Esa semana se dedicó a hacer campaña. Invitó a sus compañeros a merendar, prometió llevar un balón nuevo a los entrenamientos y repitió a todos que él era quien más sabía de fútbol. Irene, otra jugadora del [en:team|equipo], no hizo nada especial: se limitaba a ayudar a recoger los conos al terminar los entrenamientos y a animar a quien fallaba un gol.",
+   "El día antes de la votación, la [en:teacher|profesora] de Historia, la señorita Elena, contó algo curioso en clase. En muchos barcos piratas de hace unos trescientos años, la tripulación elegía a su capitán votando, y también podía destituirlo si no cumplía con su deber.",
    "—Un capitán solo mandaba durante el combate —explicó—. El resto del tiempo, las decisiones se tomaban entre todos.",
    "A Dani le llamó la atención. Se quedó pensando en el lema de su camiseta y en cómo se había comportado durante la semana. Se dio cuenta de que había prometido muchas cosas para conseguir votos, pero no se había preguntado ni una sola vez qué necesitaba el equipo. Por primera vez dudó de si ser capitán era un premio o una responsabilidad.",
    "Al día siguiente, el señor Ortega repartió las papeletas. Dani votó a Irene, con un poco de pena, pero con seguridad. Cuando se contaron los votos, Irene había ganado por una diferencia clara y Dani había quedado segundo. Todos aplaudieron, y él también, aunque sintió un escozor en el pecho.",
    "En el recreo, su amigo Pablo no podía creerlo.",
    "—¿De verdad has votado a Irene? —le preguntó—. Tú sabes mucho más que ella.",
-   "—Sé más de fútbol [en:football] —admitió Dani—, pero ella sabe más de equipo.",
+   "—Sé más de [en:football|fútbol] —admitió Dani—, pero ella sabe más de equipo.",
    "Después de la votación, Irene se había acercado a él, y ahora volvió a buscarlo.",
    "—Sé que querías ser capitán —le dijo—. Yo no sé tanto de fútbol como tú. ¿Me ayudarías a organizar al equipo?",
    "Dani se sorprendió. Pensó un instante y aceptó. El señor Ortega, que lo había oído todo, sonrió y propuso un cargo nuevo: contramaestre, como en los barcos antiguos, para ayudar a la capitana.",
@@ -1235,14 +1235,14 @@
   "hero": "neutro",
   "title": "El banquete del rey Aurelio",
   "paragraphs": [
-   "En la cocina del castillo [en:castle] del rey Aurelio, el humo y el ruido de las ollas no habían parado desde el amanecer. Esa noche se celebraba un banquete para recibir a la reina Isadora, que gobernaba el reino vecino, y el rey quería impresionarla con un festín como nunca se había visto. Doña Berta, la cocinera real, llevaba semanas preparándolo todo, y a su lado trabajaba Noa, su joven aprendiz.",
+   "En la cocina del [en:castle|castillo] del rey Aurelio, el humo y el ruido de las ollas no habían parado desde el amanecer. Esa noche se celebraba un banquete para recibir a la reina Isadora, que gobernaba el reino vecino, y el rey quería impresionarla con un festín como nunca se había visto. Doña Berta, la cocinera real, llevaba semanas preparándolo todo, y a su lado trabajaba Noa, su joven aprendiz.",
    "A mediodía ocurrió una desgracia: doña Berta resbaló en el suelo mojado y se torció el tobillo, y el médico real le ordenó reposo absoluto. Casi al mismo tiempo llegó otra mala noticia. La carreta que traía los faisanes y las especias del sur se había atascado en un río crecido y no llegaría a tiempo.",
-   "Todos los pinches miraron a Noa, que era el único aprendiz presente. Noa sintió un escalofrío, porque nunca había dirigido una cocina [en:kitchen], y menos todavía para cien invitados. Doña Berta, sentada en una silla con el pie en alto, le habló con calma.",
+   "Todos los pinches miraron a Noa, que era el único aprendiz presente. Noa sintió un escalofrío, porque nunca había dirigido una [en:kitchen|cocina], y menos todavía para cien invitados. Doña Berta, sentada en una silla con el pie en alto, le habló con calma.",
    "—Cocinar no es tener de todo —le dijo—, sino saber qué hacer con lo que hay.",
    "Noa respiró hondo y revisó la despensa. Encontró harina, cebollas, miel, nueces, un queso curado y varias cestas de manzanas del huerto. Decidió que cocinaría lo que mejor conocía, que era la comida de su aldea: una sopa de cebolla con pan tostado, tartas de manzana con nueces y miel, y unas tablas de queso con membrillo. Repartió el trabajo entre los pinches y cuidó cada detalle, y cuando sonaron las trompetas del banquete, la cocina olía a horno y a canela.",
-   "El rey [en:king] Aurelio miró la mesa con el ceño fruncido. Esperaba faisanes asados y salsas lujosas, y en cambio veía platos sencillos. Se inclinó hacia un consejero y murmuró, preocupado:",
+   "El [en:king|rey] Aurelio miró la mesa con el ceño fruncido. Esperaba faisanes asados y salsas lujosas, y en cambio veía platos sencillos. Se inclinó hacia un consejero y murmuró, preocupado:",
    "—Esto es demasiado humilde.",
-   "Pero la reina [en:queen] Isadora ya había probado la sopa. Cerró los ojos un momento, sonrió y dijo en voz alta:",
+   "Pero la [en:queen|reina] Isadora ya había probado la sopa. Cerró los ojos un momento, sonrió y dijo en voz alta:",
    "—Es el mejor plato que he tomado en años.",
    "La reina pidió conocer a quien lo había cocinado. Noa salió con las manos temblorosas y se inclinó. Isadora le preguntó de dónde venía aquella receta.",
    "—De mi abuela, majestad —contestó Noa.",
@@ -1336,13 +1336,13 @@
   "hero": "neutro",
   "title": "Perla, la tortuga superheroína",
   "paragraphs": [
-   "En un estanque muy tranquilo vivía una tortuga llamada Perla. Era pequeña y tenía un caparazón verde [en:green] con manchas amarillas. Caminaba tan despacio que los demás animales siempre llegaban antes que ella. Le gustaba mirar las nubes desde su piedra favorita, y soñaba con ser una superheroína, como la Súper Rana, que saltaba muy alto y salvaba a todos del peligro.",
+   "En un estanque muy tranquilo vivía una tortuga llamada Perla. Era pequeña y tenía un caparazón [en:green|verde] con manchas amarillas. Caminaba tan despacio que los demás animales siempre llegaban antes que ella. Le gustaba mirar las nubes desde su piedra favorita, y soñaba con ser una superheroína, como la Súper Rana, que saltaba muy alto y salvaba a todos del peligro.",
    "Cada mañana, Perla paseaba por la orilla. Saludaba a las ranas, a los peces y a las libélulas. Todos le sonreían, pero ninguno la esperaba para jugar, porque iba muy despacio.",
    "Un día, Perla se hizo una capa con una hoja grande de nenúfar y se la ató al cuello. ¡Le quedaba muy bien! Después se subió a una piedra, levantó una patita y gritó muy fuerte:",
    "—¡Soy la Supertortuga! ¡Vengo a salvar el estanque!",
-   "Los patos [en:duck] se rieron a carcajadas, porque nunca habían visto a una tortuga con capa.",
+   "Los [en:ducks|patos] se rieron a carcajadas, porque nunca habían visto a una tortuga con capa.",
    "—Las superheroínas son rápidas —dijo el pato más grande—. Tú eres demasiado lenta.",
-   "Perla se puso triste [en:sad] y escondió la cabeza dentro del caparazón. Pero esa misma tarde el cielo se llenó de nubes negras. Empezó a soplar un viento muy fuerte, que arrastraba hojas y ramitas por todo el estanque.",
+   "Perla se puso [en:sad|triste] y escondió la cabeza dentro del caparazón. Pero esa misma tarde el cielo se llenó de nubes negras. Empezó a soplar un viento muy fuerte, que arrastraba hojas y ramitas por todo el estanque.",
    "Los patitos pequeños, que jugaban en la orilla, se asustaron y se perdieron entre las cañas. Los patos grandes salieron volando para buscarlos, pero el viento los empujaba hacia atrás y no podían ver nada.",
    "Perla, en cambio, caminó despacio por el barro, sin prisa y sin miedo, y escuchó con mucha atención. Al poco rato oyó un piar muy bajito: ¡pío, pío!",
    "—Estoy aquí —susurró Perla—. No os mováis, que yo os protejo.",
@@ -1429,13 +1429,13 @@
   "paragraphs": [
    "Luna tenía ocho años y una idea muy grande. También tenía una caja de cartón enorme, de las que se usan para guardar una nevera. Con ayuda de su abuelo Tomás, la convirtió en un cohete. Le pintó ventanillas redondas, le pegó botones hechos con tapones y le dibujó una llama naranja en la parte de atrás. Quedó tan bonito que los vecinos se asomaban a mirarlo. Cuando terminaron, Luna se metió dentro y se puso unas gafas de buceo como casco de astronauta.",
    "—Tres, dos, uno… ¡despegue! —gritó, agitando la caja con las manos.",
-   "—¿Adónde vas, astronauta? —preguntó el abuelo, que se había sentado en una silla [en:chair] del jardín.",
+   "—¿Adónde vas, astronauta? —preguntó el abuelo, que se había sentado en una [en:chair|silla] del jardín.",
    "—Al planeta de los dinosaurios —contestó Luna muy seria—. He leído que allí viven gigantes con cuernos y con dientes enormes.",
-   "El abuelo sonrió y sacó un cuaderno. Le explicó que, antes de emprender un viaje, un buen astronauta tiene que hacerse preguntas. ¿Existe ese planeta? ¿Cuánto tardaría en llegar un cohete de verdad? ¿Habría aire para respirar? Luna decidió buscar las respuestas en sus libros [en:book].",
-   "Luna escuchó con mucha atención, porque le encantaba aprender cosas nuevas. Apuntó las tres preguntas en su cuaderno [en:notebook] y se fue corriendo a su habitación, donde guardaba una montaña de libros sobre el espacio y sobre animales antiguos.",
+   "El abuelo sonrió y sacó un cuaderno. Le explicó que, antes de emprender un viaje, un buen astronauta tiene que hacerse preguntas. ¿Existe ese planeta? ¿Cuánto tardaría en llegar un cohete de verdad? ¿Habría aire para respirar? Luna decidió buscar las respuestas en sus [en:books|libros].",
+   "Luna escuchó con mucha atención, porque le encantaba aprender cosas nuevas. Apuntó las tres preguntas en su [en:notebook|cuaderno] y se fue corriendo a su habitación, donde guardaba una montaña de libros sobre el espacio y sobre animales antiguos.",
    "Esa tarde descubrió algo sorprendente. Los dinosaurios no viven en otro planeta, sino que vivieron aquí, en la Tierra, hace más de sesenta millones de años. Había dinosaurios enormes y otros pequeños como gallinas. Un asteroide gigante chocó contra nuestro planeta y cambió el clima, y por eso casi todos desaparecieron.",
    "—Entonces mi cohete no puede llevarme hasta ellos —dijo Luna, un poco desilusionada.",
-   "—Quizá no —respondió el abuelo—, pero hay otra forma de viajar al pasado. Esta noche [en:night] te la enseñaré.",
+   "—Quizá no —respondió el abuelo—, pero hay otra forma de viajar al pasado. Esta [en:night|noche] te la enseñaré.",
    "Cuando oscureció, subieron a la azotea con unos prismáticos. El abuelo señaló una estrella muy lejana y le explicó que su luz había tardado cientos de años en llegar hasta ellos. Al mirarla, Luna estaba viendo cómo era esa estrella hace mucho tiempo.",
    "—¡Es como una máquina del tiempo! —exclamó, con los ojos muy abiertos.",
    "Aquella noche no llegó al planeta de los dinosaurios. Pero descubrió que los científicos pueden viajar con la imaginación y también con las preguntas. Al día siguiente, Luna pintó en su cohete un cartel que decía: «Astronauta y paleontóloga». Su abuelo lo miró orgulloso y le prometió que el sábado irían juntos a buscar fósiles."
@@ -1521,16 +1521,16 @@
   "hero": "niña",
   "title": "Paula y el coche solar",
   "paragraphs": [
-   "En el colegio [en:school] de Paula se celebraba cada primavera la Carrera de Coches Solares, un concurso en el que cada alumno construía un pequeño vehículo que se movía solo con la energía del sol. Paula, que tenía diez años y adoraba los coches, llevaba dos semanas preparando el suyo, al que había puesto el nombre de Rayo de Sol. Lo había hecho con tapones de botella como ruedas, palillos de madera como ejes y una placa solar pequeña que le había prestado su profesor de ciencias.",
-   "El día de la carrera, sin embargo, amaneció nublado. Paula colocó el coche en la línea de salida y miró el cielo [en:sky] con preocupación. Cuando el árbitro dio la señal, los coches de sus compañeros arrancaron despacio, pero el suyo apenas se movió y se quedó parado a los pocos centímetros. El árbitro anotó los nombres de los participantes en una pizarra.",
+   "En el [en:school|colegio] de Paula se celebraba cada primavera la Carrera de Coches Solares, un concurso en el que cada alumno construía un pequeño vehículo que se movía solo con la energía del sol. Paula, que tenía diez años y adoraba los coches, llevaba dos semanas preparando el suyo, al que había puesto el nombre de Rayo de Sol. Lo había hecho con tapones de botella como ruedas, palillos de madera como ejes y una placa solar pequeña que le había prestado su profesor de ciencias.",
+   "El día de la carrera, sin embargo, amaneció nublado. Paula colocó el coche en la línea de salida y miró el [en:sky|cielo] con preocupación. Cuando el árbitro dio la señal, los coches de sus compañeros arrancaron despacio, pero el suyo apenas se movió y se quedó parado a los pocos centímetros. El árbitro anotó los nombres de los participantes en una pizarra.",
    "—Es que hoy no hay sol —dijo un compañero—. Así no puede funcionar.",
    "Paula no estaba de acuerdo. Si los otros coches se movían, aunque fuera poco, el suyo también debería moverse. Pidió un descanso al árbitro y se llevó el coche a una mesa para revisarlo con la calma que había aprendido en el club de ciencias.",
    "Recordó que un científico no cambia muchas cosas a la vez, sino una cada vez, para saber cuál de ellas funciona. Así que decidió hacer tres pruebas distintas. Primero comprobó que las conexiones estaban bien, y lo estaban. Después le quitó una pegatina decorativa y un trozo de cartón que pesaba demasiado, y el coche avanzó un poco más.",
    "Entonces se le ocurrió la tercera idea. En su mochila tenía un rollo de papel de aluminio de la merienda. Recortó una tira, la dobló como si fuera un pequeño espejo y la colocó junto a la placa solar para reflejar más luz hacia ella.",
    "—¡Se mueve! —gritó, al ver que las ruedas giraban con más fuerza.",
-   "Volvió a la línea de salida justo a tiempo para la segunda manga. Su coche, más ligero y con el reflector, avanzó con paso firme y adelantó a dos rivales. No llegó el primero, porque ganó un compañero que había construido un coche todavía más ligero, pero Paula llegó segunda y el profesor [en:teacher] fue a felicitarla.",
+   "Volvió a la línea de salida justo a tiempo para la segunda manga. Su coche, más ligero y con el reflector, avanzó con paso firme y adelantó a dos rivales. No llegó el primero, porque ganó un compañero que había construido un coche todavía más ligero, pero Paula llegó segunda y el [en:teacher|profesor] fue a felicitarla.",
    "—Lo importante no ha sido el puesto —le dijo—, sino cómo has resuelto el problema. Has probado una idea cada vez y has comprobado los resultados.",
-   "Esa tarde, Paula apuntó en su cuaderno [en:notebook] las tres pruebas y lo que había ocurrido con cada una. Comprendió que un fallo no significa que algo no funcione, sino que todavía no se ha encontrado la solución. Y ya estaba pensando en cómo mejorar su coche para el año siguiente."
+   "Esa tarde, Paula apuntó en su [en:notebook|cuaderno] las tres pruebas y lo que había ocurrido con cada una. Comprendió que un fallo no significa que algo no funcione, sino que todavía no se ha encontrado la solución. Y ya estaba pensando en cómo mejorar su coche para el año siguiente."
   ],
   "questions": [
    {
@@ -1618,17 +1618,17 @@
   "hero": "niño",
   "title": "Marcos y el fósil del barranco",
   "paragraphs": [
-   "Marcos tenía doce años y un sueño desde que vio su primer esqueleto de dinosaurio [en:dinosaur] en un museo: ser paleontólogo. Aquel verano, gracias a un programa para jóvenes voluntarios, consiguió una plaza en una excavación en un barranco seco, dirigida por la doctora Ruiz, una investigadora de pelo canoso y paciencia infinita. Llegó la primera mañana con una mochila llena de ilusión y unos guantes nuevos.",
+   "Marcos tenía doce años y un sueño desde que vio su primer esqueleto de [en:dinosaur|dinosaurio] en un museo: ser paleontólogo. Aquel verano, gracias a un programa para jóvenes voluntarios, consiguió una plaza en una excavación en un barranco seco, dirigida por la doctora Ruiz, una investigadora de pelo canoso y paciencia infinita. Llegó la primera mañana con una mochila llena de ilusión y unos guantes nuevos.",
    "Lo que encontró allí le sorprendió. No había picos ni palas gigantes, sino cepillos, brochas, pequeñas espátulas y cuerdas tendidas sobre el suelo formando una cuadrícula. La doctora le explicó que cada cuadro del terreno tenía un número y que todo lo que apareciera debía anotarse, fotografiarse y medirse antes de tocarlo.",
-   "—Un fósil [en:fossil] sin contexto vale mucho menos —dijo—. Importa lo que encontramos, pero también dónde está, a qué profundidad y qué hay a su alrededor.",
+   "—Un [en:fossil|fósil] sin contexto vale mucho menos —dijo—. Importa lo que encontramos, pero también dónde está, a qué profundidad y qué hay a su alrededor.",
    "Marcos asintió, aunque por dentro le parecía una lentitud exagerada. Pasó tres días cepillando tierra sin encontrar nada, y empezó a aburrirse un poco.",
-   "El cuarto día, bajo su brocha, apareció algo de un color más oscuro que la tierra. Era el borde de un hueso [en:bone], redondeado y poroso. A Marcos se le aceleró el pulso, y, sin pensarlo, lo sujetó con los dedos y tiró de él para sacarlo. Al hacerlo, se desprendió un trocito que rodó hasta el fondo del cuadro.",
+   "El cuarto día, bajo su brocha, apareció algo de un color más oscuro que la tierra. Era el borde de un [en:bone|hueso], redondeado y poroso. A Marcos se le aceleró el pulso, y, sin pensarlo, lo sujetó con los dedos y tiró de él para sacarlo. Al hacerlo, se desprendió un trocito que rodó hasta el fondo del cuadro.",
    "Se quedó helado. Miró a su alrededor y vio que nadie lo había visto. Durante un momento pensó en colocar el trozo en su sitio y no decir nada, pero recordó las palabras de la doctora sobre el contexto: si ocultaba lo ocurrido, los datos de aquel cuadro quedarían mal anotados para siempre.",
    "Fue a buscarla con el trozo en la mano y las mejillas rojas.",
    "—Doctora, he cometido un error —confesó—. He tirado del hueso y se ha movido un trozo.",
    "La doctora Ruiz no se enfadó. Examinó el fósil con atención y le preguntó exactamente dónde estaba el fragmento antes de moverse. Marcos se lo explicó con detalle, y juntos lo marcaron en el plano y lo fotografiaron.",
    "—Los errores de excavación ocurren —le dijo—, pero lo que no se puede permitir es esconderlos. Gracias a tu sinceridad, los datos siguen siendo fiables.",
-   "Durante la semana siguiente, el equipo [en:team] descubrió que aquel hueso era una vértebra de un dinosaurio herbívoro de cuello largo, uno de esos gigantes que comían hojas de los árboles más altos. Marcos ayudó a limpiarla centímetro a centímetro, con la brocha más pequeña, sin prisa y sin tirar de nada.",
+   "Durante la semana siguiente, el [en:team|equipo] descubrió que aquel hueso era una vértebra de un dinosaurio herbívoro de cuello largo, uno de esos gigantes que comían hojas de los árboles más altos. Marcos ayudó a limpiarla centímetro a centímetro, con la brocha más pequeña, sin prisa y sin tirar de nada.",
    "Al despedirse, la doctora le regaló una de sus brochas viejas. Marcos comprendió que ser paleontólogo no consistía solo en descubrir cosas asombrosas, sino también en ser paciente, cuidadoso y honrado con cada dato, incluso con los errores."
   ],
   "questions": [
@@ -1717,13 +1717,13 @@
   "hero": "neutro",
   "title": "Pipo, el robot jardinero",
   "paragraphs": [
-   "Pipo era un robot pequeño y redondo que cuidaba el jardín [en:garden] de la señora Carmen. Tenía unos brazos largos con tijeras en la punta y unas ruedas que hacían «ris, ras» sobre la hierba. Todas las mañanas regaba las flores, cortaba el césped y recogía las hojas secas con mucho cuidado.",
-   "A Pipo le gustaban mucho las flores, pero no le gustaban nada los animales. Decía que los caracoles se comían las lechugas, que los pájaros [en:bird] hacían ruido y que las hormigas llenaban todo de caminos de arena.",
+   "Pipo era un robot pequeño y redondo que cuidaba el [en:garden|jardín] de la señora Carmen. Tenía unos brazos largos con tijeras en la punta y unas ruedas que hacían «ris, ras» sobre la hierba. Todas las mañanas regaba las flores, cortaba el césped y recogía las hojas secas con mucho cuidado.",
+   "A Pipo le gustaban mucho las flores, pero no le gustaban nada los animales. Decía que los caracoles se comían las lechugas, que los [en:birds|pájaros] hacían ruido y que las hormigas llenaban todo de caminos de arena.",
    "—¡Fuera de mi jardín! —gritaba, moviendo los brazos.",
    "Un día, mientras Pipo regaba los rosales, oyó un ruidito muy débil: ¡pi, pi, pi! Se acercó despacio y miró entre las ramas. Allí había un nido pequeño con tres pajaritos que acababan de nacer. Tenían las plumas finas como pelusa y abrían mucho el pico.",
    "—¿Qué hacéis aquí? —preguntó Pipo.",
    "Los pajaritos no sabían hablar, pero no dejaban de piar. Pipo comprendió que tenían hambre. Su mamá no estaba, y el nido se movía con el viento. Pipo dudó un momento, porque no sabía qué hacer. Después se acordó de que el jardín también era de ellos.",
-   "Con mucho cuidado, Pipo sujetó el nido con uno de sus brazos para que no se cayera. Con el otro, trajo unas migas de pan y unas gotitas de agua [en:water]. Los pajaritos comieron y se quedaron tranquilos.",
+   "Con mucho cuidado, Pipo sujetó el nido con uno de sus brazos para que no se cayera. Con el otro, trajo unas migas de pan y unas gotitas de [en:water|agua]. Los pajaritos comieron y se quedaron tranquilos.",
    "Poco después llegó la mamá pájaro con un gusanito en el pico. Vio a Pipo junto al nido y se asustó, pero el robot le habló bajito.",
    "—No tengas miedo. Solo he cuidado de tus hijos.",
    "La mamá pájaro sonrió, o eso le pareció a Pipo, y se puso a dar de comer a sus pajaritos. Desde aquel día, Pipo cambió. Ya no gritaba a los caracoles ni a las hormigas. Les dejó un rincón del jardín con hojas y flores solo para ellos.",
@@ -1806,15 +1806,15 @@
   "hero": "niña",
   "title": "La princesa pirata Marina",
   "paragraphs": [
-   "La princesa Marina vivía en un castillo junto al mar. Tenía una corona de perlas y un vestido azul [en:blue], pero lo que más le gustaba era mirar los barcos desde la torre más alta. Soñaba con navegar por los mares como los piratas de los cuentos.",
+   "La princesa Marina vivía en un castillo junto al mar. Tenía una corona de perlas y un vestido [en:blue|azul], pero lo que más le gustaba era mirar los barcos desde la torre más alta. Soñaba con navegar por los mares como los piratas de los cuentos.",
    "Su padre, el rey Óscar, no estaba de acuerdo. Decía que las princesas debían aprender a bailar y a escribir cartas, no a mandar barcos. Pero Marina no se rendía, y todas las noches dibujaba mapas del mar en su cuaderno.",
-   "Una mañana, un barco pirata llegó al puerto. Era grande [en:big], tenía las velas rotas y una bandera con una calavera sonriente. El capitán, un hombre de barba blanca y parche en el ojo, bajó a pedir ayuda.",
+   "Una mañana, un barco pirata llegó al puerto. Era [en:big|grande], tenía las velas rotas y una bandera con una calavera sonriente. El capitán, un hombre de barba blanca y parche en el ojo, bajó a pedir ayuda.",
    "—Princesa —dijo, quitándose el sombrero—, nuestro barco se ha estropeado y no sabemos volver a casa. Hemos perdido la brújula.",
    "Marina corrió a su habitación y volvió con su cuaderno de mapas. Allí había dibujado todas las islas y las corrientes del mar. Con ella a su lado, los piratas leyeron los mapas y descubrieron el camino de regreso.",
    "—Eres la mejor navegante que hemos conocido —dijo el capitán—. ¿Quieres venir con nosotros?",
    "Marina miró a su padre. El rey se quedó pensando un buen rato. Luego suspiró y sonrió.",
    "—Puedes ir —dijo—, pero volverás para la cena del domingo.",
-   "Así fue. Marina se puso un sombrero con una pluma, subió al barco y aprendió a mover el timón. Navegó entre delfines y olas, y por las noches contaba las estrellas [en:star] con los piratas.",
+   "Así fue. Marina se puso un sombrero con una pluma, subió al barco y aprendió a mover el timón. Navegó entre delfines y olas, y por las noches contaba las [en:stars|estrellas] con los piratas.",
    "Una noche, una tormenta enorme movió el barco de un lado a otro. Los piratas tenían miedo, pero Marina se sujetó fuerte al timón y miró su cuaderno. Gracias a sus mapas, llevó el barco entre las rocas hasta una bahía tranquila.",
    "Cada domingo, Marina volvía al castillo con un regalo para su padre: una concha, un coral o una historia nueva. El rey Óscar la escuchaba con los ojos muy abiertos. Entendió que su hija no era una princesa cualquiera, sino una princesa pirata, y se sintió muy orgulloso de ella."
   ],
@@ -1895,17 +1895,17 @@
   "hero": "niño",
   "title": "Hugo y el dragón sin fuego",
   "paragraphs": [
-   "Hugo tenía ocho años y vivía en un pueblo de montaña con su abuela Remedios, que era la mejor cocinera de toda la comarca. Cada tarde, la cocina [en:kitchen] de la abuela olía a pan recién hecho, a guisos de cuchara y a bizcocho de naranja. Hugo la ayudaba a pelar verduras y a remover las ollas, y soñaba con ser cocinero cuando fuera mayor.",
-   "Una noche de invierno, mientras nevaba con fuerza, alguien llamó a la puerta [en:door]. Hugo abrió con cuidado y se quedó boquiabierto. En el umbral había un dragón pequeño, de color verde, con las alas llenas de nieve. Tiritaba de frío y tenía cara de tristeza. Los copos caían despacio, como plumas, y el viento silbaba entre los árboles.",
+   "Hugo tenía ocho años y vivía en un pueblo de montaña con su abuela Remedios, que era la mejor cocinera de toda la comarca. Cada tarde, la [en:kitchen|cocina] de la abuela olía a pan recién hecho, a guisos de cuchara y a bizcocho de naranja. Hugo la ayudaba a pelar verduras y a remover las ollas, y soñaba con ser cocinero cuando fuera mayor.",
+   "Una noche de invierno, mientras nevaba con fuerza, alguien llamó a la [en:door|puerta]. Hugo abrió con cuidado y se quedó boquiabierto. En el umbral había un dragón pequeño, de color verde, con las alas llenas de nieve. Tiritaba de frío y tenía cara de tristeza. Los copos caían despacio, como plumas, y el viento silbaba entre los árboles.",
    "—Perdona que moleste —dijo con una vocecita—. Me llamo Brasas, pero tengo un problema: se me ha apagado el fuego y no consigo encenderlo.",
-   "La abuela Remedios no se asustó. Le dio una manta, lo sentó junto a la chimenea y le preparó un tazón de sopa [en:soup] caliente. Brasas la tomó despacio, y poco a poco dejó de temblar.",
+   "La abuela Remedios no se asustó. Le dio una manta, lo sentó junto a la chimenea y le preparó un tazón de [en:soup|sopa] caliente. Brasas la tomó despacio, y poco a poco dejó de temblar.",
    "—Los dragones necesitáis fuego para estar sanos —dijo la abuela—, pero también necesitáis comer bien. Quizá el problema no sea tu fuego, sino lo que has comido últimamente.",
    "Brasas pensó un momento y confesó que, durante todo el otoño, solo había comido piedras frías y hielo, porque no quedaban animales que cazar. Hugo tuvo entonces una idea.",
    "—Mi abuela cocina platos que dan mucha energía —dijo—. ¿Y si probamos con unos garbanzos y un guiso de patatas?",
    "Durante tres días, Hugo y su abuela le prepararon guisos, pan caliente y bizcochos. Brasas comía con muchas ganas, y cada día se le veía más fuerte y más contento. Al cuarto día, mientras bostezaba, le salió por la nariz una chispita naranja.",
    "—¡Mirad! —gritó—. ¡Mi fuego ha vuelto!",
    "Hugo y su abuela aplaudieron. Brasas, emocionado, encendió la chimenea de un soplido y calentó toda la casa. Después se despidió, porque tenía que volver a su cueva antes de que acabara el invierno. Pero antes les prometió que, cada primavera, volvería a visitarlos.",
-   "Desde entonces, cuando llegaba el invierno, Hugo dejaba un plato de comida caliente junto a la ventana [en:window]. Había aprendido que cocinar no es solo preparar platos, sino también cuidar de los demás."
+   "Desde entonces, cuando llegaba el invierno, Hugo dejaba un plato de comida caliente junto a la [en:window|ventana]. Había aprendido que cocinar no es solo preparar platos, sino también cuidar de los demás."
   ],
   "questions": [
    {
@@ -1988,14 +1988,14 @@
   "hero": "neutro",
   "title": "Tic-Tac, el robot del rey Leo",
   "paragraphs": [
-   "En el castillo del rey [en:king] Leo vivía un robot de hojalata llamado Tic-Tac, que había sido un regalo de unos inventores muy lejanos. Tenía los ojos cuadrados, las manos de pinza y una gran antena en la cabeza. Su único defecto era que obedecía todas las órdenes al pie de la letra.",
-   "Una mañana, el rey le pidió, todavía medio dormido [en:sleep]:",
+   "En el castillo del [en:king|rey] Leo vivía un robot de hojalata llamado Tic-Tac, que había sido un regalo de unos inventores muy lejanos. Tenía los ojos cuadrados, las manos de pinza y una gran antena en la cabeza. Su único defecto era que obedecía todas las órdenes al pie de la letra.",
+   "Una mañana, el rey le pidió, todavía medio [en:asleep|dormido]:",
    "—Tic-Tac, tráeme algo de beber.",
    "El robot salió corriendo y volvió con un cubo enorme lleno de agua del pozo. El rey se quedó mirando el cubo sin saber qué decir.",
    "—Quería un vaso de leche, no un cubo de agua —suspiró.",
    "—No lo ha dicho —contestó Tic-Tac.",
-   "El rey se tapó la cara con las manos. Sabía que Tic-Tac no tenía mala intención, pero aquello se estaba convirtiendo en un problema. Cada día ocurría algo parecido, y ya nadie en el castillo [en:castle] sabía cómo pedirle las cosas.",
-   "A mediodía, el rey le pidió que llamara a la reina [en:queen] para comer. Tic-Tac cogió una campana gigante y la tocó con tanta fuerza que se oyó en todo el reino. Los caballos se asustaron, los gallos cantaron fuera de hora y la reina llegó corriendo con los rizos despeinados.",
+   "El rey se tapó la cara con las manos. Sabía que Tic-Tac no tenía mala intención, pero aquello se estaba convirtiendo en un problema. Cada día ocurría algo parecido, y ya nadie en el [en:castle|castillo] sabía cómo pedirle las cosas.",
+   "A mediodía, el rey le pidió que llamara a la [en:queen|reina] para comer. Tic-Tac cogió una campana gigante y la tocó con tanta fuerza que se oyó en todo el reino. Los caballos se asustaron, los gallos cantaron fuera de hora y la reina llegó corriendo con los rizos despeinados.",
    "Los criados empezaron a reírse. Al rey, en cambio, ya no le hacía ninguna gracia. Aquella tarde, la princesa Lía, su hija, que tenía ocho años y muchas ideas, se acercó al robot.",
    "—Tic-Tac, las órdenes funcionan mejor cuando se explican con detalle —le dijo—. Si pides algo, debes decir qué quieres, cuánto y para qué. Y siempre hay que decir por favor y gracias.",
    "Tic-Tac guardó las instrucciones en su memoria de hojalata. Al día siguiente, cuando el rey le pidió un vaso de leche tibia con un poco de miel, el robot lo trajo en una bandeja de plata, sin derramar ni una gota.",
@@ -2085,18 +2085,18 @@
   "hero": "niña",
   "title": "Salma y la estrella del norte",
   "paragraphs": [
-   "A Salma le encantaban las historias de piratas, y su libro favorito contaba cómo los antiguos navegantes cruzaban los océanos sin mapas [en:map] electrónicos ni aparatos modernos. Aquel verano, su tío Karim la invitó a pasar unos días en su pequeño velero, y Salma llevó el libro en la mochila, junto con un cuaderno y una linterna. Estaba deseando probar un poco de aquella vida de aventuras.",
+   "A Salma le encantaban las historias de piratas, y su libro favorito contaba cómo los antiguos navegantes cruzaban los océanos sin [en:maps|mapas] electrónicos ni aparatos modernos. Aquel verano, su tío Karim la invitó a pasar unos días en su pequeño velero, y Salma llevó el libro en la mochila, junto con un cuaderno y una linterna. Estaba deseando probar un poco de aquella vida de aventuras.",
    "Una tarde salieron a navegar por la costa. El viento era tan suave que se alejaron un poco más de lo previsto. Cuando empezó a anochecer, el tío Karim sacó el móvil para consultar el rumbo de regreso. La pantalla estaba negra, porque se había quedado sin batería. Y el aparato de navegación del barco llevaba días estropeado.",
    "—No pasa nada —dijo el tío, aunque se le notaba preocupado—. El puerto queda hacia el norte, pero ahora mismo no sé dónde está el norte.",
    "Se hizo un silencio incómodo. Hacía fresco, el mar estaba en calma y solo se oía el golpeteo suave del agua contra el casco.",
-   "Salma miró el cielo [en:sky], que ya estaba lleno de estrellas, y recordó algo que había leído en su libro: los piratas se guiaban por una estrella concreta, la Estrella Polar, que siempre señala el norte.",
+   "Salma miró el [en:sky|cielo], que ya estaba lleno de estrellas, y recordó algo que había leído en su libro: los piratas se guiaban por una estrella concreta, la Estrella Polar, que siempre señala el norte.",
    "—Tío, necesito encontrar la Osa Mayor —dijo—. Parece un carro, con cuatro estrellas formando la caja y tres formando el mango.",
    "Tras unos minutos de búsqueda, la localizó. Después buscó las dos estrellas del borde de la caja, las más alejadas del mango. Trazó con el dedo una línea imaginaria que las unía y seguía hacia arriba. A una distancia cinco veces mayor que la que las separaba, había una estrella solitaria y no muy brillante.",
    "—Esa es la Estrella Polar —anunció—. Si navegamos de frente hacia ella, iremos hacia el norte.",
    "El tío Karim la miró sorprendido. Giró el timón y colocó la proa apuntando hacia la estrella. Navegaron en silencio durante casi una hora, mientras Salma comprobaba cada poco que la estrella seguía en el mismo sitio. Por fin, a lo lejos, aparecieron las luces del puerto.",
-   "—Has conseguido lo que no ha podido la tecnología —dijo el tío, riéndose—. Eres una auténtica capitana [en:captain].",
+   "—Has conseguido lo que no ha podido la tecnología —dijo el tío, riéndose—. Eres una auténtica [en:captain|capitana].",
    "Salma sonrió, aunque todavía le temblaban un poco las manos. Aquella noche descubrió que los piratas no solo sabían de tesoros y de batallas, sino que también conocían muy bien el cielo. Y comprendió que algunos conocimientos antiguos siguen siendo útiles cuando la tecnología falla.",
-   "Antes de dormir, anotó en su cuaderno [en:notebook] que la Estrella Polar no se mueve de su sitio, mientras que las demás parecen girar a su alrededor durante la noche. Se sintió muy orgullosa de su descubrimiento, y de haber ayudado a su tío cuando más lo necesitaba."
+   "Antes de [en:sleep|dormir], anotó en su cuaderno que la Estrella Polar no se mueve de su sitio, mientras que las demás parecen girar a su alrededor durante la noche. Se sintió muy orgullosa de su descubrimiento, y de haber ayudado a su tío cuando más lo necesitaba."
   ],
   "questions": [
    {
@@ -2169,8 +2169,8 @@
     "es": "capitán"
    },
    {
-    "en": "notebook",
-    "es": "cuaderno"
+    "en": "sleep",
+    "es": "dormir"
    }
   ]
  },
@@ -2184,19 +2184,19 @@
   "hero": "niño",
   "title": "Biel y el dragón de verdad",
   "paragraphs": [
-   "Biel tenía nueve años y un cuaderno lleno de dibujos de dragones: dragones con alas de murciélago, dragones con cuernos y dragones que escupían fuego [en:fire] azul. Los colgaba por toda la pared de su cuarto, y su madre decía que ya no cabía ni uno más. Sabía los nombres de todos los que aparecían en sus libros favoritos, y cuando alguien le preguntaba qué quería ser de mayor, siempre contestaba lo mismo: domador de dragones.",
+   "Biel tenía nueve años y un cuaderno lleno de dibujos de dragones: dragones con alas de murciélago, dragones con cuernos y dragones que escupían [en:fire|fuego] azul. Los colgaba por toda la pared de su cuarto, y su madre decía que ya no cabía ni uno más. Sabía los nombres de todos los que aparecían en sus libros favoritos, y cuando alguien le preguntaba qué quería ser de mayor, siempre contestaba lo mismo: domador de dragones.",
    "Aquella semana, su clase fue de excursión al zoo. Biel iba con la cabeza baja, porque le parecía un plan aburrido.",
    "—Aquí no hay ningún dragón —le dijo a su amiga Nerea, mientras pasaban junto a los monos y las cebras.",
    "Nerea se encogió de hombros. La cuidadora que guiaba al grupo, que se llamaba Nuria, lo había oído y sonrió con picardía.",
    "—Pues yo creo que sí —dijo—. Venid conmigo.",
-   "Los llevó hasta un recinto con rocas, arena y un pequeño estanque. Sobre una piedra, quieto como una estatua, había un enorme lagarto [en:lizard] de piel rugosa y color marrón grisáceo. Medía casi dos metros y tenía las patas fuertes, las uñas largas y una cola gruesa. Aquel animal parecía salido de un cuento antiguo. Biel abrió la boca sin darse cuenta.",
+   "Los llevó hasta un recinto con rocas, arena y un pequeño estanque. Sobre una piedra, quieto como una estatua, había un enorme [en:lizard|lagarto] de piel rugosa y color marrón grisáceo. Medía casi dos metros y tenía las patas fuertes, las uñas largas y una cola gruesa. Aquel animal parecía salido de un cuento antiguo. Biel abrió la boca sin darse cuenta.",
    "En ese momento, el lagarto sacó la lengua y la movió despacio, como si probara el aire. Los niños dieron un paso atrás, entre risas nerviosas.",
    "—Os presento a un dragón de Komodo —dijo Nuria—. Es el lagarto más grande del mundo y vive en unas pocas islas de Indonesia. No echa fuego, pero tiene una lengua dividida en dos puntas que le sirve para oler a mucha distancia.",
    "—¿Es un dragón de verdad? —preguntó Biel, con los ojos muy abiertos.",
    "—Es un animal de verdad con nombre de dragón —respondió la cuidadora—. Y está en peligro de extinción, porque su hábitat es pequeño y cada vez quedan menos. Por eso cuidamos de ellos y ayudamos a que se reproduzcan.",
-   "Durante el resto de la visita, Biel no se separó del recinto. Anotó en su cuaderno [en:notebook] cuánto medía, qué comía y cómo se calentaba al sol, porque los lagartos necesitan el calor del exterior para mover bien su cuerpo. Descubrió que no hacía falta inventar dragones, porque el mundo estaba lleno de animales increíbles.",
+   "Durante el resto de la visita, Biel no se separó del recinto. Anotó en su [en:notebook|cuaderno] cuánto medía, qué comía y cómo se calentaba al sol, porque los lagartos necesitan el calor del exterior para mover bien su cuerpo. Descubrió que no hacía falta inventar dragones, porque el mundo estaba lleno de animales increíbles.",
    "Al volver a clase, Biel pidió permiso a su profesora para hacer un trabajo sobre animales en peligro. Dibujó el dragón de Komodo con todos sus detalles reales y escribió debajo que los dragones existen y que hay que protegerlos. Nerea, que lo miraba por encima del hombro, le prometió que irían juntos a ver más animales.",
-   "Aquella noche [en:night], antes de dormir, escribió una frase nueva en la primera página de su cuaderno: de mayor quería ser cuidador de dragones de verdad."
+   "Aquella noche, antes de [en:sleep|dormir], escribió una frase nueva en la primera página de su cuaderno: de mayor quería ser cuidador de dragones de verdad."
   ],
   "questions": [
    {
@@ -2269,8 +2269,8 @@
     "es": "cuaderno"
    },
    {
-    "en": "night",
-    "es": "noche"
+    "en": "sleep",
+    "es": "dormir"
    }
   ]
  },
@@ -2284,9 +2284,9 @@
   "hero": "niña",
   "title": "La princesa Clara y el puente de triángulos",
   "paragraphs": [
-   "El reino de Valdoro tenía un castillo construido sobre una colina, separada del pueblo por un barranco muy profundo. Durante siglos, un puente [en:bridge] de madera había permitido cruzarlo, pero una tormenta especialmente violenta lo derribó una noche de otoño. Al amanecer, los habitantes del pueblo se quedaron mirando el hueco vacío, sin saber cómo llegar hasta el castillo.",
-   "La princesa Clara, que tenía doce años y pasaba más tiempo en el taller de los carpinteros que en el salón del trono, escuchó con atención cómo los ingenieros del rey [en:king] discutían la solución. Proponían construir un puente con vigas enormes, tan gruesas que costarían una fortuna y tardarían meses en colocarse.",
-   "—Cuanto más gruesa sea la viga, más fuerte será el puente —aseguró el ingeniero [en:engineer] jefe, muy seguro de sí mismo.",
+   "El reino de Valdoro tenía un castillo construido sobre una colina, separada del pueblo por un barranco muy profundo. Durante siglos, un [en:bridge|puente] de madera había permitido cruzarlo, pero una tormenta especialmente violenta lo derribó una noche de otoño. Al amanecer, los habitantes del pueblo se quedaron mirando el hueco vacío, sin saber cómo llegar hasta el castillo.",
+   "La princesa Clara, que tenía doce años y pasaba más tiempo en el taller de los carpinteros que en el salón del trono, escuchó con atención cómo los ingenieros del [en:king|rey] discutían la solución. Proponían construir un puente con vigas enormes, tan gruesas que costarían una fortuna y tardarían meses en colocarse.",
+   "—Cuanto más gruesa sea la viga, más fuerte será el puente —aseguró el [en:engineer|ingeniero] jefe, muy seguro de sí mismo.",
    "Clara no estaba convencida. En el taller había observado que los techos de las casas, que aguantaban el peso de la nieve durante todo el invierno, no se sostenían con vigas gigantes, sino con muchas piezas finas unidas formando triángulos. Esa noche, en su habitación, decidió comprobar si aquella idea tenía algún fundamento y preparó un experimento con palillos y pegamento.",
    "Primero construyó un cuadrado con cuatro palillos y lo apretó con la mano. Se deformó con facilidad, convirtiéndose en un rombo. Después construyó un triángulo con tres palillos y volvió a apretarlo, pero no se movió ni un milímetro. Probó con otros triángulos más grandes y más pequeños, y siempre ocurría lo mismo.",
    "Al día siguiente, pidió al rey que la dejara hablar ante los ingenieros.",
@@ -2294,7 +2294,7 @@
    "Los ingenieros se rieron con disimulo, pero Clara sacó de una bolsa dos pequeños puentes hechos con palillos: uno con cuadrados y otro con triángulos. Colocó sobre cada uno una pila de libros. El primero se aplastó enseguida, mientras que el segundo aguantó el peso sin quejarse.",
    "Hubo un silencio largo en la sala. Después, el ingeniero jefe se aclaró la garganta.",
    "—Es cierto —admitió—. Un puente con armazón de triángulos sería más ligero, más barato y más resistente.",
-   "El rey Alfonso asintió, orgulloso. Dos meses más tarde, el nuevo puente quedó terminado, con una estructura de vigas finas que formaban triángulos y brillaban bajo el sol. La gente del pueblo [en:village] lo cruzó por primera vez entre aplausos. Desde entonces, en todo el reino se le conoce como el Puente de Clara.",
+   "El rey Alfonso asintió, orgulloso. Dos meses más tarde, el nuevo puente quedó terminado, con una estructura de vigas finas que formaban triángulos y brillaban bajo el sol. La gente del [en:village|pueblo] lo cruzó por primera vez entre aplausos. Desde entonces, en todo el reino se le conoce como el Puente de Clara.",
    "Clara aprendió aquel día que las ideas valen por sí mismas, sin importar la edad de quien las propone, y que una buena pregunta, comprobada con un experimento sencillo, puede convencer incluso a los expertos más escépticos."
   ],
   "questions": [
@@ -2383,11 +2383,11 @@
   "hero": "niño",
   "title": "Adrián y el traje que ayudaba de verdad",
   "paragraphs": [
-   "Adrián tenía doce años y una colección de cómics de superhéroes que ocupaba tres estanterías de su habitación. Su favorito era un personaje con una armadura mecánica que le daba una fuerza enorme, y soñaba con construir algún día un traje parecido. Cuando su profesora [en:teacher] de Tecnología anunció la feria de proyectos del colegio, supo enseguida qué presentaría.",
-   "Esa tarde, mientras ayudaba a su abuelo [en:grandfather] Manuel a subir la compra por las escaleras, notó algo que no había visto antes. El abuelo, que había sido albañil toda la vida, se detenía en cada rellano para descansar, apoyado en la barandilla y con gesto cansado. Adrián se sintió un poco culpable por no haberse dado cuenta antes.",
+   "Adrián tenía doce años y una colección de cómics de superhéroes que ocupaba tres estanterías de su habitación. Su favorito era un personaje con una armadura mecánica que le daba una fuerza enorme, y soñaba con construir algún día un traje parecido. Cuando su [en:teacher|profesora] de Tecnología anunció la feria de proyectos del colegio, supo enseguida qué presentaría.",
+   "Esa tarde, mientras ayudaba a su [en:grandfather|abuelo] Manuel a subir la compra por las escaleras, notó algo que no había visto antes. El abuelo, que había sido albañil toda la vida, se detenía en cada rellano para descansar, apoyado en la barandilla y con gesto cansado. Adrián se sintió un poco culpable por no haberse dado cuenta antes.",
    "—No te preocupes, hijo —dijo el abuelo, sonriendo—. Las rodillas ya no son lo que eran.",
    "En ese momento, Adrián cambió de idea. Un traje de superhéroe no serviría de nada si no ayudaba a nadie de verdad. Buscó información y descubrió que existen aparatos llamados exoesqueletos, que se colocan sobre el cuerpo y ayudan a las personas a moverse con menos esfuerzo. Algunos llevan motores y sensores, y otros funcionan solo con resortes y gomas.",
-   "Escribió a una ingeniera [en:engineer] de la universidad, la doctora Lucía Peña, que le contestó con mucho entusiasmo y lo invitó a visitar su laboratorio. Allí le enseñó varios prototipos y le explicó que un buen diseño empieza escuchando a la persona que va a usarlo.",
+   "Escribió a una [en:engineer|ingeniera] de la universidad, la doctora Lucía Peña, que le contestó con mucho entusiasmo y lo invitó a visitar su laboratorio. Allí le enseñó varios prototipos y le explicó que un buen diseño empieza escuchando a la persona que va a usarlo.",
    "—Lo primero no es construir —le dijo—, sino preguntar qué necesita realmente.",
    "Con esa idea en la cabeza, Adrián construyó durante dos semanas un primer prototipo con tiras de plástico, gomas elásticas y un par de muelles que ayudaban a estirar la rodilla al subir un escalón. Cuando el abuelo se lo probó, dio dos pasos y lo miró con una mueca.",
    "—Pesa demasiado y me tira de la pierna —dijo—. No me deja moverme con naturalidad.",

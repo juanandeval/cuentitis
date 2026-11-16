@@ -83,6 +83,12 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 dialog{overflow:auto}
 .foot{max-width:860px;margin:0 auto;padding:4px 16px 36px;text-align:center;color:var(--soft);font-size:.85rem}
 @media (max-width:640px){.foot .sep{display:none}.foot .g{display:block}}
+.en{font:inherit;font-weight:700;color:var(--pri);background:var(--chip);border:0;border-bottom:2px dashed var(--pri);border-radius:6px 6px 0 0;padding:0 4px;margin:0;cursor:pointer}
+.en:active{transform:scale(.97)}
+.en.gl{font-size:1rem;border:2px dashed var(--pri);border-radius:999px;padding:6px 14px;white-space:nowrap}
+#gloss{margin-top:14px}
+#gloss h3{font-size:1.1rem;margin:0 0 8px}
+#tip{position:absolute;z-index:40;background:var(--card);color:var(--ink);border:2px solid var(--pri);border-radius:14px;padding:8px 12px;box-shadow:0 6px 18px rgba(0,0,0,.2);font-size:1rem;max-width:80vw;white-space:nowrap}
 #fbStatus a{color:var(--pri);font-weight:600}
 .flink{background:none;border:0;padding:8px 4px;font:inherit;font-weight:600;color:var(--pri);text-decoration:underline;cursor:pointer}
 .fld{margin:12px 0}
@@ -155,6 +161,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
   <div class="card story">
     <h2 id="title"></h2>
     <div id="text"></div>
+    <div id="gloss"></div>
     <div id="endMark"></div>
     <button class="big pri" id="done" disabled>📖 Ya me lo he leído</button>
     <p class="hint center" id="donehint">Baja hasta el final para activar el botón.</p>
@@ -219,6 +226,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
     <li><b id="nRead">Varias</b> lecturas originales de unas 350 a 500 palabras, en cuatro tramos de edad: 5-6, 7-8, 9-10 y 11-12 años.</li>
     <li>12 temas para elegir: animales, dinosaurios, espacio, fútbol, princesas y reyes, superhéroes, piratas, coches, cocina, ciencia, dragones y robots.</li>
     <li>Frases y vocabulario adaptados a cada edad: más sencillos en los pequeños y más ricos en los mayores.</li>
+    <li>En cada lectura, 3 o 4 palabras básicas aparecen en inglés en lugar de en español (por ejemplo, table o sleep) y están resaltadas. Al pulsarlas se ve su traducción y se escucha su pronunciación, si el dispositivo lo permite. Al final del texto se repasan todas.</li>
     <li>Preguntas sobre datos del texto, deducciones, vocabulario e idea principal, con 3 opciones hasta los 8 años y 4 desde los 9.</li>
     <li>Letra ajustable (A− y A+), barra de progreso de lectura, estrellas y 8 insignias por conseguir.</li>
   </ul>
@@ -239,6 +247,8 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
   <p class="stars" id="starsHome"></p>
   <div class="badges" id="badgesHome"></div>
 </dialog>
+
+<div id="tip" role="status" hidden></div>
 
 <script>
 "use strict";
@@ -318,7 +328,7 @@ async function generate(){
     const bank=await loadBank();const picks=[...st.likes];
     const data=pickReading(bank,picks,st.age,st.gender);
     if(!data||!Array.isArray(data.paragraphs)||!Array.isArray(data.questions)||data.questions.length<5)throw new Error("La lectura llegó incompleta.");
-    story={topics:[picks[0]],title:String(data.title||"Tu lectura"),paragraphs:data.paragraphs.map(String),questions:data.questions.slice(0,5)};
+    story={topics:[picks[0]],title:String(data.title||"Tu lectura"),paragraphs:data.paragraphs.map(String),questions:data.questions.slice(0,5),english:Array.isArray(data.english)?data.english:[]};
     failedBefore=false;
     startReading();
   }catch(e){
@@ -333,9 +343,25 @@ function applyFont(){
   document.documentElement.style.setProperty("--fs",(base+fs*0.12)+"rem");
 }
 let io=null;
+function sayEn(w){try{if(!("speechSynthesis" in window))return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(w);u.lang="en-GB";u.rate=.85;speechSynthesis.speak(u)}catch(e){}}
+function showTip(btn,en,es){
+  const tip=$("tip");tip.innerHTML="";const b=document.createElement("b");b.textContent=en;tip.appendChild(b);
+  tip.appendChild(document.createTextNode(" = "+es+" 🔊"));tip.hidden=false;
+  const r=btn.getBoundingClientRect(),w=tip.offsetWidth;
+  let left=r.left+scrollX+r.width/2-w/2;left=Math.max(8,Math.min(left,document.documentElement.clientWidth-w-8));
+  tip.style.left=left+"px";tip.style.top=(r.bottom+scrollY+6)+"px";sayEn(en)}
+function hideTip(){$("tip").hidden=true}
+document.addEventListener("click",e=>{if(!e.target.closest(".en")&&!e.target.closest("#tip"))hideTip()});
+addEventListener("scroll",hideTip,{passive:true});
+function enChip(en,es){const b=document.createElement("button");b.type="button";b.className="en";b.textContent=en;b.setAttribute("aria-label",en+": ver la traducción");b.onclick=()=>showTip(b,en,es);return b}
+function fillP(el,text){const re=/\[en:([^|\]]+)\|([^\]]+)\]/g;let last=0,m;while((m=re.exec(text))){el.appendChild(document.createTextNode(text.slice(last,m.index)));el.appendChild(enChip(m[1],m[2]));last=re.lastIndex}el.appendChild(document.createTextNode(text.slice(last)))}
+function renderGloss(){const g=$("gloss");g.innerHTML="";const L=story.english||[];if(!L.length)return;
+  const h=document.createElement("h3");h.textContent="🔤 Palabras en inglés";g.appendChild(h);
+  const row=document.createElement("div");row.className="row";
+  L.forEach(x=>{const d=document.createElement("button");d.type="button";d.className="en gl";d.textContent=x.en+" = "+x.es+" 🔊";d.setAttribute("aria-label","Escuchar "+x.en+" en inglés");d.onclick=()=>sayEn(x.en);row.appendChild(d)});g.appendChild(row)}
 function startReading(){
   $("title").textContent=story.title;
-  const t=$("text");t.innerHTML="";story.paragraphs.forEach(p=>{const el=document.createElement("p");el.textContent=p;t.appendChild(el)});
+  const t=$("text");t.innerHTML="";story.paragraphs.forEach(p=>{const el=document.createElement("p");fillP(el,p);t.appendChild(el)});renderGloss();
   $("done").disabled=true;$("donehint").hidden=false;$("prog").style.width="0";
   applyFont();show("read");
   if(io)io.disconnect();
@@ -405,8 +431,8 @@ $("go").onclick=generate;
 $("prizesBtn").onclick=()=>{drawBadges("badgesHome","starsHome",[]);$("modal").showModal()};
 $("mclose").onclick=()=>$("modal").close();
 $("infoBtn").onclick=()=>$("parentModal").showModal();
-// Comentarios beta: reenvío a correo con FormSubmit (se usa su código aleatorio en lugar del correo, para no mostrarlo en la página).
-const FORM_ENDPOINT="https://formsubmit.co/ajax/d152563529f72fd2bae28d9fe32df466";
+// Comentarios beta: reenvío a correo con FormSubmit. Tras activar el formulario, sustituye el correo por el código aleatorio que te dé FormSubmit.
+const FORM_ENDPOINT="https://formsubmit.co/ajax/cuentitis.app@gmail.com";
 $("fbOpen").onclick=()=>{$("fbStatus").textContent="";$("fbModal").showModal()};
 $("fbclose").onclick=()=>$("fbModal").close();
 $("fbModal").addEventListener("click",e=>{if(e.target===$("fbModal"))$("fbModal").close()});
@@ -426,7 +452,7 @@ $("fbForm").addEventListener("submit",async e=>{
     const det=(err instanceof TypeError)?"error de conexión o bloqueo del navegador":err.message;
     const st=$("fbStatus");st.textContent="No se ha podido enviar ("+det+"). ";
     const a=document.createElement("a");
-    a.href="mailto:juanandeval@gmail.com?subject="+encodeURIComponent("Cuentitis beta: "+f.tipo.value)+"&body="+encodeURIComponent(f.mensaje.value);
+    a.href="mailto:cuentitis.app@gmail.com?subject="+encodeURIComponent("Cuentitis beta: "+f.tipo.value)+"&body="+encodeURIComponent(f.mensaje.value);
     a.textContent="Enviar con mi aplicación de correo";st.appendChild(a);
   }finally{btn.disabled=false}
 });

@@ -9,8 +9,8 @@ def bad(i,m):
     global err; err+=1; print(f"✗ {i}: {m}")
 def note(i,m):
     global warn; warn+=1; print(f"! {i}: {m}")
-MARK=re.compile(r"\s?\[en:([^\]]+)\]")
-def clean(t): return MARK.sub("",t)
+MARK=re.compile(r"\[en:([^|\]]+)\|([^\]]+)\]")
+def clean(t): return MARK.sub(lambda m:m.group(2),t)
 def sentences(t): return [x for x in re.split(r"(?<=[.!?…])\s+",t.strip()) if x]
 data=json.load(open("lecturas.json",encoding="utf-8"))
 for r in data:
@@ -24,7 +24,7 @@ for r in data:
     ps_raw=r.get("paragraphs",[]); ps=[clean(p) for p in ps_raw]; n=sum(len(p.split()) for p in ps)
     marks=[m for p in ps_raw for m in MARK.findall(p)]
     eng=r.get("english",[])
-    if sorted(marks)!=sorted(e.get("en","") for e in eng): bad(i,"las marcas [en:…] no coinciden con la lista english")
+    if len(marks)!=len(eng): bad(i,"las marcas [en:…|…] no coinciden con la lista english")
     if len(eng)>5: note(i,"más de 5 palabras en inglés")
     if any(not e.get("es") for e in eng): bad(i,"palabra en inglés sin significado")
     lo,hi,smin,smax=LIM[b]

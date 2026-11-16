@@ -35,10 +35,13 @@ Al abrir la web, esta compara los `id` de `lecturas.json` con los que ese navega
 El pie de página tiene un botón «Enviar comentarios» que abre un formulario y lo reenvía por correo con FormSubmit (sin cuenta ni servidor propio).
 1. Publica la web y envía **un comentario de prueba** desde la dirección real (no funciona abriendo el archivo desde el disco).
 2. FormSubmit te enviará un correo de activación: pulsa el enlace (mira también en spam). Ese primer mensaje queda retenido hasta activar.
-3. Tras activar, FormSubmit te da un código aleatorio. `FORM_ENDPOINT` en `index.html` ya usa `https://formsubmit.co/ajax/<código>` en lugar del correo, para que este no quede visible en la página.
+3. Tras activar, FormSubmit te da un código aleatorio. sustituye `FORM_ENDPOINT` en `index.html` por `https://formsubmit.co/ajax/<código>`, para que el correo no quede visible en la página.
 4. Si hay spam, el formulario ya lleva un campo trampa. Puedes mirar las opciones extra en la documentación de FormSubmit.
 
 ## Palabras en inglés
-Cada lectura puede llevar unas pocas palabras básicas en inglés (3-4). En el texto se marcan justo después de la palabra en español con `[en:word]` (por ejemplo, `la mesa [en:table]`) y se listan en el campo `english` de la lectura: `"english":[{"en":"table","es":"mesa"}]`. La web las muestra como etiquetas pulsables que se pronuncian (voz del dispositivo, inglés británico) y las repite en una cajita «Palabras en inglés» al final del texto.
+Cada lectura lleva 3-4 palabras básicas que aparecen **en inglés en lugar de la palabra española**. En el texto se escriben como `[en:palabra inglesa|palabra española tal como estaba]`, por ejemplo `un cuenco de [en:milk|leche]`, y se listan en el campo `english` de la lectura con su forma base: `"english":[{"en":"milk","es":"leche"}]`.
+La web las muestra resaltadas. Al pulsarlas aparece un aviso con la traducción («milk = leche») y se pronuncian con la voz del dispositivo (inglés británico). Al final del texto se repasan todas en una cajita «Palabras en inglés».
+- Las plurales se escriben en plural en inglés (`[en:birds|pájaros]`).
+- Evita verbos conjugados: usa infinitivos o formas que encajen (`[en:asleep|dormido]`).
 - Nivel: 5-6 años, colores, animales y objetos; 7-8, casa, comida y naturaleza; 9-10 y 11-12, palabras cotidianas algo más largas.
-- `validate.py` comprueba que las marcas del texto coincidan con la lista `english` y que no se cuenten como palabras de la lectura.
+- `validate.py` comprueba que el número de marcas coincida con la lista `english`, y cuenta las palabras como si siguieran en español.
