@@ -62,10 +62,12 @@ h1{font-size:clamp(1.9rem,5vw,2.8rem)}
 .badge small{display:block;color:var(--soft);font-size:.8rem}
 .badge.off{opacity:.45;filter:grayscale(1)}
 .badge.new{border-color:var(--acc);animation:pop .6s ease}
+#agetitle:focus{outline:none}
+.pts{display:inline-block;margin:8px 0 10px;padding:10px 20px;border-radius:22px;background:var(--acc);color:#2b1600;font-weight:800;font-size:clamp(1.1rem,4.6vw,1.5rem);line-height:1.2;animation:pop .6s ease}
 @keyframes pop{0%{transform:scale(.6)}70%{transform:scale(1.1)}100%{transform:scale(1)}}
 .spin{width:64px;height:64px;border-radius:50%;border:8px solid var(--chip);border-top-color:var(--pri);margin:10px auto;animation:r 1s linear infinite}
 @keyframes r{to{transform:rotate(360deg)}}
-@media (prefers-reduced-motion:reduce){.spin,.badge.new{animation:none}}
+@media (prefers-reduced-motion:reduce){.spin,.badge.new,.pts{animation:none}}
 .stars{font-size:1.4rem;font-weight:800}
 .link{background:none;border:0;color:var(--pri);font:inherit;font-weight:700;text-decoration:underline;cursor:pointer;padding:10px}
 .hd{display:flex;align-items:center;justify-content:space-between;gap:12px}
@@ -78,6 +80,10 @@ h1{font-size:clamp(1.9rem,5vw,2.8rem)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:30}
 .logo{display:inline-flex;align-items:center;gap:8px;font-weight:800;font-size:1.15rem}
 .hr{display:flex;align-items:center;gap:8px}
+.agepill{display:inline-flex;align-items:center;gap:3px;padding:0 4px;color:var(--soft);font-weight:700;font-size:.95rem;white-space:nowrap;cursor:default;user-select:none}
+.agepill b{color:var(--ink);font-weight:800}
+@media (max-width:480px){.logo .nm{display:none}}
+@media (max-width:380px){.top{padding:8px 10px;gap:6px}.hr{gap:5px}.top .chip{padding:6px 10px}.fsz{gap:4px}.fsz .chip{width:40px;padding:0}}
 .top{flex-wrap:wrap}
 .fsz{display:flex;gap:6px}
 dialog{overflow:auto}
@@ -129,19 +135,17 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 <ellipse cx="42" cy="66" rx="6" ry="4" fill="#ff9bb5" opacity=".85"/><ellipse cx="88" cy="66" rx="6" ry="4" fill="#ff9bb5" opacity=".85"/>
 <path d="M54 65 Q65 83 76 65 Z" fill="#2b2a4c"/><ellipse cx="65" cy="73.5" rx="5" ry="3" fill="#ff7a8a"/>
 <path d="M12 22 l2.2 5.6 5.6 2.2 -5.6 2.2 -2.2 5.6 -2.2 -5.6 -5.6 -2.2 5.6 -2.2z" fill="#ffc83d"/></symbol></svg>
-<header class="top"><span class="logo"><svg class="mascot sm" viewBox="0 0 120 120" aria-hidden="true"><use href="#mascot-sym"/></svg>Cuentitis</span><div class="hr"><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><span class="fsz" id="fsz" hidden><button class="chip" id="smaller" aria-label="Letra más pequeña">A−</button><button class="chip" id="bigger" aria-label="Letra más grande">A+</button></span><button class="chip" id="infoBtn" aria-label="Información para familias">ℹ️<span class="lbl"> Info</span></button><button class="chip" id="prizesBtn" aria-label="Mis premios">🏅<span class="lbl"> Mis premios</span></button></div><div class="hbar" id="hbar" hidden aria-hidden="true"><i id="prog"></i></div></header>
+<header class="top"><span class="logo"><svg class="mascot sm" viewBox="0 0 120 120" aria-hidden="true"><use href="#mascot-sym"/></svg><span class="nm">Cuentitis</span></span><div class="hr"><span class="agepill" id="agePill" hidden>🎂 <b id="ageNum"></b><span class="lbl"> años</span></span><button class="chip newtag" id="newTag" hidden aria-label="Lecturas nuevas">🆕 <span id="newN"></span></button><span class="fsz" id="fsz" hidden><button class="chip" id="smaller" aria-label="Letra más pequeña">A−</button><button class="chip" id="bigger" aria-label="Letra más grande">A+</button></span><button class="chip" id="infoBtn" aria-label="Información para familias">ℹ️<span class="lbl"> Info</span></button><button class="chip" id="prizesBtn" aria-label="Mis premios">🏅<span class="lbl"> Mis premios</span></button></div><div class="hbar" id="hbar" hidden aria-hidden="true"><i id="prog"></i></div></header>
 <main>
 
 <section id="home">
   <div class="hero">
     <svg class="mascot" viewBox="0 0 120 120" role="img" aria-label="Cuentitis, la mascota"><use href="#mascot-sym"/></svg>
-    <div><h1>Cuentitis</h1><p>Elige cómo eres y qué te gusta, y te preparamos una lectura solo para ti.</p></div>
+    <div><h1>Cuentitis</h1><p>Elige lo que más te gusta y te preparamos una lectura solo para ti.</p></div>
   </div>
-  <div class="card"><h2>1. ¿Cuántos años tienes?</h2><div class="row ages" id="ages"></div></div>
-  <div class="card"><h2 class="hd"><span>2. Soy… <span class="count">(opcional)</span></span><button class="info" data-info="gender" aria-label="Más información"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg></button></h2><div class="row" id="genders"></div></div>
-  <div class="card"><h2 class="hd"><span>3. Elige entre 3 y 4 cosas que te gusten <span class="count" id="cnt"></span></span><button class="info" data-info="likes" aria-label="Más información"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg></button></h2><div class="row" id="likes"></div></div>
+  <div class="card"><h2 class="hd"><span>Elige las 3 cosas que más te gustan <span class="count" id="cnt"></span></span><button class="info" data-info="likes" aria-label="Más información"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg></button></h2><p class="hint" style="margin:-.2em 0 12px">La primera que elijas será la principal.</p><div class="row" id="likes"></div></div>
   <button class="big" id="go" disabled>✨ ¡Crear mi lectura!</button>
-  <p class="hint center" id="gohint">Elige tu edad y al menos 3 gustos.</p>
+  <p class="hint center" id="gohint">Elige 3 gustos.</p>
 </section>
 
 <section id="loading" hidden class="card center">
@@ -188,6 +192,16 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 </main>
 <footer class="foot"><span class="g">Cuentitis · versión beta · Contenido creado con IA</span><span class="sep"> · </span><span class="g">Ayúdame a mejorarlo: <button class="flink" id="fbOpen">💬 Enviar comentarios</button></span></footer>
 
+<dialog id="ageModal" aria-labelledby="agetitle">
+  <div class="center">
+    <svg class="mascot" viewBox="0 0 120 120" aria-hidden="true"><use href="#mascot-sym"/></svg>
+    <h2 id="agetitle" tabindex="-1" autofocus>¡Hola! Soy Cuentitis</h2>
+    <p><b>¿Cuántos años tienes?</b></p>
+    <div class="row ages" id="ageBtns" style="justify-content:center"></div>
+    <p class="hint">Así elegiré lecturas perfectas para ti.</p>
+  </div>
+</dialog>
+
 <dialog id="fbModal" aria-labelledby="fbtitle">
   <div class="mhead"><h2 id="fbtitle">💬 Envíanos tus comentarios</h2><button class="chip" id="fbclose" aria-label="Cerrar">✕</button></div>
   <p>Cuentitis está en fase beta. Cuéntanos qué mejorarías o qué ha fallado. Este formulario es para adultos.</p>
@@ -217,10 +231,10 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
   <div class="ai"><b>🤖 Contenido creado con inteligencia artificial.</b> Todas las lecturas y preguntas están generadas con IA (Claude, de Anthropic). Han pasado comprobaciones automáticas de formato, longitud, puntuación y una doble comprobación para que el contenido esté adaptado a la edad por otra IA, en este caso, Gemini; aun así, pueden contener errores o frases mejorables.</div>
   <h3>Cómo funciona</h3>
   <ul>
-    <li>El niño elige su edad, si es niño o niña (opcional) y entre 3 y 4 gustos. El primero que marca es el tema principal de la lectura y los demás aparecen como detalles.</li>
+    <li>La primera vez, el niño elige su edad y queda guardada. Después elige 3 gustos: el primero que marca es el tema principal de la lectura y los otros dos aparecen como detalles.</li>
     <li>Se le propone una lectura adaptada a su edad. Al llegar al final del texto se activa el botón «Ya me lo he leído».</li>
     <li>Después responde 5 preguntas tipo test sobre lo que ha leído.</li>
-    <li>Con 4 o 5 aciertos consigue estrellas e insignias. Con menos, vuelve a leer el texto y lo intenta de nuevo.</li>
+    <li>Con 4 o 5 aciertos supera la lectura: gana 10 puntos, que se van sumando, y puede conseguir insignias. Con menos, vuelve a leer el texto y lo intenta de nuevo.</li>
   </ul>
   <h3>Qué ofrece</h3>
   <ul>
@@ -229,12 +243,14 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
     <li>Frases y vocabulario adaptados a cada edad: más sencillos en los pequeños y más ricos en los mayores.</li>
     <li>En cada lectura, 3 o 4 palabras básicas aparecen en inglés en lugar de en español (por ejemplo, table o sleep) y están resaltadas. Al pulsarlas se ve su traducción y se escucha su pronunciación, si el dispositivo lo permite. Al final del texto se repasan todas.</li>
     <li>Preguntas sobre datos del texto, deducciones, vocabulario e idea principal, con 3 opciones hasta los 8 años y 4 desde los 9.</li>
-    <li>Letra ajustable (A− y A+), barra de progreso de lectura, estrellas y 8 insignias por conseguir.</li>
+    <li>Letra ajustable (A− y A+), barra de progreso de lectura, puntos y 8 insignias por conseguir.</li>
   </ul>
+  <h3>Edad</h3>
+  <p>Edad guardada: <b id="ageNow"></b>. <button class="flink" id="ageChange">Cambiar edad</button></p>
   <h3>Privacidad</h3>
   <ul>
     <li>No hay cuentas y la aplicación no pide datos personales para usarla. El único formulario es el de comentarios del pie de página, pensado para adultos: es opcional y solo envía lo que se escriba en él, junto con el tipo de navegador y de pantalla.</li>
-    <li>Los premios, las estrellas y las lecturas ya vistas se guardan solo en el navegador de este dispositivo. Si se borran los datos del navegador, se pierden.</li>
+    <li>Los premios, los puntos, la edad y las lecturas ya vistas se guardan solo en el navegador de este dispositivo. Si se borran los datos del navegador, se pierden.</li>
   </ul>
 </dialog>
 
@@ -256,6 +272,7 @@ dialog::backdrop{background:rgba(20,18,43,.6)}
 const $=id=>document.getElementById(id);
 const AGES=[5,6,7,8,9,10,11,12];
 const LIKES=[["🐶","Animales"],["🦖","Dinosaurios"],["🚀","Espacio"],["⚽","Fútbol"],["👑","Princesas y reyes"],["🦸","Superhéroes"],["🏴‍☠️","Piratas"],["🚗","Coches"],["🍰","Cocina"],["🔬","Ciencia"],["🐉","Dragones"],["🤖","Robots"]];
+const POINTS=10;
 const BADGES=[
  {id:"first",e:"🌱",n:"Primera lectura",d:"Supera tu primer test",f:s=>s.passes>=1},
  {id:"perfect",e:"⭐",n:"Cinco de cinco",d:"Acierta las 5 preguntas",f:s=>s.perfect>=1},
@@ -263,27 +280,29 @@ const BADGES=[
  {id:"three",e:"📖",n:"Lector constante",d:"Supera 3 lecturas",f:s=>s.passes>=3},
  {id:"explorer",e:"🧭",n:"Explorador",d:"Lee sobre 6 gustos distintos",f:s=>s.topics.length>=6},
  {id:"five",e:"🏆",n:"Súper lector",d:"Supera 5 lecturas",f:s=>s.passes>=5},
- {id:"stars",e:"🌟",n:"Cazaestrellas",d:"Consigue 25 estrellas",f:s=>s.stars>=25},
+ {id:"points",e:"🌟",n:"Cazapuntos",d:"Consigue 150 puntos",f:s=>s.points>=150},
  {id:"ten",e:"👑",n:"Rey o reina de la lectura",d:"Supera 10 lecturas",f:s=>s.passes>=10}
 ];
-let st={age:null,gender:null,likes:[]},story=null,qi=0,right=0,failedBefore=false,fs=0;
+let st={age:null,likes:[]},story=null,qi=0,right=0,failedBefore=false,fs=0;
 
-function loadStats(){try{const v=JSON.parse(localStorage.getItem("lector_stats")||"null");if(v&&v.topics)return v}catch(e){}return{passes:0,perfect:0,persist:0,stars:0,topics:[],badges:[]}}
+function loadStats(){try{const v=JSON.parse(localStorage.getItem("lector_stats")||"null");if(v&&v.topics){if(typeof v.points!=="number")v.points=(v.passes||0)*POINTS;return v}}catch(e){}return{passes:0,perfect:0,persist:0,points:0,topics:[],badges:[]}}
 function saveStats(s){try{localStorage.setItem("lector_stats",JSON.stringify(s))}catch(e){}}
 let stats=loadStats();
+try{const a=+localStorage.getItem("lector_age");if(a>=5&&a<=12)st.age=a}catch(e){}
+function setAge(a){st.age=a;try{localStorage.setItem("lector_age",String(a))}catch(e){}$("ageModal").close();drawHome();window.scrollTo({top:0})}
+function buildAgeModal(){const box=$("ageBtns");box.innerHTML="";AGES.forEach(a=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=a;b.setAttribute("aria-label",a+" años");b.onclick=()=>setAge(a);box.appendChild(b)})}
 
 function show(id){["home","loading","error","read","quiz","result"].forEach(x=>$(x).hidden=x!==id);$("hbar").hidden=id!=="read";$("fsz").hidden=id!=="read";window.scrollTo({top:0,behavior:"smooth"})}
 
 /* ---------- Inicio ---------- */
 function drawHome(){
-  $("ages").innerHTML="";AGES.forEach(a=>{const b=document.createElement("button");b.className="chip";b.textContent=a;b.setAttribute("aria-pressed",st.age===a);b.setAttribute("aria-label",a+" años");b.onclick=()=>{st.age=a;drawHome()};$("ages").appendChild(b)});
-  $("genders").innerHTML="";[["niño","👦 Niño"],["niña","👧 Niña"]].forEach(([v,l])=>{const b=document.createElement("button");b.className="chip";b.textContent=l;b.setAttribute("aria-pressed",st.gender===v);b.onclick=()=>{st.gender=st.gender===v?null:v;drawHome()};$("genders").appendChild(b)});
-  $("likes").innerHTML="";LIKES.forEach(([e,n])=>{const on=st.likes.includes(n);const b=document.createElement("button");b.className="chip";b.classList.add("chip");const isMain=on&&st.likes[0]===n;if(isMain)b.classList.add("main");b.textContent=e+" "+n;if(isMain){const s=document.createElement("small");s.textContent="principal";b.appendChild(s)}b.setAttribute("aria-pressed",on);b.disabled=!on&&st.likes.length>=4;b.onclick=()=>{st.likes=on?st.likes.filter(x=>x!==n):[...st.likes,n];drawHome()};$("likes").appendChild(b)});
-  $("cnt").textContent="("+st.likes.length+"/4)";
-  const ok=st.age&&st.likes.length>=3;$("go").disabled=!ok;$("gohint").hidden=!!ok;
+  $("agePill").hidden=!st.age;$("ageNum").textContent=st.age||"";
+  $("likes").innerHTML="";LIKES.forEach(([e,n])=>{const on=st.likes.includes(n);const b=document.createElement("button");b.className="chip";b.classList.add("chip");const isMain=on&&st.likes[0]===n;if(isMain)b.classList.add("main");b.textContent=e+" "+n;if(isMain){const s=document.createElement("small");s.textContent="principal";b.appendChild(s)}b.setAttribute("aria-pressed",on);b.disabled=!on&&st.likes.length>=3;b.onclick=()=>{st.likes=on?st.likes.filter(x=>x!==n):[...st.likes,n];drawHome()};$("likes").appendChild(b)});
+  $("cnt").textContent="("+st.likes.length+"/3)";
+  const ok=st.likes.length>=3;$("go").disabled=!ok;$("gohint").hidden=!!ok;
 }
 function drawBadges(boxId,starsId,newOnes){
-  $(starsId).textContent="⭐ "+stats.stars+" estrellas · "+stats.passes+" lecturas superadas";
+  $(starsId).textContent="⭐ "+stats.points+" puntos · "+stats.passes+(stats.passes===1?" lectura superada":" lecturas superadas");
   const box=$(boxId);box.innerHTML="";
   BADGES.forEach(b=>{const on=stats.badges.includes(b.id);const d=document.createElement("div");d.className="badge"+(on?"":" off")+(newOnes.includes(b.id)?" new":"");
    d.innerHTML="<b></b><span></span><small></small>";d.children[0].textContent=on?b.e:"🔒";d.children[1].textContent=b.n;d.children[2].textContent=b.d;box.appendChild(d)});
@@ -316,7 +335,7 @@ function checkNew(bank){
 function pickReading(bank,likes,age,gender){
   let seen=[];try{seen=JSON.parse(localStorage.getItem("lector_seen")||"[]")}catch(e){}
   let pool=bank.filter(r=>r.band===band(age));if(!pool.length)pool=bank;
-  const sc=r=>{let s=Math.random(),t=r.topics||[];if(t.includes(likes[0]))s+=8;likes.slice(1).forEach(l=>{if(t.includes(l))s+=2});if(!seen.includes(r.id))s+=5;if(gender&&r.hero===gender)s+=2;else if(r.hero==="neutro")s+=1;return s};
+  const sc=r=>{let s=Math.random(),t=r.topics||[];if(t.includes(likes[0]))s+=8;likes.slice(1).forEach(l=>{if(t.includes(l))s+=2});if(!seen.includes(r.id))s+=5;return s};
   const best=pool.map(r=>[sc(r),r]).sort((x,y)=>y[0]-x[0])[0][1];
   try{localStorage.setItem("lector_seen",JSON.stringify([...seen.filter(x=>x!==best.id),best.id].slice(-60)))}catch(e){}
   return best}
@@ -327,7 +346,7 @@ async function generate(){
   try{
     await new Promise(r=>setTimeout(r,700));
     const bank=await loadBank();const picks=[...st.likes];
-    const data=pickReading(bank,picks,st.age,st.gender);
+    const data=pickReading(bank,picks,st.age);
     if(!data||!Array.isArray(data.paragraphs)||!Array.isArray(data.questions)||data.questions.length<5)throw new Error("La lectura llegó incompleta.");
     story={topics:[picks[0]],title:String(data.title||"Tu lectura"),paragraphs:data.paragraphs.map(String),questions:data.questions.slice(0,5),english:Array.isArray(data.english)?data.english:[]};
     failedBefore=false;
@@ -403,14 +422,16 @@ function finish(){
   const pass=right>=4;
   const mk=(tag,txt,cls)=>{const e=document.createElement(tag);e.textContent=txt;if(cls)e.className=cls;box.appendChild(e);return e};
   if(pass){
-    stats.passes++;stats.stars+=right;if(right===5)stats.perfect++;if(failedBefore)stats.persist++;
+    stats.passes++;stats.points+=POINTS;if(right===5)stats.perfect++;if(failedBefore)stats.persist++;
     (story.topics||[]).forEach(l=>{if(!stats.topics.includes(l))stats.topics.push(l)});
     const before=[...stats.badges],now=BADGES.filter(b=>b.f(stats)).map(b=>b.id);
     stats.badges=now;saveStats(stats);
     const fresh=now.filter(x=>!before.includes(x));
     mk("div",right===5?"🏆":"🎉","emoji");
     mk("h2",right===5?"¡Perfecto! 5 de 5":"¡Genial! "+right+" de 5");
-    mk("p","Has entendido muy bien la lectura. Ganas "+right+" estrellas ⭐");
+    mk("p","Has entendido muy bien la lectura.");
+    mk("div","⭐ ¡Has conseguido "+POINTS+" puntos!","pts");
+    mk("p","Llevas "+stats.points+" puntos en total.");
     $("prizes").hidden=false;drawBadges("badgesRes","starsRes",fresh);
     if(fresh.length)mk("p","🎁 ¡Nuevo premio desbloqueado!","stars");
     const b=mk("button","📚 Leer otra historia","big pri");b.onclick=()=>generate();
@@ -431,8 +452,13 @@ $("retryGen").onclick=generate;
 $("go").onclick=generate;
 $("prizesBtn").onclick=()=>{drawBadges("badgesHome","starsHome",[]);$("modal").showModal()};
 $("mclose").onclick=()=>$("modal").close();
-$("infoBtn").onclick=()=>$("parentModal").showModal();
+$("infoBtn").onclick=()=>{$("ageNow").textContent=st.age?st.age+" años":"sin indicar";$("parentModal").showModal()};
+$("ageChange").onclick=()=>{$("parentModal").close();openAge()};
+$("ageModal").addEventListener("cancel",e=>e.preventDefault());
+function openAge(){buildAgeModal();$("ageModal").showModal()}
 // Comentarios beta: reenvío a correo con FormSubmit. Tras activar el formulario, sustituye el correo por el código aleatorio que te dé FormSubmit.
+// Opción alternativa: clave de Web3Forms (web3forms.com). Si se rellena, se usa en lugar de FormSubmit.
+const W3_KEY="";
 const FORM_ENDPOINT="https://formsubmit.co/ajax/cuentitis.app@gmail.com";
 $("fbOpen").onclick=()=>{$("fbStatus").textContent="";$("fbModal").showModal()};
 $("fbclose").onclick=()=>$("fbModal").close();
@@ -442,10 +468,13 @@ $("fbForm").addEventListener("submit",async e=>{
   const f=e.target;if(f.elements.web.value)return;
   const btn=$("fbSend");btn.disabled=true;$("fbStatus").textContent="Enviando…";
   try{
-    const r=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},
-      body:JSON.stringify({_subject:"Cuentitis beta: "+f.tipo.value,_template:"table",_captcha:"false",
-        Tipo:f.tipo.value,Mensaje:f.mensaje.value.trim(),Correo:f.email.value.trim()||"(no indicado)",
-        Navegador:navigator.userAgent,Pantalla:innerWidth+"x"+innerHeight})});
+    const tipo=f.tipo.value,msg=f.mensaje.value.trim(),mail=f.email.value.trim(),nav=navigator.userAgent,pant=innerWidth+"x"+innerHeight;
+    const r=W3_KEY
+      ? await fetch("https://api.web3forms.com/submit",{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},
+          body:JSON.stringify(Object.assign({access_key:W3_KEY,subject:"Cuentitis beta: "+tipo,from_name:"Cuentitis beta",
+            message:"Tipo: "+tipo+"\n\n"+msg+"\n\nCorreo del usuario: "+(mail||"(no indicado)")+"\nNavegador: "+nav+"\nPantalla: "+pant},mail?{email:mail}:{}))})
+      : await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},
+          body:JSON.stringify({_subject:"Cuentitis beta: "+tipo,_template:"table",_captcha:"false",Tipo:tipo,Mensaje:msg,Correo:mail||"(no indicado)",Navegador:nav,Pantalla:pant})});
     const j=await r.json().catch(()=>({}));
     if(!r.ok||j.success===false||j.success==="false")throw new Error(j.message||("código "+r.status));
     f.reset();$("fbStatus").textContent="¡Gracias! Tu comentario se ha enviado.";
@@ -459,13 +488,14 @@ $("fbForm").addEventListener("submit",async e=>{
 });
 $("pclose").onclick=()=>$("parentModal").close();
 $("parentModal").addEventListener("click",e=>{if(e.target===$("parentModal"))$("parentModal").close()});
-const INFO={gender:{t:"Niño o niña (opcional)",b:"Solo sirve para que el protagonista de la historia sea una niña o un niño. Si prefieres no indicarlo, el personaje será neutro. Puedes volver a pulsar el botón para quitarlo."},likes:{t:"Gustos y tema principal",b:"Elige entre 3 y 4 gustos. El primero que marques será el tema principal de la lectura (se pone en verde) y los demás aparecerán como detalles secundarios de la historia. Si quitas el primero, el siguiente pasa a ser el principal. Así los textos se centran en lo que más le gusta al niño y son más fáciles de seguir."}};
+const INFO={likes:{t:"Gustos y tema principal",b:"Elige 3 gustos. El primero que marques será el tema principal de la lectura (se pone en verde) y los otros dos aparecerán como detalles secundarios de la historia. Si quitas el primero, el siguiente pasa a ser el principal. Así los textos se centran en lo que más le gusta al niño y son más fáciles de seguir."}};
 document.querySelectorAll(".info").forEach(b=>b.onclick=()=>{const i=INFO[b.dataset.info];$("ititle").textContent=i.t;$("ibody").textContent=i.b;$("infoModal").showModal()});
 $("iclose").onclick=()=>$("infoModal").close();
 $("infoModal").addEventListener("click",e=>{if(e.target===$("infoModal"))$("infoModal").close()});
 loadBank().then(b=>{$("nRead").textContent=b.length;checkNew(b)}).catch(()=>{});
 $("modal").addEventListener("click",e=>{if(e.target===$("modal"))$("modal").close()});
 drawHome();
+if(!st.age)openAge();
 </script>
 </body>
 </html>
