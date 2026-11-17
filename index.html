@@ -456,10 +456,10 @@ $("infoBtn").onclick=()=>{$("ageNow").textContent=st.age?st.age+" años":"sin in
 $("ageChange").onclick=()=>{$("parentModal").close();openAge()};
 $("ageModal").addEventListener("cancel",e=>e.preventDefault());
 function openAge(){buildAgeModal();$("ageModal").showModal()}
-// Comentarios beta: reenvío a correo con FormSubmit. Tras activar el formulario, sustituye el correo por el código aleatorio que te dé FormSubmit.
+// Comentarios beta: reenvío a correo con FormSubmit. Se usa su código aleatorio en lugar del correo, para no mostrarlo en la página.
 // Opción alternativa: clave de Web3Forms (web3forms.com). Si se rellena, se usa en lugar de FormSubmit.
 const W3_KEY="";
-const FORM_ENDPOINT="https://formsubmit.co/ajax/cuentitis.app@gmail.com";
+const FORM_ENDPOINT="https://formsubmit.co/ajax/3632c44e51a2675f462a3dd8cec86b0c";
 $("fbOpen").onclick=()=>{$("fbStatus").textContent="";$("fbModal").showModal()};
 $("fbclose").onclick=()=>$("fbModal").close();
 $("fbModal").addEventListener("click",e=>{if(e.target===$("fbModal"))$("fbModal").close()});
