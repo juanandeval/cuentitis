@@ -2556,8 +2556,7 @@
   "id": "pablo-002",
   "band": "5-6",
   "topics": [
-   "Cocina",
-   "Humor"
+   "Cocina"
   ],
   "hero": "niño",
   "title": "Pablo y la tortilla voladora",
@@ -2726,7 +2725,7 @@
   "band": "7-8",
   "topics": [
    "Robots",
-   "Humor"
+   "Cocina"
   ],
   "hero": "niño",
   "title": "Bruno y el robot que confundía las palabras",
@@ -2991,7 +2990,7 @@
   "band": "11-12",
   "topics": [
    "Ciencia",
-   "Misterio"
+   "Espacio"
   ],
   "hero": "niña",
   "title": "Valeria y el archivo de las voces perdidas",
@@ -3082,13 +3081,13 @@
   "band": "11-12",
   "topics": [
    "Ciencia",
-   "Aventura"
+   "Animales"
   ],
   "hero": "niño",
   "title": "Marcos y la ruta de los árboles marcados",
   "paragraphs": [
    "El verano en que Marcos cumplió doce años, su pueblo organizó una ruta para revisar los árboles de un [en:trail|sendero] que atravesaba la sierra. El recorrido se había diseñado años atrás para conectar varias fuentes y refugios, pero algunas señales estaban dañadas y ciertos tramos se habían cerrado por desprendimientos. Marcos se apuntó como voluntario junto a su prima Elena y un grupo de vecinos. No imaginaba que una simple tarea de orientación terminaría convirtiéndose en una investigación sobre la memoria del paisaje.",
-   "Al comienzo del camino encontraron [en:marks|marcas] de pintura azul en varios troncos. Algunas eran círculos, otras tenían una línea vertical y otras parecían una letra V. El guía explicó que no eran señales oficiales de la ruta actual. Podían ser marcas antiguas de los equipos [en:forest|forestal]es, aunque nadie sabía con certeza qué significaban. Marcos fotografió cada una y anotó su ubicación aproximada en un mapa, procurando no tocar la corteza ni acercarse a los bordes del sendero.",
+   "Al comienzo del camino encontraron [en:marks|marcas] de pintura azul en varios troncos. Algunas eran círculos, otras tenían una línea vertical y otras parecían una letra V. El guía explicó que no eran señales oficiales de la ruta actual. Podían ser marcas antiguas de los equipos [en:team|cuadrilla]es, aunque nadie sabía con certeza qué significaban. Marcos fotografió cada una y anotó su ubicación aproximada en un mapa, procurando no tocar la corteza ni acercarse a los bordes del sendero.",
    "En el refugio de la fuente encontraron un cuaderno protegido dentro de una caja metálica. Sus páginas estaban amarillentas, pero aún se podían leer varias fechas y observaciones. El documento pertenecía a una cuadrilla que había trabajado allí más de veinte años antes. Registraba árboles afectados por una plaga, zonas donde el suelo retenía agua y lugares donde se habían plantado especies nuevas. Las marcas azules parecían corresponder a distintos tipos de seguimiento.",
    "El grupo decidió consultar a una técnica forestal del municipio antes de sacar conclusiones. Ella confirmó que las marcas podían pertenecer a un antiguo sistema de inventario, pero advirtió que los códigos cambiaban entre campañas. Para interpretarlos necesitaban comparar el cuaderno con otros registros. También les explicó que no debían retirar ramas ni hacer nuevas marcas: cualquier intervención debía estar autorizada para no dañar los árboles ni confundir a quienes trabajan actualmente en el monte.",
    "Durante los días siguientes, Marcos y Elena ayudaron a ordenar las fotografías por zonas. Descubrieron que los árboles con un círculo azul aparecían junto a anotaciones sobre humedad, mientras que las marcas en forma de V coincidían con lugares donde se habían plantado ejemplares jóvenes. Sin embargo, algunas señales no encajaban. La técnica les explicó que una marca aislada no bastaba para identificar un árbol o conocer su estado actual: el bosque había cambiado y los datos antiguos debían interpretarse con prudencia.",
@@ -3158,8 +3157,8 @@
     "es": "sendero"
    },
    {
-    "en": "forest",
-    "es": "forestal"
+    "en": "team",
+    "es": "cuadrilla"
    },
    {
     "en": "marks",
